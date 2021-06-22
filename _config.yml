@@ -16,6 +16,8 @@ navigationbar :
   link2 : 
     title : Vers libération aussi
     path : https://www.liberation.fr/
+ 
+navigationbar2 :
   - title : Vers libération
     path : https://www.liberation.fr/
   - title : Vers wikipedia
