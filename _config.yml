@@ -11,6 +11,7 @@ highlighter: rouge
 title : Page personnelle de Thibault Espinasse
 title2 : autre lien
 title3 : en fait le meme
+  path : https://www.liberation.fr/
 author :
   name : Thibault Espinasse
   email : thibault.espinasse@gmail.com
