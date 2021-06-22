@@ -9,10 +9,18 @@ highlighter: rouge
 # so be sure to set them if your theme uses them.
 #
 title : Page personnelle de Thibault Espinasse
-title2 : autre lien
-link3 : 
-  title : Vers libération
-  path : https://www.liberation.fr/
+navbar :
+  link0 : 
+    title : Retour à l'accueuil
+    path : https://thibaultespinasse.github.io/home_page/index.html
+  link1 :
+    title : Vers libération
+    path : https://www.liberation.fr/
+   link2 :
+    title : Vers wikipedia
+    path : ttps://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal
+    
+    
 author :
   name : Thibault Espinasse
   email : thibault.espinasse@gmail.com
