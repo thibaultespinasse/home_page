@@ -9,6 +9,8 @@ highlighter: rouge
 # so be sure to set them if your theme uses them.
 #
 title : Page personnelle de Thibault Espinasse
+title2 : autre lien
+title3 : en fait le meme
 author :
   name : Thibault Espinasse
   email : thibault.espinasse@gmail.com
