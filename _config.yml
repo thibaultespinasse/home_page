@@ -16,7 +16,7 @@ navbar :
   link1 :
     title : Vers libération
     path : https://www.liberation.fr/
-   link2 :
+  link2 :
     title : Vers wikipedia
     path : ttps://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal
     
