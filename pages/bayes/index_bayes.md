@@ -22,9 +22,3 @@ Lien bientôt
 Liens bientôt
 
 
----
-layout: page
-title: test
-description: Cours 2021/2022
----
-
