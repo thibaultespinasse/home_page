@@ -13,9 +13,9 @@ navigationbar :
   link :
     title : Vers libération
     path : https://www.liberation.fr/
-#   link2 :
-#     title : Vers wikipedia
-#     path : https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal
+  link2 :
+    title : Vers wikipedia
+    path : https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal
     
 author :
   name : Thibault Espinasse
