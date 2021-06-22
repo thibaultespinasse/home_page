@@ -9,10 +9,7 @@ highlighter: rouge
 # so be sure to set them if your theme uses them.
 #
 title : Page personnelle de Thibault Espinasse
-navbar :
-#   link0 : 
-#     title : Retour à l'accueuil
-#     path : https://thibaultespinasse.github.io/home_page/index.html     
+link :
   title : Vers libération
   path : https://www.liberation.fr/
 #   link2 :
