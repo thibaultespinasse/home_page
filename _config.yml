@@ -16,6 +16,9 @@ navigationbar :
   link2 :
     title : Vers wikipedia
     path : https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal
+  link3 :
+    title : Retour à la maison
+    path : https://thibaultespinasse.github.io/home_page/index.html
     
 author :
   name : Thibault Espinasse
