@@ -1,7 +1,7 @@
 ## Personal webpage repository
 
 Page should appear here :
-https://thibault.espinasse.github.io/home_page
+https://thibaultespinasse.github.io/home_page
 
 This page has been build using the help of the following links. Thank you Karl Broman !
 
