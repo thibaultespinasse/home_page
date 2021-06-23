@@ -4,7 +4,6 @@ title: Home page
 tagline: 
 description: Thibault Espinasse personal home page
 ---
-# Page personnelle de Thibault Espinasse
 
 ### Contact :
 
