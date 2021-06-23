@@ -4,9 +4,9 @@ title: Home page
 tagline: 
 description: Thibault Espinasse personal home page
 ---
-## Page personnelle de Thibault Espinasse
+# Page personnelle de Thibault Espinasse
 
-# Contact :
+### Contact :
 
 Vous pouvez me trouver sur le campus de la Doua, au Bâtiment Braconnier, Bureau 228.
 
@@ -18,6 +18,7 @@ Université Claude Bernard Lyon 1
 69622 Villeurbanne Cedex
 France
 
+### Aller à 
 
 - [Enseignements](pages/enseignement.html)
 - [Recherche](pages/recherche.html)
