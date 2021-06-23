@@ -9,21 +9,25 @@ highlighter: rouge
 # so be sure to set them if your theme uses them.
 #
 title : Page personnelle de Thibault Espinasse
-navigationbar :
-  link : 
-    title : Vers libération
-    path : https://www.liberation.fr/
-  link2 : 
-    title : Vers libération aussi
-    path : https://www.liberation.fr/
+# navigationbar :
+#   link : 
+#     title : Accueil
+#     path : https://thibaultespinasse.github.io/home_page/index.html
+#   link2 : 
+#     title : Enseignement
+#     path : https://thibaultespinasse.github.io/home_page/pages/enseignement.html
  
 navigationbar2 :
-  - title : Vers libération
-    path : https://www.liberation.fr/
-  - title : Vers wikipedia
-    path : https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal
-  - title : Retour à la maison
+  - title : Accueil
     path : https://thibaultespinasse.github.io/home_page/index.html
+  - title : Enseignement
+    path : https://thibaultespinasse.github.io/home_page/pages/enseignement.html
+  - title :  Recherche
+    path : https://thibaultespinasse.github.io/home_page/pages/recherche.html
+  - title : Divers
+    path : https://thibaultespinasse.github.io/home_page/pages/divers.html
+#   - title : Retour à la maison
+#     path : https://thibaultespinasse.github.io/home_page/index.html
     
 author :
   name : Thibault Espinasse
