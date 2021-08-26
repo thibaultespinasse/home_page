@@ -5,6 +5,14 @@ h1 {
  }
 
 container-narrow {
-  color : #ffffff
+  color : #ffffff;
   }
 
+navbar {
+ color : pink;
+}
+
+navbar-inner {
+ color : yellow;
+ background-color: brown;
+}
