@@ -17,8 +17,9 @@
     <!-- Le styles -->
     <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.2.2.2.min.css" rel="stylesheet">
     <link href="{{ ASSET_PATH }}/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
-    <link href="{{ ASSET_PATH }}/css/kbroman.css" rel="stylesheet" type="text/css" media="all">
-
+    <link href="{{ ASSET_PATH }}/css/kbroman.css" rel="stylesheet" type="text/css" media="all"> 
+<!--     <link href="{{ ASSET_PATH }}/css/tibo.css" rel="stylesheet" type="text/css" media="all">
+ -->
     <!-- Le fav and touch icons -->
 
     <!-- atom & rss feed -->
@@ -26,13 +27,16 @@
     <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
 
   </head>
-
+<!--  OK là on voit bien que navbar est associé aux liens de navigations et en entête de ce fichier, on peut voir les refs des CSS, il n'y a plus qu'à trouver ou changer les couleurs   -->
   <body>
     <div class="navbar">
+<!--       Barre de navigation -->
       <div class="navbar-inner">
+<!--         Intérieur de barre de navigation -->
         <div class="container-narrow">
-            <a class="brand" href="{{ site.navigationbar.link.path }}">{{ site.navigationbar.link.title }}</a>
-            <a class="brand" href="{{ site.navigationbar.link2.path }}">{{ site.navigationbar.link2.title }}</a>
+<!--             container ici -->
+<!--             <a class="brand" href="{{ site.navigationbar.link.path }}">{{ site.navigationbar.link.title }}</a>
+            <a class="brand" href="{{ site.navigationbar.link2.path }}">{{ site.navigationbar.link2.title }}</a> -->
             {% for link in site.navigationbar2 %}
               <a class="brand" href="{{ link.path }}">{{ link.title }}</a>
             {% endfor %}
@@ -44,6 +48,22 @@
 
       <div class="content">
         {{ content }}
+          {% if page.title == "Enseignements" %}
+<!--             DANS LA PAGE ENSEIGNEMENT ON BOUCLE SUR LES PAGES DE COURS         -->
+        <h2> Listes enseignements </h2>
+            {% assign folder1 = site.pages | where_exp: "item" , "item.path contains 'UE' "%}
+                  {% for item in folder1 %}
+                      {% if item.type == "main" %}
+                           {%assign str = item.path%}
+                           {%assign str2 = str|replace :".md" ,".html"%}
+                           {% assign str3 = site.production_url | append:'/' | append: str2 %}
+                          <br>
+                        -  <a href="{{ str3 }}">{{item.title}}</a>
+                          <br>
+                       {% endif %}
+                  {% endfor %}
+          {% endif %}
+
       </div>
       <hr>
       <footer>
@@ -57,6 +77,6 @@
 
     </div>
 
-    {% include JB/analytics %}
+<!--     {% include JB/analytics %} -->
   </body>
 </html>
