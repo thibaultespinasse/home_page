@@ -9,7 +9,7 @@ description: Thibault Espinasse personal home page
 
 Vous pouvez me trouver sur le campus de la Doua, au Bâtiment Braconnier, Bureau 228.
 
-*Tel :04 72 43 16 90*
+*Tel : 04 72 43 16 90*
 
 Institut Camille Jordan
 Université Claude Bernard Lyon 1
