@@ -49,14 +49,14 @@
       <div class="content">
         {{ content }}
           {% if page.title == "Enseignements" %}
-            Ceci est un test qui devrat apparaitre sur la page enseignements
+            Ceci est un test qui devrait apparaitre sur la page enseignements (on vérifie que ça update)
         
 <!--             {% for item in site.pages.UE %}
               {{ item.title }}
            {% endfor %}
          -->
         
-            {% assign folder1 = site.pages.UE | where_exp: "item" , "item.path contains 'UE' "%}
+            {% assign folder1 = site.pages | where_exp: "item" , "item.path contains 'UE' "%}
                   {% for item in folder1 %}
                           {{item.title}}
                   {% endfor %}
