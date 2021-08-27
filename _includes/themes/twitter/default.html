@@ -52,7 +52,7 @@
 on n'y est pas encore
         page path : {{page.path}}
         site path : {{site.path}}
-        
+        site production_url : {{site.production_url}}
 <!--             {% for item in site.pages.UE %}
               {{ item.title }}
            {% endfor %}
@@ -72,7 +72,7 @@ on n'y est pas encore
         {{str2}} -->
         {%assign str3 = str2|replace :"pages/UE" ,"/UE"%}
         {{str3}}
-        {% assign str4 = page.path | append: str3 %}
+        {% assign str4 = production_url | append: str2 %}
         {{str4}}
 
 
