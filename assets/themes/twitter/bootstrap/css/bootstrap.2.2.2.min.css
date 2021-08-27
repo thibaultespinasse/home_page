@@ -629,8 +629,8 @@ button.btn.btn-mini,input[type="submit"].btn.btn-mini{*padding-top:1px;*padding-
 .navbar-inner:after{clear:both;}
 .navbar .container{width:auto;}
 .nav-collapse.collapse{height:auto;overflow:visible;}
-/* ICI ON MODIFIE LA COULEUR DES LIENS DE LA BARRE DE NAVIGATION */
-.navbar .brand{float:left;display:block;padding:10px 20px 10px;margin-left:-20px;font-size:20px;font-weight:200;color:#c623ab;text-shadow:0 10px 0 #ffffff;}.navbar .brand:hover{text-decoration:none;}
+/* ICI ON MODIFIE LA COULEUR DES LIENS DE LA BARRE DE NAVIGATION  class brand*/
+.navbar .brand{float:left;display:block;padding:10px 20px 10px;margin-left:-20px;font-size:20px;font-weight:200;color:#564752;text-shadow:0 10px 0 #ffffff;}.navbar .brand:hover{text-decoration:none;}
 /* .navbar .brand{float:left;display:block;padding:10px 20px 10px;margin-left:-20px;font-size:20px;font-weight:200;color:#ff0000;text-shadow:0 10px 0 #ffffff;}.navbar .brand:hover{text-decoration:none;} */
 .navbar-text{margin-bottom:0;line-height:40px;color:#777777;}
 .navbar-link{color:#777777;}.navbar-link:hover{color:#333333;}
