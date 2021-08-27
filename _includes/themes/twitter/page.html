@@ -7,8 +7,8 @@
     Vous pourrez trouver ci dessous les TD, TP, ou poly selon l'avancement du cours.
     <br>
     <h4> TD  </h4>
-    {%assign name_ue = page.title%}
-    {% assign folder1 = site.pages | where_exp: "item" , "item.path contains name_ue "%} 
+<!--     {%assign name_ue = page.name_ue%} -->
+    {% assign folder1 = site.pages | where_exp: "item" , "item.path contains page.name_ue "%} 
     {% for item in folder1 %}
         {% if item.type == "td" %}
             {%assign str = item.path |replace : ".md", ".html"%}
