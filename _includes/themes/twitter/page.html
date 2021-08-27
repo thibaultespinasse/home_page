@@ -37,41 +37,53 @@
   {%endif%}
 
 <h4> TP  </h4>
-<!--     {%assign name_ue = page.name_ue%} -->
+   {%assign bool = true%}
     {% assign folder1 = site.pages | where_exp: "item" , "item.path contains page.name_ue "%} 
     {% for item in folder1 %}
         {% if item.type == "tp" %}
+            {%assign bool = false%}
             {%assign str = item.path |replace : ".md", ".html"%}
             {% assign str3 = site.production_url | append:'/' | append: str %}
              -  <a href="{{ str3 }}">{{item.title}}</a>
               <br>
         {% endif %}
-    {% endfor %}
+    {% endfor %}  
+  {% if bool %}
+    Pas de TP pour le moment
+  {%endif%}
 
 
 <h4> Notes de cours  </h4>
-<!--     {%assign name_ue = page.name_ue%} -->
+   {%assign bool = true%}
     {% assign folder1 = site.pages | where_exp: "item" , "item.path contains page.name_ue "%} 
     {% for item in folder1 %}
         {% if item.type == "notes_cours" %}
+            {%assign bool = false%}
             {%assign str = item.path |replace : ".md", ".html"%}
             {% assign str3 = site.production_url | append:'/' | append: str %}
              -  <a href="{{ str3 }}">{{item.title}}</a>
               <br>
         {% endif %}
     {% endfor %}
+  {% if bool %}
+    Pas de notes de cours pour le moment
+  {%endif%}
 
 <h4> Archives sujets  </h4>
-<!--     {%assign name_ue = page.name_ue%} -->
+   {%assign bool = true%}
     {% assign folder1 = site.pages | where_exp: "item" , "item.path contains page.name_ue "%} 
     {% for item in folder1 %}
         {% if item.type == "archives_sujets" %}
+            {%assign bool = false%}
             {%assign str = item.path |replace : ".md", ".html"%}
             {% assign str3 = site.production_url | append:'/' | append: str %}
              -  <a href="{{ str3 }}">{{item.title}}</a>
               <br>
         {% endif %}
     {% endfor %}
+  {% if bool %}
+    Pas d'archives disponibles
+  {%endif%}
 
 {% endif %}
 <br>
