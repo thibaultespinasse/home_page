@@ -13,7 +13,7 @@ CECI NE DEVRAIT S'AFFICHER QUE SUR LES PAGES DE COURS
  Liste :    {% for item in folder1 %}
 
         <br> {{item.title}}<br>
-           {% if item.type == "TD" %}
+           {% if item.type == "td" %}
             {%assign str = item.path |replace : ".md", ".html"%}
           <br> str : {{str}} <br>
           -  <a href="{{ str }}">{{item.title}}</a>
