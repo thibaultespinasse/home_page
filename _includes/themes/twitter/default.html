@@ -48,7 +48,7 @@
       
       
       <div class="row-fluid">
-       <div class="span3">
+       <div class="span5">
           <div class="well sidebar-nav">
             <ul class="nav nav-list">
               {% assign folder1 = site.pages | where_exp: "item" , "item.path contains 'UE' "%}
@@ -58,16 +58,13 @@
                            {%assign str2 = str|replace :".md" ,".html"%}
                            {% assign str3 = site.production_url | append:'/' | append: str2 %}
                           <li class="nav-header"><a href={{str3}}> {{item.title}} </a></li>
-<!--                                         <li class="active">  <a href="#">Link</a></li> -->
-                 {% endif %}
+                     {% endif %}
               {% endfor %}
             </ul>
           </div><!--/.well -->
         </div><!--/span-->
-<!--       </div><!--row-->
-         -->
+
         
-<!--  <div class="row-fluid"> -->
    <div class="span9">
       <div class="content">
         {{ content }}
