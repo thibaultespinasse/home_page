@@ -15,4 +15,11 @@ TD/TP : Vendredi de 9h45 à 13h
 
 Normalement, toutes les informations seront mise en ligne sur cette page.
 
+### Avancement du cours :
 
+1. <ins> Objectif prochaine séance </ins> : définitions, 
+
+
+### Planning CC :
+
+A faire 
