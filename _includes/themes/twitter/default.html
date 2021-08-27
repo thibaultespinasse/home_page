@@ -49,7 +49,7 @@
       <div class="content">
         {{ content }}
           {% if page.title == "Enseignements" %}
-on n'y est pas encore
+pourquoi deux fois pages ou zero ??
         page path : {{page.path}}
         site path : {{site.path}}
         site production_url : {{site.production_url}}
@@ -73,11 +73,13 @@ on n'y est pas encore
         {%assign str3 = str2|replace :"pages/UE" ,"/UE"%}
         {{str3}}
         {% assign str4 = production_url | append: str3 %}
+        <br>
+        String 4 ici :
         {{str4}}
+        <br>
 
-
-                         <a href="{{ str3 }}">{{item.title}}</a>
-
+<!--                          <a href="{{ str3 }}">{{item.title}}</a>
+ -->
                          <a href="{{ str4 }}">{{item.title}}</a>
                   {% endfor %}
         
