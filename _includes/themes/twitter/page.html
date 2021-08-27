@@ -15,8 +15,11 @@ CECI NE DEVRAIT S'AFFICHER QUE SUR LES PAGES DE COURS
         <br> {{item.title}}<br>
            {% if item.type == "td" %}
             {%assign str = item.path |replace : ".md", ".html"%}
+            {% assign str3 = site.production_url | append:'/' | append: str %}
           <br> str : {{str}} <br>
-          -  <a href="{{ str }}">{{item.title}}</a>
+          <br> str3 : {{str3}} <br>
+
+          -  <a href="{{ str3 }}">{{item.title}}</a>
            <br>
             {% endif %}
     {% endfor %}
