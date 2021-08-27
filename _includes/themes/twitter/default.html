@@ -49,7 +49,7 @@
       <div class="content">
         {{ content }}
           {% if page.title == "Enseignements" %}
-FINAL TEST ou presque
+on n'y est pas encore
         
 <!--             {% for item in site.pages.UE %}
               {{ item.title }}
@@ -66,14 +66,17 @@ FINAL TEST ou presque
 <!--         {{item.path}} -->
         {%assign str = item.path%}
 <!--         {{str}} -->
-        {%assign str2 = str|replace :".md" ,".html"%}
-        {{str2}}
+<!--         {%assign str2 = str|replace :".md" ,".html"%}
+        {{str2}} -->
         {%assign str3 = str2|replace :"pages/UE" ,"/UE"%}
         {{str3}}
+        {% assign str4 = site.path | append: '' | append: str3 %}
+        {{str4}}
 
-                         <a href="{{ str2 }}">{{item.title}}</a>
 
                          <a href="{{ str3 }}">{{item.title}}</a>
+
+                         <a href="{{ str4 }}">{{item.title}}</a>
                   {% endfor %}
         
         
