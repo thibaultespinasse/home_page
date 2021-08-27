@@ -5,4 +5,3 @@ description: Cours 2021/2022 -ps4
 type : main
 name_ue : PS4
 ---
-Pas de contenus pédagogiques pour le moment
