@@ -58,7 +58,7 @@
                            {%assign str2 = str|replace :".md" ,".html"%}
                            {% assign str3 = site.production_url | append:'/' | append: str2 %}
                           <br>
-                         <a href="{{ str3 }}">{{item.title}}</a>
+                        -  <a href="{{ str3 }}">{{item.title}}</a>
                           <br>
                        {% endif %}
                   {% endfor %}
