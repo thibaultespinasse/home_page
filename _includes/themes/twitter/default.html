@@ -78,7 +78,7 @@ pourquoi deux fois pages ou zero ??
         String 4 ici :
         {{str4}}
         <br>
-         {% assign str5 = site.production_url | append:'/' append: str2 %}
+         {% assign str5 = site.production_url | append:'/' | append: str2 %}
         <br>
         String 5 ici :
         {{str5}}
