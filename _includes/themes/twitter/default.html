@@ -49,44 +49,19 @@
       <div class="content">
         {{ content }}
           {% if page.title == "Enseignements" %}
-pourquoi deux fois pages ou zero ??
-        page path : {{page.path}}
-        site path : {{site.path}}
-        site production_url : {{site.production_url}}
-<!--             {% for item in site.pages.UE %}
-              {{ item.title }}
-           {% endfor %}
-         -->
-        
+<!--             DANS LA PAGE ENSEIGNEMENT ON BOUCLE SUR LES PAGES DE COURS         -->
+        <h2> Listes enseignements </h2>
             {% assign folder1 = site.pages | where_exp: "item" , "item.path contains 'UE' "%}
                   {% for item in folder1 %}
-      
-       
-        {%assign str = item.path%}
-        {%assign str2 = str|replace :".md" ,".html"%}
-         <br>
-        string 2 ici 
-        {{str2}}
-        <br>
-        <br>
-        string 3 ici 
-        {%assign str3 = str2|replace :"pages/UE" ,"/UE"%}
-        {{str3}}
-        <br>
-        {% assign str4 = site.production_url | append: str3 %}
-        <br>
-        String 4 ici :
-        {{str4}}
-        <br>
-         {% assign str5 = site.production_url | append:'/' | append: str2 %}
-        <br>
-        String 5 ici :
-        {{str5}}
-        <br>
-         <a href="{{ str5 }}">{{item.title}}</a>
+                      {% if item.type == "main" %}
+                           {%assign str = item.path%}
+                           {%assign str2 = str|replace :".md" ,".html"%}
+                           {% assign str3 = site.production_url | append:'/' | append: str2 %}
+                          <br>
+                         <a href="{{ str3 }}">{{item.title}}</a>
+                          <br>
+                       {% endif %}
                   {% endfor %}
-        
-        
           {% endif %}
 
       </div>
