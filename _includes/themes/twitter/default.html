@@ -60,27 +60,30 @@ pourquoi deux fois pages ou zero ??
         
             {% assign folder1 = site.pages | where_exp: "item" , "item.path contains 'UE' "%}
                   {% for item in folder1 %}
-
-        
-        <!--                           {{item.title}} -->
-  
-        
-<!--         {{item.path}} -->
+      
+       
         {%assign str = item.path%}
-<!--         {{str}} -->
-<!--         {%assign str2 = str|replace :".md" ,".html"%}
-        {{str2}} -->
+        {%assign str2 = str|replace :".md" ,".html"%}
+         <br>
+        string 3 ici 
+        {{str2}}
+        <br>
+        <br>
+        string 3 ici 
         {%assign str3 = str2|replace :"pages/UE" ,"/UE"%}
         {{str3}}
+        <br>
         {% assign str4 = production_url | append: str3 %}
         <br>
         String 4 ici :
         {{str4}}
         <br>
-
-<!--                          <a href="{{ str3 }}">{{item.title}}</a>
- -->
-                         <a href="{{ str4 }}">{{item.title}}</a>
+         {% assign str5 = production_url | append: str2 %}
+        <br>
+        String 5 ici :
+        {{str5}}
+        <br>
+         <a href="{{ str4 }}">{{item.title}}</a>
                   {% endfor %}
         
         
