@@ -1,9 +1,100 @@
+{% if page.type == "td" or page.type=="tp" or page.type =="notes_cours" or page.type =="archives_sujets"   %}
+  {% assign str3 = site.production_url | append:'/pages/UE/' | append: page.ref_path %}
+  <a href="{{ str3 }}">Retour à l'UE</a>
+  <br>
+{% endif %}
 <div class="page-header">
   <h2>{{ page.title }} {% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h2>
 </div>
 
-<div class="row-fluid">
-  <div class="span12">
-    {{ content }}
+  <div class="row-fluid">
+    <div class="span12">
+      {{ content }}
+    </div>
   </div>
-</div>
+
+{% if page.type == "main" %}
+    Vous pourrez trouver ci dessous les TD, TP, ou poly selon l'avancement du cours.
+    <br>
+    <h4> TD  </h4>
+   {%assign bool = true%}
+    {% assign folder1 = site.pages | where_exp: "item" , "item.path contains page.name_ue "%} 
+    {% for item in folder1 %}
+        {% if item.type == "td" %}
+            {%assign bool = false%}
+            {%assign str = item.path |replace : ".md", ".html"%}
+            {% assign str3 = site.production_url | append:'/' | append: str %}
+             -  <a href="{{ str3 }}">{{item.title}}</a>
+              <br>
+        {% endif %}
+    {% endfor %}
+
+    {% for item in site.static_files %}
+        {% if item.path contains page.name_ue %}
+            {% if item.path contains "td" or item.path contains "TD"  %}
+                {%assign bool = false%}
+                {%assign str = item.path |replace : ".md", ".html"%}
+                {% assign str3 = site.production_url | append:'/' | append: str %}
+                 -  <a href="{{ str3 }}">{{item.name}}</a>
+                  <br>
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+
+
+  {% if bool %}
+    Pas de TD pour le moment
+  {%endif%}
+
+<h4> TP  </h4>
+   {%assign bool = true%}
+    {% assign folder1 = site.pages | where_exp: "item" , "item.path contains page.name_ue "%} 
+    {% for item in folder1 %}
+        {% if item.type == "tp" %}
+            {%assign bool = false%}
+            {%assign str = item.path |replace : ".md", ".html"%}
+            {% assign str3 = site.production_url | append:'/' | append: str %}
+             -  <a href="{{ str3 }}">{{item.title}}</a>
+              <br>
+        {% endif %}
+    {% endfor %}  
+  {% if bool %}
+    Pas de TP pour le moment
+  {%endif%}
+
+
+<h4> Notes de cours  </h4>
+   {%assign bool = true%}
+    {% assign folder1 = site.pages | where_exp: "item" , "item.path contains page.name_ue "%} 
+    {% for item in folder1 %}
+        {% if item.type == "notes_cours" %}
+            {%assign bool = false%}
+            {%assign str = item.path |replace : ".md", ".html"%}
+            {% assign str3 = site.production_url | append:'/' | append: str %}
+             -  <a href="{{ str3 }}">{{item.title}}</a>
+              <br>
+        {% endif %}
+    {% endfor %}
+  {% if bool %}
+    Pas de notes de cours pour le moment
+  {%endif%}
+
+<h4> Archives sujets  </h4>
+   {%assign bool = true%}
+    {% assign folder1 = site.pages | where_exp: "item" , "item.path contains page.name_ue "%} 
+    {% for item in folder1 %}
+        {% if item.type == "archives_sujets" %}
+            {%assign bool = false%}
+            {%assign str = item.path |replace : ".md", ".html"%}
+            {% assign str3 = site.production_url | append:'/' | append: str %}
+             -  <a href="{{ str3 }}">{{item.title}}</a>
+              <br>
+        {% endif %}
+    {% endfor %}
+  {% if bool %}
+    Pas d'archives disponibles
+  {%endif%}
+
+{% endif %}
+<br>
+

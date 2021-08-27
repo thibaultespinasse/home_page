@@ -4,4 +4,5 @@ title:  Divers
 ---
 
 
-- [Accueil](../index.html)
+- [SOS méditerranée](https://www.sosmediterranee.fr/)
+- [Lordon](https://blog.mondediplo.net/-La-pompe-a-phynance-)

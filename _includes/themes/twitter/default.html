@@ -50,7 +50,7 @@
         {{ content }}
           {% if page.title == "Enseignements" %}
 <!--             DANS LA PAGE ENSEIGNEMENT ON BOUCLE SUR LES PAGES DE COURS         -->
-        <h2> Listes enseignements </h2>
+        <h4> Listes enseignements </h4>
             {% assign folder1 = site.pages | where_exp: "item" , "item.path contains 'UE' "%}
                   {% for item in folder1 %}
                       {% if item.type == "main" %}

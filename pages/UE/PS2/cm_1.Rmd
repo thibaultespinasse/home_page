@@ -1,0 +1,203 @@
+---
+title: "R Notebook"
+output: pdf_document
+---
+
+
+# Cours 1 : Définition variable aléatoire et espace de probabilité
+
+## Petit exercice
+
+Un petit exercice pour tester la compréhension du cours. On définit
+
+- $\Omega = [0,1]$,
+
+- $\mathcal{A}$ une tribu qui contient tous les intervalles
+
+-  $\mathbb{P}$ qui vérifie $\mathbb{P}([a,b]) = b-a$.
+
+On définit alors 
+\begin{align*}
+\forall \omega \in \Omega,
+X_1(\omega)&= 1+\lfloor 6\omega \rfloor,
+\\ X_2(\omega)& = -\log(\omega) \text{ si } \omega >0
+\\ & = 0 \text{ sinon}
+\end{align*}
+
+où $\lfloor x\rfloor$ dénote la partie entière de $x$.
+
+Alors 
+
+1) Quelles valeurs peut prendre la variable aléatoire $X_1$ ?
+
+2) Donner la loi de $X_1$.
+
+3) Quelles valeurs peut prendre la variable aléatoire $X_2$ ?
+
+4) Que vaut $\mathbb{P}(X_2 = 0)$ ?
+
+5) Soit $t > 0$, que vaut $\mathbb{P}(X_2 \leq t)$ ?
+
+
+
+
+
+
+
+
+
+
+$\vspace{3cm}$
+
+
+
+## Quelques illustrations
+
+
+```{r, echo=FALSE}
+library(latex2exp)
+plot_omega= function(){
+  plot(c(0,1),c(0,0),xlim = c(-0.5,1.5),ylim = c(-0.5,0.5),xaxt = "n",yaxt = "n",main = TeX("$\\Omega$"),type = "l",xlab = "",ylab = "",bty = "n")
+  lines(c(0,0),c(-0.05,0.05))
+  lines(c(1,1),c(-0.05,0.05))
+  text(0,-0.1,"0")
+  text(1,-0.1,"1")
+}
+plot_omega()
+omega= 0.3
+arrows(omega,0.1,omega,0,length = 0.1)
+text(omega,0.15,TeX("$\\omega$"))
+```
+
+```{r, echo=FALSE}
+curve(-log(x),ylab = TeX("$X_2$"),xlab = TeX("$\\Omega$"))
+arrows(omega,0.2,omega,0,length = 0.1)
+text(omega,0.35,TeX("$\\omega$"))
+points(omega,-log(omega),col = "red")
+lines(c(omega,omega),c(0,-log(omega)),lty =2,lwd = 0.3)
+lines(c(0,omega),c(-log(omega),-log(omega)),lty =2,lwd = 0.3)
+arrows(0.05,-log(omega),0,-log(omega),length = 0.1)
+text(0.07,-log(omega),TeX("$X_2(\\omega)$"))
+```
+
+
+
+
+
+
+
+
+
+
+$\vspace{3cm}$
+
+
+
+
+## Réponses : 
+
+1) Comme $\omega \in [0,1]$, $6\omega \in [0,6]$ et donc $\lfloor 6\omega \rfloor \in \{0,1,2,3,4,5,6 \}$, et enfin $X_1(\omega) \in  \{1,2,3,4,5,6,7 \}$, a priori.
+
+
+
+2) On va commencer par déterminer $\mathbb{P}(X_1 = 1)$. Pour cela, il faut trouver tous les $\omega$ tels que $X_1(\omega)= 1+\lfloor 6\omega \lfloor = 1$. 
+C'est à dire tous les $\omega$ pour lesquels on a $\lfloor 6\omega \rfloor= 0$, c'est à dire tous les $\omega <\frac{1}{6}$
+
+
+On a donc $[0,\frac{1}{6}[ = \{\omega \in \Omega, X_1(\omega) = 1\}$. On en déduit que $\mathbb{P}(X_1 = 1) = \mathbb{P}([0,\frac{1}{6}[)$.
+
+En appliquant la formule donnée pour $\mathbb{P}$, on obtient alors $\mathbb{P}(X_1 = 1) = \frac{1}{6}$. 
+
+On peut faire le même raisonnement pour les autres chiffres pour obtenir
+$$\forall k \in \{1,2,3,4,5,6 \},\mathbb{P}(X_1 = k) = \frac{1}{6} $$
+Pour $7$, il se passe quelque chose de spécial. En effet $\mathbb{P}(X_1 = 7) = \mathbb{P}\big(\{1 \}\big)$.
+
+Et si on veut calculer cette dernière probabilité, on doit écrire $\{1\}$ sous forme d'intervalle pour appliquer la définition de $\mathbb{P}$. On peut juste écrire $\{1\} = [1,1]$ donc la formule donne $\mathbb{P}(\{1\})= \mathbb{P}([1,1]) = 1-1 = 0$. 
+Donc $\mathbb{P}(X_1 = 7) = 0$ ! 
+
+On peut remarquer que $\{1,2,3,4,5,6 \}$ est une meilleure réponse à la question précédente, puisque $7$ arrive avec probabilité nulle.
+Au passage, il s'agit donc d'un lancer de dé uniforme que l'on a définit sur l'espace $\Omega$.
+
+```{r, echo=FALSE}
+plot_omega()
+text((1:5)/6,-0.1,sapply(as.character(1:5),function(x){paste(x,"/6")}))
+text(1/12+(0:5)/6,0.03,"}",srt = 90,cex = 2.5)
+text(1/12+(0:5)/6,0.09,sapply(1:6,function(x){TeX(paste("$X_1 = ",x,"$",sep = ""))})    ,cex = 0.9 )
+```
+
+
+
+3) Pour $\omega \in ]0,1]$, $\log(\omega) \in ]-\infty,0]$, donc $X_2(\omega) = -\log(\omega) \in [0, +\infty]$. Il reste $\omega = 0$, et dans ce cas là $X_2(0) = 0$ par définition. $X_2$ prend donc ses valeurs dans $]-\infty,0]$.
+
+
+
+4) $\mathbb{P}(X_2 = 0) = \mathbb{P}(\{0,1\})$, car $X_2(0) = X_2(1)= 0$, et $\forall \omega \notin \{0,1\}, X_2(\omega) \neq 0$. Or
+$$\mathbb{P}(\{0,1\}) =\mathbb{P}(\{1\})+\mathbb{P}(\{0\})  = (1-1)+(0-0) = 0$$
+On trouve donc $\mathbb{P}(X_2 = 0) = 0$. 
+
+On peut calculer la probabilité pour toutes les autres valeurs, et on rencontre ici un problème : 
+\begin{align*}
+\forall t > 0, \mathbb{P}(X_2 = t) &= \mathbb{P}\Big(\{\omega \in ]0,1],-\log(\omega) = t\}\Big) 
+\\ & = \mathbb{P}\Big(\{e^{-t} \}  \Big)
+\\ & = \mathbb{P}\Big([e^{-t},e^{-t} ]  \Big)
+\\ &= e^{-t}-e^{-t}
+\\& =0
+\end{align*}
+
+
+Donc la variable $X_2$ a une probabilité nulle de prendre n'importe quelle valeur. En réalité, ce sera une propriété des variables continues, et c'est pour cela qu'on ne peut plus les décrire simplement avec la probabilité de prendre chaque valeur possible. La solution la plus simple est de regarder plutôt $\mathbb{P}(X_2\leq t)$ comme demandé à la question suivante.
+
+
+
+
+5) On remarque que, pour $t >0$, 
+\begin{align*}
+X_2 (\omega) \leq t &\Leftrightarrow -\log(\omega) \leq t
+\\ &\Leftrightarrow \log(\omega) \geq -t
+\\ &\Leftrightarrow \omega \geq e^{-t}
+\\ &\Leftrightarrow \omega \in [e^{-t},1]
+\end{align*}
+
+Ce qui donne 
+$$\mathbb{P}\Big( X_2 (\omega) \leq t\Big)  = \mathbb{P}\Big([0,e^{-t}]\Big) = 1-e^{-t}.$$
+
+Cela suffit à décrire la variable $X_2$.
+
+
+
+
+
+
+
+$\vspace{3cm}$
+
+
+## Exemple numérique
+
+On peut enfin faire un petit exemple en tirant quelques valeurs au hasard. On rappelle que l'espace de probabilité définit modélise le tirage d'un nombre uniforme entre $0$ et $1$, on peut donc le faire quelques fois, et observer les tirages de $X_1$ (un dé), et $X_2$ qui correspondent.
+
+```{r, echo=FALSE}
+u = runif(10)
+x1 = 1+floor(6*u)
+x2 = -log(u)
+cat("omega : ")
+print(round(u,4))
+cat("X_1 :")
+print(x1)
+cat("X_2 :")
+print(round(x2,4))
+```
+
+
+Et si vous êtes familier avec les histogrammes, on peut le faire beaucoup plus de fois, et représenter la répartition des valeurs obtenues.
+
+```{r, echo=FALSE}
+u = runif(6000)
+x1 = 1+floor(6*u)
+x2 = -log(u)
+par(mfrow= c(1,3))
+hist(u,60,main = "Répartition des valeurs de omega",freq= T) 
+barplot(table(x1),main = "Répartition des valeurs de x_1" )
+hist(x2,60,main = "Répartition des valeurs de x_2" ,freq= T)
+```
+
