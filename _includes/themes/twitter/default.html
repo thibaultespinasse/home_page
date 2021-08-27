@@ -49,7 +49,7 @@
       <div class="content">
         {{ content }}
           {% if page.title == "Enseignements" %}
-        Toujours un test
+     Je pense que ça va bugger avec l'adresse
         
 <!--             {% for item in site.pages.UE %}
               {{ item.title }}
@@ -58,8 +58,8 @@
         
             {% assign folder1 = site.pages | where_exp: "item" , "item.path contains 'UE' "%}
                   {% for item in folder1 %}
-                          {{item.title}}
-                         <a href="{{ item.path }}">{{ item.title }}</a>
+<!--                           {{item.title}} -->
+                         <a href="{{ item.path }}">{{item.title}}</a>
                   {% endfor %}
         
         
