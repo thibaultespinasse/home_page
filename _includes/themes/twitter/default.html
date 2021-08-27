@@ -50,6 +50,11 @@
         {{ content }}
           {% if page.title == "Enseignements" %}
             Ceci est un test qui devrat apparaitre sur la page enseignements
+        
+            {% for item in site.pages %}
+              {{ item.title }}
+            {% endfor %}
+        
           {% endif %}
 
       </div>
