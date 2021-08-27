@@ -6,4 +6,4 @@ type : main
 name_ue : PS2
 ---
 
-Pas de contenu pédagogique pour le moment
+
