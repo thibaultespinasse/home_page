@@ -1,14 +1,13 @@
+{% if page.type == "td" or page.type=="tp" or page.type =="notes_cours" or page.type =="archives_sujets"   %}
+  {% assign str3 = site.production_url | append:'/pages/UE/' | append: page.ref_path %}
+  <a href="{{ str3 }}">Retour à l'UE</a>
+  <br>
+{% endif %}
+
 <div class="page-header">
   <h2>{{ page.title }} {% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h2>
 </div>
 
-{% if page.type == "td" or page.type=="tp" or page.type =="notes_cours" or page.type =="archives_sujets"   %}
-  <br> Ref path : <br>{{page.ref_path}} {% assign str3 = site.production_url | append:'/pages/UE/' | append: page.ref_path %}
-  <br> str3 : <br> {{str3}}
-  <a href="{{ str3 }}">Retour à l'UE</a>
-  <br>
-
-{% endif %}
 
   <div class="row-fluid">
     <div class="span12">
