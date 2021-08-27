@@ -59,6 +59,7 @@
             {% assign folder1 = site.pages | where_exp: "item" , "item.path contains 'UE' "%}
                   {% for item in folder1 %}
                           {{item.title}}
+                         <a href="{{ item.path }}">{{ item.title }}</a>
                   {% endfor %}
         
         
