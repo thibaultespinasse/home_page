@@ -20,8 +20,7 @@
    {%assign bool = true%}
     {% assign folder1 = site.pages | where_exp: "item" , "item.path contains page.name_ue "%} 
     {% for item in folder1 %}
-<!--         {% if item.type == "td" %} -->
-        {% if item.path contains "td" %}
+        {% if item.type == "td" %}
             {%assign bool = false%}
             {%assign str = item.path |replace : ".md", ".html"%}
             {% assign str3 = site.production_url | append:'/' | append: str %}
@@ -29,6 +28,21 @@
               <br>
         {% endif %}
     {% endfor %}
+
+    {% for item in site.static_files %}
+        {% if item.path contains "td" and item.path contains page.name_ue %}
+      <br> ON EST PASSE PAR LA <br>
+TITLE : {{item.title}}<br>
+  path : {{item.path}}
+            {%assign bool = false%}
+            {%assign str = item.path |replace : ".md", ".html"%}
+            {% assign str3 = site.production_url | append:'/' | append: str %}
+             -  <a href="{{ str3 }}">{{item.title}}</a>
+              <br>
+        {% endif %}
+    {% endfor %}
+
+
   {% if bool %}
     Pas de TD pour le moment
   {%endif%}
