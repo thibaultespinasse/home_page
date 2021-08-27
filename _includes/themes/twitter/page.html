@@ -3,25 +3,19 @@
 </div>
 
 {% if page.type == "main" %}
-<br>
-CECI NE DEVRAIT S'AFFICHER QUE SUR LES PAGES DE COURS
-<br>
-<h4> TD  </h4>
-{%assign name_ue = page.title%}
-<br> Vérif name ue : {{name_ue}}<br>
-{% assign folder1 = site.pages | where_exp: "item" , "item.path contains name_ue "%} 
- Liste :    {% for item in folder1 %}
-
-        <br> {{item.title}}<br>
-           {% if item.type == "td" %}
+    <br>
+    Vous pourrez trouver ci dessous les TD, TP, ou poly selon l'avancement du cours.
+    <br>
+    <h4> TD  </h4>
+    {%assign name_ue = page.title%}
+    {% assign folder1 = site.pages | where_exp: "item" , "item.path contains name_ue "%} 
+    {% for item in folder1 %}
+        {% if item.type == "td" %}
             {%assign str = item.path |replace : ".md", ".html"%}
             {% assign str3 = site.production_url | append:'/' | append: str %}
-          <br> str : {{str}} <br>
-          <br> str3 : {{str3}} <br>
-
-          -  <a href="{{ str3 }}">{{item.title}}</a>
-           <br>
-            {% endif %}
+             -  <a href="{{ str3 }}">{{item.title}}</a>
+              <br>
+        {% endif %}
     {% endfor %}
 {% endif %}
 <br>
