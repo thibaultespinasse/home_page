@@ -31,9 +31,6 @@
 
     {% for item in site.static_files %}
         {% if item.path contains "td" and item.path contains page.name_ue %}
-      <br> ON EST PASSE PAR LA <br>
-name : {{item.name}}<br>
-  path : {{item.path}}
             {%assign bool = false%}
             {%assign str = item.path |replace : ".md", ".html"%}
             {% assign str3 = site.production_url | append:'/' | append: str %}
