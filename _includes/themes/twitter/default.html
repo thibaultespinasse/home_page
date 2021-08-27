@@ -64,11 +64,11 @@ Nouveau test
   
         
         {{item.path}}
-        {%assign str = item.path}
+        {%assign str = item.path%}
         {{str}}
-        {%assign str2 = str|replace :".md" ,".html"}
+        {%assign str2 = str|replace :".md" ,".html"%}
         {{str2}}
-        {%assign str3 = str|replace :"pages/pages/" ,"pages/"}
+        {%assign str3 = str|replace :"pages/pages/" ,"pages/"%}
         {{str3}}
 
         
