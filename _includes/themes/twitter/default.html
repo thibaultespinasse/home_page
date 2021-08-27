@@ -68,11 +68,11 @@ Nouveau test
         {{str}}
         {%assign str2 = str|replace :".md" ,".html"%}
         {{str2}}
-        {%assign str3 = str|replace :"pages/" ,"/"%}
+        {%assign str3 = str2|replace :"pages/" ,"/"%}
         {{str3}}
 
         
-                         <a href="{{ str3 }}">{{item.title}}</a>
+                         <a href="{{ str2 }}">{{item.title}}</a>
                   {% endfor %}
         
         
