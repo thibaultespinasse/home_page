@@ -6,6 +6,12 @@
 <br>
 CECI NE DEVRAIT S'AFFICHER QUE SUR LES PAGES DE COURS
 <br>
+<h2> TD  </h2>
+<!-- {% assign folder1 = site.pages | where_exp: "item" , "item.path contains 'UE' "%} -->
+    {% for item in site.pages %}
+           {% if item.type == "TD" %}
+          -  <a href="{{ item.path }}">{{item.title}}</a>
+           <br>
 {% endif %}
 
 <div class="row-fluid">
