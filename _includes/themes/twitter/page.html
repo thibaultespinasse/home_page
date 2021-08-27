@@ -6,9 +6,10 @@
 <br>
 CECI NE DEVRAIT S'AFFICHER QUE SUR LES PAGES DE COURS
 <br>
-<h2> TD  </h2>
+<h3> TD  </h3>
 <!-- {% assign folder1 = site.pages | where_exp: "item" , "item.path contains 'UE' "%} -->
-    {% for item in site.pages %}
+ Liste :    {% for item in site.pages %}
+        <br> {{site.pages}}<br>
            {% if item.type == "TD" %}
             {%assign str = item.path |replade : ".md", ".html"%}
           -  <a href="{{ item.path }}">{{item.title}}</a>
