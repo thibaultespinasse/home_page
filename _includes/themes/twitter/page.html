@@ -15,6 +15,7 @@ CECI NE DEVRAIT S'AFFICHER QUE SUR LES PAGES DE COURS
         <br> {{item.title}}<br>
            {% if item.type == "TD" %}
             {%assign str = item.path |replace : ".md", ".html"%}
+          <br> str : {{str}} <br>
           -  <a href="{{ str }}">{{item.title}}</a>
            <br>
             {% endif %}
