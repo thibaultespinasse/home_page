@@ -2,6 +2,12 @@
   <h2>{{ page.title }} {% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h2>
 </div>
 
+{% if page.type =main %}
+<br>
+CECI NE DEVRAIT S'AFFICHER QUE SUR LES PAGES DE COURS
+<br>
+{% endif %}
+
 <div class="row-fluid">
   <div class="span12">
     {{ content }}
