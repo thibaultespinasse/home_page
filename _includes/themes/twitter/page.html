@@ -30,12 +30,14 @@
     {% endfor %}
 
     {% for item in site.static_files %}
-        {% if (item.path contains "td" or item.path contains "TD") and item.path contains page.name_ue %}
-            {%assign bool = false%}
-            {%assign str = item.path |replace : ".md", ".html"%}
-            {% assign str3 = site.production_url | append:'/' | append: str %}
-             -  <a href="{{ str3 }}">{{item.name}}</a>
-              <br>
+        {% if item.path contains page.name_ue %}
+            {% if item.path contains "td" or item.path contains "TD"  %}
+                {%assign bool = false%}
+                {%assign str = item.path |replace : ".md", ".html"%}
+                {% assign str3 = site.production_url | append:'/' | append: str %}
+                 -  <a href="{{ str3 }}">{{item.name}}</a>
+                  <br>
+            {% endif %}
         {% endif %}
     {% endfor %}
 
