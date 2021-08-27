@@ -50,6 +50,8 @@
         {{ content }}
           {% if page.title == "Enseignements" %}
 on n'y est pas encore
+        page path : {{page.path}}
+        site path : {{site.path}}
         
 <!--             {% for item in site.pages.UE %}
               {{ item.title }}
@@ -70,7 +72,7 @@ on n'y est pas encore
         {{str2}} -->
         {%assign str3 = str2|replace :"pages/UE" ,"/UE"%}
         {{str3}}
-        {% assign str4 = site.path | append: '' | append: str3 %}
+        {% assign str4 = page.path | append: str3 %}
         {{str4}}
 
 
