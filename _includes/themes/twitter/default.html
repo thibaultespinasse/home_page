@@ -51,9 +51,16 @@
           {% if page.title == "Enseignements" %}
             Ceci est un test qui devrat apparaitre sur la page enseignements
         
-            {% for item in site.pages.UE %}
+<!--             {% for item in site.pages.UE %}
               {{ item.title }}
-            {% endfor %}
+           {% endfor %}
+         -->
+        
+            {% assign folder1 = site.pages.UE | where_exp: "item" , "item.path contains 'UE' "%}
+                  {% for item in folder1 %}
+                          {{item.title}}
+                  {% endfor %}
+        
         
           {% endif %}
 
