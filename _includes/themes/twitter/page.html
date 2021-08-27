@@ -64,7 +64,7 @@
     {% endfor %}
 
 {% else %}
-<br> Ref path : <br>{{page.ref_path}} {% assign str3 = site.production_url | append:'/' | append: page.ref_path %}
+<br> Ref path : <br>{{page.ref_path}} {% assign str3 = site.production_url | append:'/pages/UE/' | append: page.ref_path %}
 <br> str3 : <br> {{str3}}
 <a href="{{ str3 }}">{{Retour à l'UE}}</a>
 <br>
