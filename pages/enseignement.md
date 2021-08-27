@@ -5,7 +5,7 @@ description: Cours 2021/2022
 ---
 
             {% for link in site.navigationbar2 %}
-              <a class="brand" href="{{ link.path }}">{{ link.title }}</a>
+              <a href="{{ link.path }}">{{ link.title }}</a>
             {% endfor %}
 
 - [Accueil](../index.html)
