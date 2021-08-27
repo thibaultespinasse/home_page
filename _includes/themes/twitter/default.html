@@ -49,7 +49,7 @@
       <div class="content">
         {{ content }}
           {% if page.title == "Enseignements" %}
-     Je pense que ça va bugger avec l'adresse
+Nouveau test
         
 <!--             {% for item in site.pages.UE %}
               {{ item.title }}
@@ -58,13 +58,17 @@
         
             {% assign folder1 = site.pages | where_exp: "item" , "item.path contains 'UE' "%}
                   {% for item in folder1 %}
-<!--                           {{item.title}} -->
+
+        
+        <!--                           {{item.title}} -->
+  
+        
         {{item.path}}
         {%assign str = item.path}
         {{str}}
-        {%assign str2 = str|replace ".md" ,".html"}
+        {%assign str2 = str|replace :".md" ,".html"}
         {{str2}}
-        {%assign str3 = str|replace "pages/pages/" ,"pages/"}
+        {%assign str3 = str|replace :"pages/pages/" ,"pages/"}
         {{str3}}
 
         
