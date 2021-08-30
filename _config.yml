@@ -40,6 +40,7 @@ fields :
     written :
      - TD
      - td
+    title : TD
      
      
 author :
