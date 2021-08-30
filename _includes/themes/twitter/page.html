@@ -26,7 +26,7 @@
         {%assign bool = true%}
           {% assign folder1 = site.pages | where_exp: "item" , "item.path contains page.name_ue "%} 
           {% for item in folder1 %}
-              {% if item.type == {{ field.type }} %}
+              {% if item.type == field.type  %}
                   {%assign bool = false%}
                   {%assign str = item.path |replace : ".md", ".html"%}
                   {% assign str3 = site.production_url | append:'/' | append: str %}
