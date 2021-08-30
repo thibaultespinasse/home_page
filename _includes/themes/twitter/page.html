@@ -27,9 +27,9 @@
           {% assign folder1 = site.pages | where_exp: "item" , "item.path contains page.name_ue "%} 
           {% for item in folder1 %}
               {% if item.type == field.type  %}
-                         <br> item type : {{item.type}}
+<!--                          <br> item type : {{item.type}}
                           <br> field type : {{field.type}}
-                          <br> link : 
+                          <br> link :  -->
                   {%assign bool = false%}
                   {%assign str = item.path |replace : ".md", ".html"%}
                   {% assign str3 = site.production_url | append:'/' | append: str %}
@@ -43,9 +43,9 @@
                   {%assign contained = false%}
                   {% for poss in field.written %}
                       {% if item.path contains poss  %}
-                          <br> path : {{item.path}}
+<!--                           <br> path : {{item.path}}
                           <br> poss : {{poss}}
-                          <br> link : 
+                          <br> link :  -->
 
                           {%assign contained = true%}
                       {% endif %}
