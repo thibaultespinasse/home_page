@@ -71,6 +71,14 @@
       <div class="content">
         {{ content }}
         
+        
+       {% if page.title == "Enseignements" %}
+
+        
+        <div include file="https://api.archives-ouvertes.fr/search/hal/?omitHeader=true&wt=xml-tei&q=thibault+espinasse&sort=producedDate_tdate+desc&fq=NOT+instance_s%3Asfo&fq=NOT+instance_s%3Adumas&fq=NOT+instance_s%3Amemsic&fq=NOT+instance_s%3Ahceres&fq=NOT+%28docType_s%3AHDR+AND+submitType_s%3A%28notice+OR+annex%29%29&fq=NOT+docType_s%3A%28MEM+OR+PRESCONF+OR+MINUTES+OR+NOTE+OR+SYNTHESE+OR+OTHERREPORT+OR+REPACT+OR+BOOKREPORT+OR+ETABTHESE+OR+MEMLIC+OR+CREPORT%29&fq=NOT+status_i%3A111&defType=edismax&rows=1000"> </div>
+        
+        {% endif %}
+        
           {% if page.title == "Enseignements" %}
 <!--             DANS LA PAGE ENSEIGNEMENT ON BOUCLE SUR LES PAGES DE COURS         -->
         <h4> Listes enseignements </h4>
