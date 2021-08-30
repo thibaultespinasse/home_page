@@ -40,6 +40,10 @@
                   {%assign contained = false%}
                   {% for poss in field.written %}
                       {% if item.path contains poss  %}
+                          <br> path : {{item.path}}
+                          <br> poss : {{item.poss}}
+
+
                           {%assign contained = true%}
                       {% endif %}
                   {% endfor %}<!-- end for poss -->
