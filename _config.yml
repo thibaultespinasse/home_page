@@ -57,6 +57,7 @@ fields :
      - sujets
      - archives_sujets
      - cc
+     - CC
     title : Anciens sujets
      
      
