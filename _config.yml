@@ -41,6 +41,21 @@ fields :
      - TD
      - td
     title : TD
+  - type : tp
+    written :
+     - TP
+     - tp
+    title : TP
+  - type : notes_cours
+    written :
+     - notes
+     - poly
+    title : Notes de cours
+  - type : archives_sujets
+    written :
+     - sujets
+     - archives_sujets
+    title : Anciens sujets
      
      
 author :
