@@ -1,0 +1,4602 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Search results from HAL API</title>
+</titleStmt>
+<publicationStmt>
+<distributor>CCSD</distributor>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by/4.0/">
+Distributed under a Creative Commons Attribution 4.0 International License
+</licence>
+</availability>
+<date when="2021-08-30T13:25:06+02:00"/>
+</publicationStmt>
+<sourceDesc>
+<p part="N">HAL API platform</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<creation>
+<measure quantity="19" unit="count" commodity="totalSearchResults"/>
+<measure quantity="19" unit="count" commodity="searchResultsInDocument"/>
+<ptr type="query" target="https://api.archives-ouvertes.fr/search/hal/?omitHeader=true&wt=xml-tei&q=thibault+espinasse&sort=producedDate_tdate+desc&fq=NOT+instance_s%3Asfo&fq=NOT+instance_s%3Adumas&fq=NOT+instance_s%3Amemsic&fq=NOT+instance_s%3Ahceres&fq=NOT+%28docType_s%3AHDR+AND+submitType_s%3A%28notice+OR+annex%29%29&fq=NOT+docType_s%3A%28MEM+OR+PRESCONF+OR+MINUTES+OR+NOTE+OR+SYNTHESE+OR+OTHERREPORT+OR+REPACT+OR+BOOKREPORT+OR+ETABTHESE+OR+MEMLIC+OR+CREPORT%29&fq=NOT+status_i%3A111&defType=edismax&rows=1000"/>
+</creation>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<listBibl>
+<biblFull>
+<titleStmt>
+<title xml:lang="en">
+Reduction of a stochastic model of gene expression: Lagrangian dynamics gives access to basins of attraction as cell types and metastabilty
+</title>
+<author role="aut">
+<persName>
+<forename type="first">Elias</forename>
+<surname>Ventre</surname>
+</persName>
+<idno type="halauthorid">12310614</idno>
+<affiliation ref="#struct-6818"/>
+<affiliation ref="#struct-193738"/>
+<affiliation ref="#struct-108959"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Thibault</forename>
+<surname>Espinasse</surname>
+</persName>
+<email type="md5">c05d12b9822a379e58a61ee2720950a1</email>
+<email type="domain">math.univ-lyon1.fr</email>
+<idno type="idhal" notation="string">thibault-espinasse</idno>
+<idno type="idhal" notation="numeric">17478</idno>
+<idno type="halauthorid">1018731</idno>
+<idno type="ORCID">https://orcid.org/0000-0001-6013-747X</idno>
+<affiliation ref="#struct-193738"/>
+<affiliation ref="#struct-108959"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Charles-Edouard</forename>
+<surname>Bréhier</surname>
+</persName>
+<idno type="halauthorid">1130811</idno>
+<affiliation ref="#struct-193738"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Vincent</forename>
+<surname>Calvez</surname>
+</persName>
+<idno type="halauthorid">289508</idno>
+<affiliation ref="#struct-193738"/>
+<affiliation ref="#struct-108959"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Thomas</forename>
+<surname>Lepoutre</surname>
+</persName>
+<idno type="halauthorid">11748240</idno>
+<affiliation ref="#struct-193738"/>
+<affiliation ref="#struct-108959"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Olivier</forename>
+<surname>Gandrillon</surname>
+</persName>
+<idno type="halauthorid">861765</idno>
+<affiliation ref="#struct-6818"/>
+<affiliation ref="#struct-108959"/>
+</author>
+<editor role="depositor">
+<persName>
+<forename>Elias</forename>
+<surname>VENTRE</surname>
+</persName>
+<email type="md5">224ee9ebf16dfcba33a7d93b87fe21f5</email>
+<email type="domain">ens-lyon.fr</email>
+</editor>
+</titleStmt>
+<editionStmt>
+<edition n="v1" type="current">
+<date type="whenSubmitted">2021-05-31 15:49:47</date>
+<date type="whenModified">2021-06-28 14:26:06</date>
+<date type="whenReleased">2021-05-31 15:49:47</date>
+<date type="whenProduced">2021-05-31</date>
+<ref type="externalLink" target="https://www.biorxiv.org/content/biorxiv/early/2020/09/07/2020.09.04.283176.full.pdf"/>
+</edition>
+<respStmt>
+<resp>contributor</resp>
+<name key="864603">
+<persName>
+<forename>Elias</forename>
+<surname>VENTRE</surname>
+</persName>
+<email type="md5">224ee9ebf16dfcba33a7d93b87fe21f5</email>
+<email type="domain">ens-lyon.fr</email>
+</name>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<distributor>CCSD</distributor>
+<idno type="halId">hal-03243421</idno>
+<idno type="halUri">https://hal.archives-ouvertes.fr/hal-03243421</idno>
+<idno type="halBibtex">ventre:hal-03243421</idno>
+<idno type="halRefHtml">2021</idno>
+<idno type="halRef">2021</idno>
+</publicationStmt>
+<seriesStmt>
+<idno type="stamp" n="EC-LYON">Ecole Centrale de Lyon</idno>
+<idno type="stamp" n="INSMI">
+CNRS-INSMI - INstitut des Sciences Mathématiques et de leurs Interactions
+</idno>
+<idno type="stamp" n="INRIA-RHA">INRIA Grenoble - Rhône-Alpes</idno>
+<idno type="stamp" n="ENS-LYON">École Normale Supérieure de Lyon</idno>
+<idno type="stamp" n="UNIV-ST-ETIENNE">Université Jean Monnet - Saint-Etienne</idno>
+<idno type="stamp" n="UNIV-LYON1">Université Claude Bernard - Lyon I</idno>
+<idno type="stamp" n="INSA-LYON">Institut National des Sciences Appliquées de Lyon</idno>
+<idno type="stamp" n="INRIA-RENGRE">INRIA-RENGRE</idno>
+<idno type="stamp" n="INSA-GROUPE">Groupe INSA</idno>
+<idno type="stamp" n="CNRS">
+CNRS - Centre national de la recherche scientifique
+</idno>
+<idno type="stamp" n="UDL">UDL</idno>
+<idno type="stamp" n="UNIV-LYON">Université de Lyon</idno>
+<idno type="stamp" n="INRIA_TEST">
+INRIA - Institut National de Recherche en Informatique et en Automatique
+</idno>
+<idno type="stamp" n="INRIA">
+INRIA - Institut National de Recherche en Informatique et en Automatique
+</idno>
+<idno type="stamp" n="CGPHIMC">
+Centre de génétique et de physiologie moléculaire et céllulaire
+</idno>
+<idno type="stamp" n="INRIA2">INRIA 2</idno>
+</seriesStmt>
+<notesStmt/>
+<sourceDesc>
+<biblStruct>
+<analytic>
+<title xml:lang="en">
+Reduction of a stochastic model of gene expression: Lagrangian dynamics gives access to basins of attraction as cell types and metastabilty
+</title>
+<author role="aut">
+<persName>
+<forename type="first">Elias</forename>
+<surname>Ventre</surname>
+</persName>
+<idno type="halauthorid">12310614</idno>
+<affiliation ref="#struct-6818"/>
+<affiliation ref="#struct-193738"/>
+<affiliation ref="#struct-108959"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Thibault</forename>
+<surname>Espinasse</surname>
+</persName>
+<email type="md5">c05d12b9822a379e58a61ee2720950a1</email>
+<email type="domain">math.univ-lyon1.fr</email>
+<idno type="idhal" notation="string">thibault-espinasse</idno>
+<idno type="idhal" notation="numeric">17478</idno>
+<idno type="halauthorid">1018731</idno>
+<idno type="ORCID">https://orcid.org/0000-0001-6013-747X</idno>
+<affiliation ref="#struct-193738"/>
+<affiliation ref="#struct-108959"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Charles-Edouard</forename>
+<surname>Bréhier</surname>
+</persName>
+<idno type="halauthorid">1130811</idno>
+<affiliation ref="#struct-193738"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Vincent</forename>
+<surname>Calvez</surname>
+</persName>
+<idno type="halauthorid">289508</idno>
+<affiliation ref="#struct-193738"/>
+<affiliation ref="#struct-108959"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Thomas</forename>
+<surname>Lepoutre</surname>
+</persName>
+<idno type="halauthorid">11748240</idno>
+<affiliation ref="#struct-193738"/>
+<affiliation ref="#struct-108959"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Olivier</forename>
+<surname>Gandrillon</surname>
+</persName>
+<idno type="halauthorid">861765</idno>
+<affiliation ref="#struct-6818"/>
+<affiliation ref="#struct-108959"/>
+</author>
+</analytic>
+<monogr>
+<imprint/>
+</monogr>
+<idno type="biorxiv">2020.09.04.283176</idno>
+<idno type="doi">10.1101/2020.09.04.283176</idno>
+</biblStruct>
+</sourceDesc>
+<profileDesc>
+<langUsage>
+<language ident="en">English</language>
+</langUsage>
+<textClass>
+<classCode scheme="halDomain" n="math">Mathematics [math]</classCode>
+<classCode scheme="halTypology" n="UNDEFINED">Preprints, Working Papers, ...</classCode>
+</textClass>
+<abstract xml:lang="en">
+<p>
+Differentiation is the process whereby a cell acquires a specific phenotype, by differential gene expression as a function of time. This is thought to result from the dynamical functioning of an underlying Gene Regulatory Network (GRN). The precise path from the stochastic GRN behavior to the resulting cell state is still an open question. In this work we propose to reduce a stochastic model of gene expression, where a cell is represented by a vector in a continuous space of gene expression, to a discrete coarse-grained model on a limited number of cell types. We develop analytical results and numerical tools to perform this reduction for a specific model characterizing the evolution of a cell by a system of piecewise deterministic Markov processes (PDMP). Solving a spectral problem, we find the explicit variational form of the rate function associated to a Large deviations principle, for any number of genes. The resulting Lagrangian dynamics allows us to define a deterministic limit of which the basins of attraction can be identified to cellular types. In this context the quasipotential, describing the transitions between these basins in the weak noise limit, can be defined as the unique solution of an Hamilton-Jacobi equation under a particular constraint. We develop a numerical method for approximating the coarse-grained model parameters, and show its accuracy for a symmetric toggle-switch network. We deduce from the reduced model an approximation of the stationary distribution of the PDMP system, which appears as a Beta mixture. Altogether those results establish a rigorous frame for connecting GRN behavior to the resulting cellular behavior, including the calculation of the probability of jumps between cell types.
+</p>
+</abstract>
+</profileDesc>
+</biblFull>
+<biblFull>
+<titleStmt>
+<title xml:lang="en">
+Two per cent alcoholic chlorhexidine versus alcoholic five per cent povidone-iodine for the prevention of perineural catheter colonisation: The CHLOVEPI randomised, controlled trial
+</title>
+<author role="crp">
+<persName>
+<forename type="first">Hakim</forename>
+<surname>Harkouk</surname>
+</persName>
+<email type="md5">4528b0e95ff26829cd7ceaf84f473417</email>
+<email type="domain">aphp.fr</email>
+<idno type="halauthorid">12212487</idno>
+<affiliation ref="#struct-166422"/>
+<affiliation ref="#struct-300151"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Tristan</forename>
+<surname>Thibault-Sogorb</surname>
+</persName>
+<idno type="halauthorid">12212488</idno>
+<affiliation ref="#struct-300151"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Alain</forename>
+<surname>Beauchet</surname>
+</persName>
+<idno type="halauthorid">1200883</idno>
+<affiliation ref="#struct-300151"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Florence</forename>
+<surname>Espinasse</surname>
+</persName>
+<idno type="halauthorid">12212489</idno>
+<affiliation ref="#struct-300151"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Christine</forename>
+<surname>Lawrence</surname>
+</persName>
+<idno type="halauthorid">464067</idno>
+<affiliation ref="#struct-536164"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Valéria</forename>
+<surname>Martinez</surname>
+</persName>
+<idno type="halauthorid">351108</idno>
+<affiliation ref="#struct-166422"/>
+<affiliation ref="#struct-300090"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Dominique</forename>
+<surname>Fletcher</surname>
+</persName>
+<idno type="halauthorid">351114</idno>
+<affiliation ref="#struct-166422"/>
+<affiliation ref="#struct-300151"/>
+</author>
+<editor role="depositor">
+<persName>
+<forename>Équipe</forename>
+<surname>HAL UVSQ</surname>
+</persName>
+<email type="md5">5808107ddbade13399d417929c0cb718</email>
+<email type="domain">uvsq.fr</email>
+</editor>
+<funder>
+We thank the members of the team from the Anaesthesia Department of Groupe Hospitalier Ambroise Par?-Raymond Poincar?.
+</funder>
+</titleStmt>
+<editionStmt>
+<edition n="v1" type="current">
+<date type="whenSubmitted">2021-02-15 12:01:27</date>
+<date type="whenModified">2021-07-08 03:48:52</date>
+<date type="whenReleased">2021-02-15 12:01:27</date>
+<date type="whenProduced">2021</date>
+</edition>
+<respStmt>
+<resp>contributor</resp>
+<name key="751146">
+<persName>
+<forename>Équipe</forename>
+<surname>HAL UVSQ</surname>
+</persName>
+<email type="md5">5808107ddbade13399d417929c0cb718</email>
+<email type="domain">uvsq.fr</email>
+</name>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<distributor>CCSD</distributor>
+<idno type="halId">hal-03141459</idno>
+<idno type="halUri">https://hal.archives-ouvertes.fr/hal-03141459</idno>
+<idno type="halBibtex">harkouk:hal-03141459</idno>
+<idno type="halRefHtml">
+<i>Anaesthesia Critical Care & Pain Medicine</i>, Elsevier Masson, 2021, 40 (1), <a target="_blank" href="https://dx.doi.org/10.1016/j.accpm.2020.100790">&#x27E8;10.1016/j.accpm.2020.100790&#x27E9;</a>
+</idno>
+<idno type="halRef">
+Anaesthesia Critical Care & Pain Medicine, Elsevier Masson, 2021, 40 (1), &#x27E8;10.1016/j.accpm.2020.100790&#x27E9;
+</idno>
+</publicationStmt>
+<seriesStmt>
+<idno type="stamp" n="LPPD">
+Physiopathologie et pharmacologie clinique de la douleur
+</idno>
+<idno type="stamp" n="UVSQ">Université de Versailles Saint-Quentin-en-Yvelines</idno>
+<idno type="stamp" n="UVSQ-UPSACLAY" corresp="UNIV-PARIS-SACLAY">UVSQ-UPSACLAY</idno>
+<idno type="stamp" n="UNIV-PARIS-SACLAY">Université Paris-Saclay</idno>
+<idno type="stamp" n="APHP" corresp="INSERM">AP-HP</idno>
+</seriesStmt>
+<notesStmt>
+<note type="audience" n="2">International</note>
+<note type="popular" n="0">No</note>
+<note type="peer" n="1">Yes</note>
+</notesStmt>
+<sourceDesc>
+<biblStruct>
+<analytic>
+<title xml:lang="en">
+Two per cent alcoholic chlorhexidine versus alcoholic five per cent povidone-iodine for the prevention of perineural catheter colonisation: The CHLOVEPI randomised, controlled trial
+</title>
+<author role="crp">
+<persName>
+<forename type="first">Hakim</forename>
+<surname>Harkouk</surname>
+</persName>
+<email type="md5">4528b0e95ff26829cd7ceaf84f473417</email>
+<email type="domain">aphp.fr</email>
+<idno type="halauthorid">12212487</idno>
+<affiliation ref="#struct-166422"/>
+<affiliation ref="#struct-300151"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Tristan</forename>
+<surname>Thibault-Sogorb</surname>
+</persName>
+<idno type="halauthorid">12212488</idno>
+<affiliation ref="#struct-300151"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Alain</forename>
+<surname>Beauchet</surname>
+</persName>
+<idno type="halauthorid">1200883</idno>
+<affiliation ref="#struct-300151"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Florence</forename>
+<surname>Espinasse</surname>
+</persName>
+<idno type="halauthorid">12212489</idno>
+<affiliation ref="#struct-300151"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Christine</forename>
+<surname>Lawrence</surname>
+</persName>
+<idno type="halauthorid">464067</idno>
+<affiliation ref="#struct-536164"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Valéria</forename>
+<surname>Martinez</surname>
+</persName>
+<idno type="halauthorid">351108</idno>
+<affiliation ref="#struct-166422"/>
+<affiliation ref="#struct-300090"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Dominique</forename>
+<surname>Fletcher</surname>
+</persName>
+<idno type="halauthorid">351114</idno>
+<affiliation ref="#struct-166422"/>
+<affiliation ref="#struct-300151"/>
+</author>
+</analytic>
+<monogr>
+<idno type="halJournalId" status="VALID">105499</idno>
+<idno type="issn">2352-5568</idno>
+<title level="j">Anaesthesia Critical Care & Pain Medicine</title>
+<imprint>
+<publisher>Elsevier Masson</publisher>
+<biblScope unit="volume">40</biblScope>
+<biblScope unit="issue">1</biblScope>
+<date type="datePub">2021</date>
+</imprint>
+</monogr>
+<idno type="doi">10.1016/j.accpm.2020.100790</idno>
+<idno type="pubmed">33285282</idno>
+</biblStruct>
+</sourceDesc>
+<profileDesc>
+<langUsage>
+<language ident="en">English</language>
+</langUsage>
+<textClass>
+<keywords scheme="author">
+<term xml:lang="en">chlorhexidine</term>
+<term xml:lang="en">perineural catheter colonisation</term>
+<term xml:lang="en">povidone-iodine-alcohol and skin antisepsis</term>
+</keywords>
+<classCode scheme="halDomain" n="sdv.mhep">Life Sciences [q-bio]/Human health and pathology</classCode>
+<classCode scheme="halTypology" n="ART">Journal articles</classCode>
+</textClass>
+<abstract xml:lang="en">
+<p>
+Background: Multimodal analgesia, including a regional technique using perineural catheters (PNCs), is recommended for the treatment of moderate-to-severe acute postoperative pain. Perineural catheters are at risk of bacterial colonisation. In this study, we compared the cutaneous antiseptic efficacy of 2% alcoholic chlorhexidine and povidone-iodine-alcohol for preventing the bacterial colonisation of PNCs in orthopaedic surgery. Methods: We performed a randomised, controlled trial, comparing two cutaneous antisepsis strategies, one based on 2% alcoholic chlorhexidine and the other on povidone-iodine-5% alcohol, for placed PNCs before orthopaedic surgery. The primary endpoint was the incidence of catheter bacterial colonisation (threshold > 1000 colony-forming units/ml). The secondary endpoints were the incidence of catheter-related infections and the adverse effects of the antiseptic solutions. Results: From November 2016 to May 2018, we included 113 patients in this study. The use of alcoholic chlorhexidine was associated with a lower incidence of catheter colonisation (15.5% (n = 9) versus 32.7% (n = 18); OR: 0.28 [0.09-0.77], p = 0.01). No catheter-related infections or adverse effects of antiseptic solutions were observed in either group. The risk factors associated with colonisation were a duration of catheter use ≥ 3 days (p = 0.04) and obesity (p = 0.005). The most frequently identified bacterium was Staphylococcus epidermidis. Conclusion: Skin disinfection with 2% alcoholic chlorhexidine decreases bacterial colonisation rates for placed perineural catheters.
+</p>
+</abstract>
+</profileDesc>
+</biblFull>
+<biblFull>
+<titleStmt>
+<title xml:lang="en">A coupling of the spectral measures at a vertex</title>
+<author role="aut">
+<persName>
+<forename type="first">Thibault</forename>
+<surname>Espinasse</surname>
+</persName>
+<email type="md5">c05d12b9822a379e58a61ee2720950a1</email>
+<email type="domain">math.univ-lyon1.fr</email>
+<idno type="idhal" notation="string">thibault-espinasse</idno>
+<idno type="idhal" notation="numeric">17478</idno>
+<idno type="halauthorid">1018731</idno>
+<idno type="ORCID">https://orcid.org/0000-0001-6013-747X</idno>
+<affiliation ref="#struct-521755"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Paul</forename>
+<surname>Rochet</surname>
+</persName>
+<idno type="halauthorid">503155</idno>
+<affiliation ref="#struct-37"/>
+</author>
+<editor role="depositor">
+<persName>
+<forename>Paul</forename>
+<surname>Rochet</surname>
+</persName>
+<email type="md5">772cbeff700d2e2ffd7d670faa9a46f4</email>
+<email type="domain">laposte.net</email>
+</editor>
+</titleStmt>
+<editionStmt>
+<edition n="v1" type="current">
+<date type="whenSubmitted">2019-04-23 19:50:47</date>
+<date type="whenModified">2021-06-28 14:26:07</date>
+<date type="whenReleased">2019-04-24 11:51:02</date>
+<date type="whenProduced">2019-04-23</date>
+<date type="whenEndEmbargoed">2019-04-23</date>
+<ref type="file" target="https://hal.archives-ouvertes.fr/hal-02107855/document">
+<date notBefore="2019-04-23"/>
+</ref>
+<ref type="file" subtype="author" n="1" target="https://hal.archives-ouvertes.fr/hal-02107855/file/excursions5.pdf">
+<date notBefore="2019-04-23"/>
+</ref>
+<ref type="externalLink" target="http://arxiv.org/pdf/1904.10720"/>
+</edition>
+<respStmt>
+<resp>contributor</resp>
+<name key="141312">
+<persName>
+<forename>Paul</forename>
+<surname>Rochet</surname>
+</persName>
+<email type="md5">772cbeff700d2e2ffd7d670faa9a46f4</email>
+<email type="domain">laposte.net</email>
+</name>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<distributor>CCSD</distributor>
+<idno type="halId">hal-02107855</idno>
+<idno type="halUri">https://hal.archives-ouvertes.fr/hal-02107855</idno>
+<idno type="halBibtex">espinasse:hal-02107855</idno>
+<idno type="halRefHtml">2019</idno>
+<idno type="halRef">2019</idno>
+</publicationStmt>
+<seriesStmt>
+<idno type="stamp" n="EC-LYON">Ecole Centrale de Lyon</idno>
+<idno type="stamp" n="INSMI">
+CNRS-INSMI - INstitut des Sciences Mathématiques et de leurs Interactions
+</idno>
+<idno type="stamp" n="CNRS">
+CNRS - Centre national de la recherche scientifique
+</idno>
+<idno type="stamp" n="CHL">Centre Henri Lebesgue</idno>
+<idno type="stamp" n="UNIV-ST-ETIENNE">Université Jean Monnet - Saint-Etienne</idno>
+<idno type="stamp" n="UNIV-LYON1">Université Claude Bernard - Lyon I</idno>
+<idno type="stamp" n="INSA-LYON">Institut National des Sciences Appliquées de Lyon</idno>
+<idno type="stamp" n="UNIV-NANTES">Université de Nantes</idno>
+<idno type="stamp" n="INSA-GROUPE">Groupe INSA</idno>
+<idno type="stamp" n="ICJ" corresp="UNIV-LYON1">Institut Camille Jordan</idno>
+<idno type="stamp" n="UDL">UDL</idno>
+<idno type="stamp" n="UNIV-LYON">Université de Lyon</idno>
+</seriesStmt>
+<notesStmt/>
+<sourceDesc>
+<biblStruct>
+<analytic>
+<title xml:lang="en">A coupling of the spectral measures at a vertex</title>
+<author role="aut">
+<persName>
+<forename type="first">Thibault</forename>
+<surname>Espinasse</surname>
+</persName>
+<email type="md5">c05d12b9822a379e58a61ee2720950a1</email>
+<email type="domain">math.univ-lyon1.fr</email>
+<idno type="idhal" notation="string">thibault-espinasse</idno>
+<idno type="idhal" notation="numeric">17478</idno>
+<idno type="halauthorid">1018731</idno>
+<idno type="ORCID">https://orcid.org/0000-0001-6013-747X</idno>
+<affiliation ref="#struct-521755"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Paul</forename>
+<surname>Rochet</surname>
+</persName>
+<idno type="halauthorid">503155</idno>
+<affiliation ref="#struct-37"/>
+</author>
+</analytic>
+<monogr>
+<imprint/>
+</monogr>
+<idno type="arxiv">1904.10720</idno>
+</biblStruct>
+</sourceDesc>
+<profileDesc>
+<langUsage>
+<language ident="en">English</language>
+</langUsage>
+<textClass>
+<keywords scheme="author">
+<term xml:lang="en">Slater determinant</term>
+<term xml:lang="en">graph</term>
+<term xml:lang="en">excursions</term>
+<term xml:lang="en">cumulants</term>
+<term xml:lang="en">heaps of pieces</term>
+</keywords>
+<classCode scheme="halDomain" n="math.math-co">Mathematics [math]/Combinatorics [math.CO]</classCode>
+<classCode scheme="halDomain" n="math.math-sp">Mathematics [math]/Spectral Theory [math.SP]</classCode>
+<classCode scheme="halDomain" n="math.math-pr">Mathematics [math]/Probability [math.PR]</classCode>
+<classCode scheme="halTypology" n="UNDEFINED">Preprints, Working Papers, ...</classCode>
+</textClass>
+<abstract xml:lang="en">
+<p>
+Given the adjacency matrix of an undirected graph, we define a coupling of the spectral measures at the vertices, whose moments count the rooted closed paths in the graph. The resulting joint spectral measure verifies numerous interesting properties that allow to recover minors of analytical functions of the adjacency matrix from its generalized moments. We prove an extension of Obata's Central Limit Theorem in growing star-graphs to the multivariate case and discuss some combinatorial properties using Viennot's heaps of pieces point of view.
+</p>
+</abstract>
+</profileDesc>
+</biblFull>
+<biblFull>
+<titleStmt>
+<title xml:lang="en">
+Simplex Regression: Multivariable parametric regression under shape constraints
+</title>
+<author role="aut">
+<persName>
+<forename type="first">François</forename>
+<surname>Wahl</surname>
+</persName>
+<email type="md5">0618669ccda462b7623f6936cc24b733</email>
+<email type="domain">ifp.fr</email>
+<idno type="halauthorid">11187339</idno>
+<orgName ref="#struct-300006"/>
+<affiliation ref="#struct-300006"/>
+<affiliation ref="#struct-521755"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Thibault</forename>
+<surname>Espinasse</surname>
+</persName>
+<email type="md5">c05d12b9822a379e58a61ee2720950a1</email>
+<email type="domain">math.univ-lyon1.fr</email>
+<idno type="idhal" notation="string">thibault-espinasse</idno>
+<idno type="idhal" notation="numeric">17478</idno>
+<idno type="halauthorid">1018731</idno>
+<idno type="ORCID">https://orcid.org/0000-0001-6013-747X</idno>
+<affiliation ref="#struct-521755"/>
+</author>
+<editor role="depositor">
+<persName>
+<forename>Francois</forename>
+<surname>Wahl</surname>
+</persName>
+<email type="md5">add2d3b7d8d43a53d4495ab1a654ccd8</email>
+<email type="domain">univ-lyon1.fr</email>
+</editor>
+</titleStmt>
+<editionStmt>
+<edition n="v1">
+<date type="whenSubmitted">2016-01-27 17:48:49</date>
+</edition>
+<edition n="v2">
+<date type="whenSubmitted">2017-11-27 09:35:53</date>
+</edition>
+<edition n="v3">
+<date type="whenSubmitted">2018-03-18 21:50:10</date>
+</edition>
+<edition n="v4" type="current">
+<date type="whenSubmitted">2018-04-23 22:18:59</date>
+<date type="whenModified">2021-06-28 14:26:07</date>
+<date type="whenReleased">2018-04-26 09:34:45</date>
+<date type="whenProduced">2018-04-23</date>
+<date type="whenEndEmbargoed">2018-04-23</date>
+<ref type="file" target="https://hal.archives-ouvertes.fr/hal-01262601v4/document">
+<date notBefore="2018-04-23"/>
+</ref>
+<ref type="file" subtype="author" n="1" target="https://hal.archives-ouvertes.fr/hal-01262601v4/file/FW_doc180423_soumissionSC.pdf">
+<date notBefore="2018-04-23"/>
+</ref>
+</edition>
+<respStmt>
+<resp>contributor</resp>
+<name key="191597">
+<persName>
+<forename>Francois</forename>
+<surname>Wahl</surname>
+</persName>
+<email type="md5">add2d3b7d8d43a53d4495ab1a654ccd8</email>
+<email type="domain">univ-lyon1.fr</email>
+</name>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<distributor>CCSD</distributor>
+<idno type="halId">hal-01262601</idno>
+<idno type="halUri">https://hal.archives-ouvertes.fr/hal-01262601</idno>
+<idno type="halBibtex">wahl:hal-01262601</idno>
+<idno type="halRefHtml">2018</idno>
+<idno type="halRef">2018</idno>
+</publicationStmt>
+<seriesStmt>
+<idno type="stamp" n="CNRS">
+CNRS - Centre national de la recherche scientifique
+</idno>
+<idno type="stamp" n="EC-LYON">Ecole Centrale de Lyon</idno>
+<idno type="stamp" n="IFP">IFP Energies Nouvelles</idno>
+<idno type="stamp" n="INSMI">
+CNRS-INSMI - INstitut des Sciences Mathématiques et de leurs Interactions
+</idno>
+<idno type="stamp" n="UNIV-ST-ETIENNE">Université Jean Monnet - Saint-Etienne</idno>
+<idno type="stamp" n="UNIV-LYON1">Université Claude Bernard - Lyon I</idno>
+<idno type="stamp" n="INSA-LYON">Institut National des Sciences Appliquées de Lyon</idno>
+<idno type="stamp" n="ICJ" corresp="UNIV-LYON1">Institut Camille Jordan</idno>
+<idno type="stamp" n="INSA-GROUPE">Groupe INSA</idno>
+<idno type="stamp" n="ICJ-PSPM" corresp="ICJ">Probabilités, statistique, physique mathématique</idno>
+<idno type="stamp" n="UDL">UDL</idno>
+<idno type="stamp" n="UNIV-LYON">Université de Lyon</idno>
+</seriesStmt>
+<notesStmt/>
+<sourceDesc>
+<biblStruct>
+<analytic>
+<title xml:lang="en">
+Simplex Regression: Multivariable parametric regression under shape constraints
+</title>
+<author role="aut">
+<persName>
+<forename type="first">François</forename>
+<surname>Wahl</surname>
+</persName>
+<email type="md5">0618669ccda462b7623f6936cc24b733</email>
+<email type="domain">ifp.fr</email>
+<idno type="halauthorid">11187339</idno>
+<orgName ref="#struct-300006"/>
+<affiliation ref="#struct-300006"/>
+<affiliation ref="#struct-521755"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Thibault</forename>
+<surname>Espinasse</surname>
+</persName>
+<email type="md5">c05d12b9822a379e58a61ee2720950a1</email>
+<email type="domain">math.univ-lyon1.fr</email>
+<idno type="idhal" notation="string">thibault-espinasse</idno>
+<idno type="idhal" notation="numeric">17478</idno>
+<idno type="halauthorid">1018731</idno>
+<idno type="ORCID">https://orcid.org/0000-0001-6013-747X</idno>
+<affiliation ref="#struct-521755"/>
+</author>
+</analytic>
+<monogr>
+<imprint/>
+</monogr>
+</biblStruct>
+</sourceDesc>
+<profileDesc>
+<langUsage>
+<language ident="en">English</language>
+</langUsage>
+<textClass>
+<keywords scheme="author">
+<term xml:lang="en">monotony</term>
+<term xml:lang="en">quadratic programming</term>
+<term xml:lang="en">simplexes</term>
+<term xml:lang="en">Chebyshev system</term>
+<term xml:lang="en">shape constraints</term>
+<term xml:lang="en">constraints</term>
+<term xml:lang="en">multivariate parametric regression</term>
+</keywords>
+<classCode scheme="halDomain" n="math.math-st">Mathematics [math]/Statistics [math.ST]</classCode>
+<classCode scheme="halTypology" n="UNDEFINED">Preprints, Working Papers, ...</classCode>
+</textClass>
+<abstract xml:lang="en">
+<p>
+We consider a multivariable regression model under shape constraints (monotonicity, convexity, positivity,...) built as a linear combination of product of functions of a single variable. For each variable, the functions form a Chebyshev system. We develop an iterative procedure, where at each step the initial shape requirement is approximated by a set of linear constraints. The main result of this paper is that this procedure is shown to converge to the optimal solution in the least square sense. The theory is first established in the single variable case and then extended to the multivariable framework by means of tensor products. Numerical studies and a real industrial example with a multivariable polynomial regression subject to shape constraints of monotony illustrate the performance of the proposed method.
+</p>
+</abstract>
+</profileDesc>
+</biblFull>
+<biblFull>
+<titleStmt>
+<title xml:lang="en">
+Inferring gene regulatory networks from single-cell data: a mechanistic approach
+</title>
+<author role="crp">
+<persName>
+<forename type="first">Ulysse</forename>
+<surname>Herbach</surname>
+</persName>
+<email type="md5">af91f8ccb528b441c2a90ea5c149e237</email>
+<email type="domain">ens-lyon.fr</email>
+<idno type="idhal" notation="string">ulysse-herbach</idno>
+<idno type="idhal" notation="numeric">16246</idno>
+<idno type="halauthorid">1686919</idno>
+<idno type="arXiv">https://arxiv.org/a/UlysseH</idno>
+<idno type="ORCID">https://orcid.org/0000-0002-0972-385X</idno>
+<affiliation ref="#struct-489487"/>
+<affiliation ref="#struct-108959"/>
+<affiliation ref="#struct-193738"/>
+<affiliation ref="#struct-521755"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Arnaud</forename>
+<surname>Bonnaffoux</surname>
+</persName>
+<email type="md5">55d35c59146e83b71fb8c9dd8c2060bc</email>
+<email type="domain">gmail.com</email>
+<idno type="idhal" notation="string">arnaud-bonnaffoux</idno>
+<idno type="idhal" notation="numeric">169589</idno>
+<idno type="halauthorid">1685491</idno>
+<idno type="ORCID">https://orcid.org/0000-0003-0472-0761</idno>
+<affiliation ref="#struct-489487"/>
+<affiliation ref="#struct-108959"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Thibault</forename>
+<surname>Espinasse</surname>
+</persName>
+<email type="md5">c05d12b9822a379e58a61ee2720950a1</email>
+<email type="domain">math.univ-lyon1.fr</email>
+<idno type="idhal" notation="string">thibault-espinasse</idno>
+<idno type="idhal" notation="numeric">17478</idno>
+<idno type="halauthorid">1018731</idno>
+<idno type="ORCID">https://orcid.org/0000-0001-6013-747X</idno>
+<affiliation ref="#struct-521755"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Olivier</forename>
+<surname>Gandrillon</surname>
+</persName>
+<email type="md5">b5f61544c6a4c23489c1c584cb533437</email>
+<email type="domain">cgmc.univ-lyon1.fr</email>
+<idno type="halauthorid">378404</idno>
+<affiliation ref="#struct-489487"/>
+<affiliation ref="#struct-108959"/>
+</author>
+<editor role="depositor">
+<persName>
+<forename>Ulysse</forename>
+<surname>Herbach</surname>
+</persName>
+<email type="md5">9d9f7a07b8577463ea3c4dffc9c5c297</email>
+<email type="domain">inria.fr</email>
+</editor>
+</titleStmt>
+<editionStmt>
+<edition n="v1" type="current">
+<date type="whenSubmitted">2017-11-25 03:41:11</date>
+<date type="whenModified">2021-06-28 14:26:07</date>
+<date type="whenReleased">2017-11-27 09:08:00</date>
+<date type="whenProduced">2017-11-21</date>
+<date type="whenEndEmbargoed">2017-11-25</date>
+<ref type="file" target="https://hal.archives-ouvertes.fr/hal-01646910/document">
+<date notBefore="2017-11-25"/>
+</ref>
+<ref type="file" subtype="author" n="1" target="https://hal.archives-ouvertes.fr/hal-01646910/file/ArticleModel.pdf">
+<date notBefore="2017-11-25"/>
+</ref>
+<ref type="externalLink" target="https://bmcsystbiol.biomedcentral.com/track/pdf/10.1186/s12918-017-0487-0"/>
+</edition>
+<respStmt>
+<resp>contributor</resp>
+<name key="332688">
+<persName>
+<forename>Ulysse</forename>
+<surname>Herbach</surname>
+</persName>
+<email type="md5">9d9f7a07b8577463ea3c4dffc9c5c297</email>
+<email type="domain">inria.fr</email>
+</name>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<distributor>CCSD</distributor>
+<idno type="halId">hal-01646910</idno>
+<idno type="halUri">https://hal.archives-ouvertes.fr/hal-01646910</idno>
+<idno type="halBibtex">herbach:hal-01646910</idno>
+<idno type="halRefHtml">
+<i>BMC Systems Biology</i>, BioMed Central, 2017, 11 (1), pp.105. <a target="_blank" href="https://dx.doi.org/10.1186/s12918-017-0487-0">&#x27E8;10.1186/s12918-017-0487-0&#x27E9;</a>
+</idno>
+<idno type="halRef">
+BMC Systems Biology, BioMed Central, 2017, 11 (1), pp.105. &#x27E8;10.1186/s12918-017-0487-0&#x27E9;
+</idno>
+</publicationStmt>
+<seriesStmt>
+<idno type="stamp" n="CNRS">
+CNRS - Centre national de la recherche scientifique
+</idno>
+<idno type="stamp" n="EC-LYON">Ecole Centrale de Lyon</idno>
+<idno type="stamp" n="INRIA-RHA">INRIA Grenoble - Rhône-Alpes</idno>
+<idno type="stamp" n="INSMI">
+CNRS-INSMI - INstitut des Sciences Mathématiques et de leurs Interactions
+</idno>
+<idno type="stamp" n="CGPHIMC">
+Centre de génétique et de physiologie moléculaire et céllulaire
+</idno>
+<idno type="stamp" n="INRIA_TEST">
+INRIA - Institut National de Recherche en Informatique et en Automatique
+</idno>
+<idno type="stamp" n="INRIA2">INRIA 2</idno>
+<idno type="stamp" n="INRIA">
+INRIA - Institut National de Recherche en Informatique et en Automatique
+</idno>
+<idno type="stamp" n="UNIV-ST-ETIENNE">Université Jean Monnet - Saint-Etienne</idno>
+<idno type="stamp" n="INRIA2017">INRIA2017</idno>
+<idno type="stamp" n="INSA-LYON">Institut National des Sciences Appliquées de Lyon</idno>
+<idno type="stamp" n="ICJ" corresp="UNIV-LYON1">Institut Camille Jordan</idno>
+<idno type="stamp" n="UNIV-LYON1">Université Claude Bernard - Lyon I</idno>
+<idno type="stamp" n="INRIA-RENGRE">INRIA-RENGRE</idno>
+<idno type="stamp" n="INSA-GROUPE">Groupe INSA</idno>
+<idno type="stamp" n="ENS-LYON">École Normale Supérieure de Lyon</idno>
+<idno type="stamp" n="ICJ-PSPM" corresp="ICJ">Probabilités, statistique, physique mathématique</idno>
+<idno type="stamp" n="UDL">UDL</idno>
+<idno type="stamp" n="UNIV-LYON">Université de Lyon</idno>
+</seriesStmt>
+<notesStmt>
+<note type="audience" n="2">International</note>
+<note type="popular" n="0">No</note>
+<note type="peer" n="1">Yes</note>
+</notesStmt>
+<sourceDesc>
+<biblStruct>
+<analytic>
+<title xml:lang="en">
+Inferring gene regulatory networks from single-cell data: a mechanistic approach
+</title>
+<author role="crp">
+<persName>
+<forename type="first">Ulysse</forename>
+<surname>Herbach</surname>
+</persName>
+<email type="md5">af91f8ccb528b441c2a90ea5c149e237</email>
+<email type="domain">ens-lyon.fr</email>
+<idno type="idhal" notation="string">ulysse-herbach</idno>
+<idno type="idhal" notation="numeric">16246</idno>
+<idno type="halauthorid">1686919</idno>
+<idno type="arXiv">https://arxiv.org/a/UlysseH</idno>
+<idno type="ORCID">https://orcid.org/0000-0002-0972-385X</idno>
+<affiliation ref="#struct-489487"/>
+<affiliation ref="#struct-108959"/>
+<affiliation ref="#struct-193738"/>
+<affiliation ref="#struct-521755"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Arnaud</forename>
+<surname>Bonnaffoux</surname>
+</persName>
+<email type="md5">55d35c59146e83b71fb8c9dd8c2060bc</email>
+<email type="domain">gmail.com</email>
+<idno type="idhal" notation="string">arnaud-bonnaffoux</idno>
+<idno type="idhal" notation="numeric">169589</idno>
+<idno type="halauthorid">1685491</idno>
+<idno type="ORCID">https://orcid.org/0000-0003-0472-0761</idno>
+<affiliation ref="#struct-489487"/>
+<affiliation ref="#struct-108959"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Thibault</forename>
+<surname>Espinasse</surname>
+</persName>
+<email type="md5">c05d12b9822a379e58a61ee2720950a1</email>
+<email type="domain">math.univ-lyon1.fr</email>
+<idno type="idhal" notation="string">thibault-espinasse</idno>
+<idno type="idhal" notation="numeric">17478</idno>
+<idno type="halauthorid">1018731</idno>
+<idno type="ORCID">https://orcid.org/0000-0001-6013-747X</idno>
+<affiliation ref="#struct-521755"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Olivier</forename>
+<surname>Gandrillon</surname>
+</persName>
+<email type="md5">b5f61544c6a4c23489c1c584cb533437</email>
+<email type="domain">cgmc.univ-lyon1.fr</email>
+<idno type="halauthorid">378404</idno>
+<affiliation ref="#struct-489487"/>
+<affiliation ref="#struct-108959"/>
+</author>
+</analytic>
+<monogr>
+<idno type="halJournalId" status="VALID">367</idno>
+<idno type="issn">1752-0509</idno>
+<idno type="eissn">1752-0509</idno>
+<title level="j">BMC Systems Biology</title>
+<imprint>
+<publisher>BioMed Central</publisher>
+<biblScope unit="volume">11</biblScope>
+<biblScope unit="issue">1</biblScope>
+<biblScope unit="pp">105</biblScope>
+<date type="datePub">2017-11-21</date>
+</imprint>
+</monogr>
+<idno type="doi">10.1186/s12918-017-0487-0</idno>
+</biblStruct>
+</sourceDesc>
+<profileDesc>
+<langUsage>
+<language ident="en">English</language>
+</langUsage>
+<textClass>
+<keywords scheme="author">
+<term xml:lang="en">Multiscale modelling</term>
+<term xml:lang="en">Single-cell transcriptomics</term>
+<term xml:lang="en">Gene network inference</term>
+<term xml:lang="en">Piecewise-deterministic Markov processes</term>
+</keywords>
+<classCode scheme="halDomain" n="sdv.bibs">
+Life Sciences [q-bio]/Quantitative Methods [q-bio.QM]
+</classCode>
+<classCode scheme="halDomain" n="sdv.bbm.mn">
+Life Sciences [q-bio]/Biochemistry, Molecular Biology/Molecular Networks [q-bio.MN]
+</classCode>
+<classCode scheme="halDomain" n="math.math-st">Mathematics [math]/Statistics [math.ST]</classCode>
+<classCode scheme="halTypology" n="ART">Journal articles</classCode>
+</textClass>
+<abstract xml:lang="en">
+<p>
+The recent development of single-cell transcriptomics has enabled gene expression to be measured in individual cells instead of being population-averaged. Despite this considerable precision improvement, inferring regulatory networks remains challenging because stochasticity now proves to play a fundamental role in gene expression. In particular, mRNA synthesis is now acknowledged to occur in a highly bursty manner. We propose to view the inference problem as a fitting procedure for a mechanistic gene network model that is inherently stochastic and takes not only protein, but also mRNA levels into account. We first explain how to build and simulate this network model based upon the coupling of genes that are described as piecewise-deterministic Markov processes. Our model is modular and can be used to implement various biochemical hypotheses including causal interactions between genes. However, a naive fitting procedure would be intractable. By performing a relevant approximation of the stationary distribution, we derive a tractable procedure that corresponds to a statistical hidden Markov model with interpretable parameters. This approximation turns out to be extremely close to the theoretical distribution in the case of a simple toggle-switch, and we show that it can indeed fit real single-cell data. As a first step toward inference, our approach was applied to a number of simple two-gene networks simulated in silico from the mechanistic model and satisfactorily recovered the original networks. Our results demonstrate that functional interactions between genes can be inferred from the distribution of a mechanistic, dynamical stochastic model that is able to describe gene expression in individual cells. This approach seems promising in relation to the current explosion of single-cell expression data.
+</p>
+</abstract>
+</profileDesc>
+</biblFull>
+<biblFull>
+<titleStmt>
+<title xml:lang="en">Reconstructing undirected graphs from eigenspaces</title>
+<author role="aut">
+<persName>
+<forename type="first">Yohann</forename>
+<surname>De Castro</surname>
+</persName>
+<idno type="halauthorid">1170525</idno>
+<affiliation ref="#struct-40"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Thibault</forename>
+<surname>Espinasse</surname>
+</persName>
+<email type="md5">c05d12b9822a379e58a61ee2720950a1</email>
+<email type="domain">math.univ-lyon1.fr</email>
+<idno type="idhal" notation="string">thibault-espinasse</idno>
+<idno type="idhal" notation="numeric">17478</idno>
+<idno type="halauthorid">1018731</idno>
+<idno type="ORCID">https://orcid.org/0000-0001-6013-747X</idno>
+<affiliation ref="#struct-521755"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Paul</forename>
+<surname>Rochet</surname>
+</persName>
+<idno type="halauthorid">503155</idno>
+<affiliation ref="#struct-37"/>
+</author>
+<editor role="depositor">
+<persName>
+<forename>Yohann</forename>
+<surname>De Castro</surname>
+</persName>
+<email type="md5">d172101cf7c4d1d8159be4bda492930a</email>
+<email type="domain">enpc.fr</email>
+</editor>
+</titleStmt>
+<editionStmt>
+<edition n="v1" type="current">
+<date type="whenSubmitted">2017-09-15 10:36:08</date>
+<date type="whenModified">2021-06-28 14:26:07</date>
+<date type="whenReleased">2017-09-15 10:36:08</date>
+<date type="whenProduced">2017-05</date>
+<ref type="externalLink" target="http://arxiv.org/pdf/1603.08113"/>
+</edition>
+<respStmt>
+<resp>contributor</resp>
+<name key="160657">
+<persName>
+<forename>Yohann</forename>
+<surname>De Castro</surname>
+</persName>
+<email type="md5">d172101cf7c4d1d8159be4bda492930a</email>
+<email type="domain">enpc.fr</email>
+</name>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<distributor>CCSD</distributor>
+<idno type="halId">hal-01588125</idno>
+<idno type="halUri">https://hal.archives-ouvertes.fr/hal-01588125</idno>
+<idno type="halBibtex">decastro:hal-01588125</idno>
+<idno type="halRefHtml">
+<i>Journal of Machine Learning Research</i>, Microtome Publishing, 2017
+</idno>
+<idno type="halRef">
+Journal of Machine Learning Research, Microtome Publishing, 2017
+</idno>
+</publicationStmt>
+<seriesStmt>
+<idno type="stamp" n="CNRS">
+CNRS - Centre national de la recherche scientifique
+</idno>
+<idno type="stamp" n="UNIV-PSUD">Université Paris Sud - Paris XI</idno>
+<idno type="stamp" n="EC-LYON">Ecole Centrale de Lyon</idno>
+<idno type="stamp" n="INSMI">
+CNRS-INSMI - INstitut des Sciences Mathématiques et de leurs Interactions
+</idno>
+<idno type="stamp" n="LM-ORSAY">Laboratoire de Mathématiques d'Orsay</idno>
+<idno type="stamp" n="UNIV-NANTES">Université de Nantes</idno>
+<idno type="stamp" n="CHL">Centre Henri Lebesgue</idno>
+<idno type="stamp" n="UNIV-PSUD-SACLAY" corresp="UNIV-PARIS-SACLAY">Université Paris Sud pour Paris Saclay</idno>
+<idno type="stamp" n="UNIV-ST-ETIENNE">Université Jean Monnet - Saint-Etienne</idno>
+<idno type="stamp" n="UNIV-PARIS-SACLAY">Université Paris-Saclay</idno>
+<idno type="stamp" n="ICJ" corresp="UNIV-LYON1">Institut Camille Jordan</idno>
+<idno type="stamp" n="LMJL" corresp="UNIV-NANTES">Laboratoire de Mathématiques Jean Leray</idno>
+<idno type="stamp" n="INSA-LYON">Institut National des Sciences Appliquées de Lyon</idno>
+<idno type="stamp" n="FMPL">
+Fédération de recherche Mathématiques des Pays de Loire
+</idno>
+<idno type="stamp" n="UNIV-LYON1">Université Claude Bernard - Lyon I</idno>
+<idno type="stamp" n="INSA-GROUPE">Groupe INSA</idno>
+<idno type="stamp" n="ICJ-PSPM" corresp="ICJ">Probabilités, statistique, physique mathématique</idno>
+<idno type="stamp" n="UDL">UDL</idno>
+<idno type="stamp" n="UNIV-LYON">Université de Lyon</idno>
+<idno type="stamp" n="GS-MATHEMATIQUES">Graduate School Mathématiques</idno>
+</seriesStmt>
+<notesStmt>
+<note type="commentary">25 pages, some figures. Final version</note>
+<note type="audience" n="2">International</note>
+<note type="popular" n="0">No</note>
+<note type="peer" n="1">Yes</note>
+</notesStmt>
+<sourceDesc>
+<biblStruct>
+<analytic>
+<title xml:lang="en">Reconstructing undirected graphs from eigenspaces</title>
+<author role="aut">
+<persName>
+<forename type="first">Yohann</forename>
+<surname>De Castro</surname>
+</persName>
+<idno type="halauthorid">1170525</idno>
+<affiliation ref="#struct-40"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Thibault</forename>
+<surname>Espinasse</surname>
+</persName>
+<email type="md5">c05d12b9822a379e58a61ee2720950a1</email>
+<email type="domain">math.univ-lyon1.fr</email>
+<idno type="idhal" notation="string">thibault-espinasse</idno>
+<idno type="idhal" notation="numeric">17478</idno>
+<idno type="halauthorid">1018731</idno>
+<idno type="ORCID">https://orcid.org/0000-0001-6013-747X</idno>
+<affiliation ref="#struct-521755"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Paul</forename>
+<surname>Rochet</surname>
+</persName>
+<idno type="halauthorid">503155</idno>
+<affiliation ref="#struct-37"/>
+</author>
+</analytic>
+<monogr>
+<idno type="halJournalId" status="VALID">1472</idno>
+<idno type="issn">1532-4435</idno>
+<idno type="eissn">1533-7928</idno>
+<title level="j">Journal of Machine Learning Research</title>
+<imprint>
+<publisher>Microtome Publishing</publisher>
+<date type="datePub">2017-05</date>
+</imprint>
+</monogr>
+<idno type="arxiv">1603.08113</idno>
+</biblStruct>
+</sourceDesc>
+<profileDesc>
+<langUsage>
+<language ident="en">English</language>
+</langUsage>
+<textClass>
+<classCode scheme="halDomain" n="stat.th">Statistics [stat]/Statistics Theory [stat.TH]</classCode>
+<classCode scheme="halDomain" n="math.math-it">Mathematics [math]/Information Theory [math.IT]</classCode>
+<classCode scheme="halDomain" n="stat.me">Statistics [stat]/Methodology [stat.ME]</classCode>
+<classCode scheme="halDomain" n="stat.ot">Statistics [stat]/Other Statistics [stat.ML]</classCode>
+<classCode scheme="halTypology" n="ART">Journal articles</classCode>
+</textClass>
+<abstract xml:lang="en">
+<p>
+In this paper, we aim at recovering an undirected weighted graph of $N$ vertices from the knowledge of a perturbed version of the eigenspaces of its adjacency matrix $W$. For instance, this situation arises for stationary signals on graphs or for Markov chains observed at random times. Our approach is based on minimizing a cost function given by the Frobenius norm of the commutator $\mathsf{A} \mathsf{B}-\mathsf{B} \mathsf{A}$ between symmetric matrices $\mathsf{A}$ and $\mathsf{B}$. In the Erd\H{o}s-R\'enyi model with no self-loops, we show that identifiability (i.e., the ability to reconstruct $W$ from the knowledge of its eigenspaces) follows a sharp phase transition on the expected number of edges with threshold function $N\log N/2$. Given an estimation of the eigenspaces based on a $n$-sample, we provide support selection procedures from theoretical and practical point of views. In particular, when deleting an edge from the active support, our study unveils that our test statistic is the order of $\mathcal O(1/n)$ when we overestimate the true support and lower bounded by a positive constant when the estimated support is smaller than the true support. This feature leads to a powerful practical support estimation procedure. Simulated and real life numerical experiments assert our new methodology.
+</p>
+</abstract>
+</profileDesc>
+</biblFull>
+<biblFull>
+<titleStmt>
+<title xml:lang="en">
+Single-Cell-Based Analysis Highlights a Surge in Cell-to-Cell Molecular Variability Preceding Irreversible Commitment in a Differentiation Process
+</title>
+<author role="aut">
+<persName>
+<forename type="first">Angélique</forename>
+<surname>Richard</surname>
+</persName>
+<idno type="halauthorid">11332572</idno>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Loïs</forename>
+<surname>Boullu</surname>
+</persName>
+<email type="md5">6780a19a854a28164ea69a6969b6d80c</email>
+<email type="domain">inria.fr</email>
+<ptr type="url" target="http://math.univ-lyon1.fr/~boullu/"/>
+<idno type="halauthorid">11239575</idno>
+<orgName ref="#struct-194495"/>
+<affiliation ref="#struct-108959"/>
+<affiliation ref="#struct-521754"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Ulysse</forename>
+<surname>Herbach</surname>
+</persName>
+<email type="md5">af91f8ccb528b441c2a90ea5c149e237</email>
+<email type="domain">ens-lyon.fr</email>
+<idno type="idhal" notation="string">ulysse-herbach</idno>
+<idno type="idhal" notation="numeric">16246</idno>
+<idno type="halauthorid">1686919</idno>
+<idno type="arXiv">https://arxiv.org/a/UlysseH</idno>
+<idno type="ORCID">https://orcid.org/0000-0002-0972-385X</idno>
+<affiliation ref="#struct-489487"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Arnaud</forename>
+<surname>Arnaud</surname>
+</persName>
+<idno type="halauthorid">11332573</idno>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Valérie</forename>
+<surname>Morin</surname>
+</persName>
+<idno type="halauthorid">964961</idno>
+<affiliation ref="#struct-711"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Elodie</forename>
+<surname>Vallin</surname>
+</persName>
+<idno type="halauthorid">711349</idno>
+<affiliation ref="#struct-711"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Anissa</forename>
+<surname>Guillemin</surname>
+</persName>
+<idno type="halauthorid">11332574</idno>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Nan</forename>
+<surname>Papili Gao</surname>
+</persName>
+<idno type="halauthorid">11332575</idno>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Rudiyanto</forename>
+<surname>Gunawan</surname>
+</persName>
+<idno type="halauthorid">11332576</idno>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Jérémie</forename>
+<surname>Cosette</surname>
+</persName>
+<email type="md5">dcc1560ade5b1335d5c8adc1657d5723</email>
+<email type="domain">yahoo.fr</email>
+<idno type="idhal" notation="string">jeremie-cosette</idno>
+<idno type="idhal" notation="numeric">176488</idno>
+<idno type="halauthorid">838413</idno>
+<affiliation ref="#struct-1064687"/>
+<affiliation ref="#struct-300306"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Ophélie</forename>
+<surname>Arnaud</surname>
+</persName>
+<idno type="halauthorid">871805</idno>
+<affiliation ref="#struct-223337"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Jean-Jacques</forename>
+<surname>Kupiec</surname>
+</persName>
+<email type="md5">3b5bb39adee94e65ab004bbfb86f9ceb</email>
+<email type="domain">ens.fr</email>
+<idno type="halauthorid">1386890</idno>
+<affiliation ref="#struct-456175"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Thibault</forename>
+<surname>Espinasse</surname>
+</persName>
+<email type="md5">c05d12b9822a379e58a61ee2720950a1</email>
+<email type="domain">math.univ-lyon1.fr</email>
+<idno type="idhal" notation="string">thibault-espinasse</idno>
+<idno type="idhal" notation="numeric">17478</idno>
+<idno type="halauthorid">1018731</idno>
+<idno type="ORCID">https://orcid.org/0000-0001-6013-747X</idno>
+<affiliation ref="#struct-521755"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Sandrine</forename>
+<surname>Gonin-Giraud</surname>
+</persName>
+<idno type="halauthorid">232292</idno>
+<affiliation ref="#struct-711"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Olivier</forename>
+<surname>Gandrillon</surname>
+</persName>
+<email type="md5">b5f61544c6a4c23489c1c584cb533437</email>
+<email type="domain">cgmc.univ-lyon1.fr</email>
+<idno type="halauthorid">378404</idno>
+<affiliation ref="#struct-711"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Sarah</forename>
+<surname>Teichmann</surname>
+</persName>
+<idno type="halauthorid">11332577</idno>
+</author>
+<editor role="depositor">
+<persName>
+<forename>Olivier</forename>
+<surname>Gandrillon</surname>
+</persName>
+<email type="md5">1a9068077a1f79274befd5d3ed37acb9</email>
+<email type="domain">ens-lyon.fr</email>
+</editor>
+</titleStmt>
+<editionStmt>
+<edition n="v1" type="current">
+<date type="whenSubmitted">2018-11-26 08:51:42</date>
+<date type="whenModified">2021-07-02 09:58:02</date>
+<date type="whenReleased">2018-11-26 08:51:42</date>
+<date type="whenProduced">2016-12-27</date>
+<ref type="externalLink" target="https://journals.plos.org/plosbiology/article/file?id=10.1371/journal.pbio.1002585&type=printable"/>
+</edition>
+<respStmt>
+<resp>contributor</resp>
+<name key="156949">
+<persName>
+<forename>Olivier</forename>
+<surname>Gandrillon</surname>
+</persName>
+<email type="md5">1a9068077a1f79274befd5d3ed37acb9</email>
+<email type="domain">ens-lyon.fr</email>
+</name>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<distributor>CCSD</distributor>
+<idno type="halId">hal-01934489</idno>
+<idno type="halUri">https://hal.archives-ouvertes.fr/hal-01934489</idno>
+<idno type="halBibtex">richard:hal-01934489</idno>
+<idno type="halRefHtml">
+<i>PLoS Biology</i>, Public Library of Science, 2016, 14 (12), <a target="_blank" href="https://dx.doi.org/10.1371/journal.pbio.1002585">&#x27E8;10.1371/journal.pbio.1002585&#x27E9;</a>
+</idno>
+<idno type="halRef">
+PLoS Biology, Public Library of Science, 2016, 14 (12), &#x27E8;10.1371/journal.pbio.1002585&#x27E9;
+</idno>
+</publicationStmt>
+<seriesStmt>
+<idno type="stamp" n="CNRS">
+CNRS - Centre national de la recherche scientifique
+</idno>
+<idno type="stamp" n="UNIV-EVRY">Université d'Evry-Val d'Essonne</idno>
+<idno type="stamp" n="EC-LYON">Ecole Centrale de Lyon</idno>
+<idno type="stamp" n="CDF">Collège de France</idno>
+<idno type="stamp" n="CGPHIMC">
+Centre de génétique et de physiologie moléculaire et céllulaire
+</idno>
+<idno type="stamp" n="INRIA-RHA">INRIA Grenoble - Rhône-Alpes</idno>
+<idno type="stamp" n="INRIA_TEST">
+INRIA - Institut National de Recherche en Informatique et en Automatique
+</idno>
+<idno type="stamp" n="INRIA2">INRIA 2</idno>
+<idno type="stamp" n="UNIV-EVRY-SACLAY" corresp="UNIV-PARIS-SACLAY">UNIV-EVRY-SACLAY</idno>
+<idno type="stamp" n="UNIV-ST-ETIENNE">Université Jean Monnet - Saint-Etienne</idno>
+<idno type="stamp" n="UNIV-LYON1">Université Claude Bernard - Lyon I</idno>
+<idno type="stamp" n="INSA-LYON">Institut National des Sciences Appliquées de Lyon</idno>
+<idno type="stamp" n="INRIA">
+INRIA - Institut National de Recherche en Informatique et en Automatique
+</idno>
+<idno type="stamp" n="INRIA-RENGRE">INRIA-RENGRE</idno>
+<idno type="stamp" n="ENS-PARIS">Ecole Normale Supérieure de Paris</idno>
+<idno type="stamp" n="INSA-GROUPE">Groupe INSA</idno>
+<idno type="stamp" n="UNIV-PARIS-SACLAY">Université Paris-Saclay</idno>
+<idno type="stamp" n="ICJ" corresp="UNIV-LYON1">Institut Camille Jordan</idno>
+<idno type="stamp" n="ENS-LYON">École Normale Supérieure de Lyon</idno>
+<idno type="stamp" n="ICJ-MMCS" corresp="ICJ">Modélisation mathématique, calcul scientifique</idno>
+<idno type="stamp" n="ICJ-PSPM" corresp="ICJ">Probabilités, statistique, physique mathématique</idno>
+<idno type="stamp" n="UDL">UDL</idno>
+<idno type="stamp" n="UNIV-LYON">Université de Lyon</idno>
+<idno type="stamp" n="REPUBLIQUE-DES-SAVOIRS" corresp="ENS-PARIS">
+République des Savoirs : Lettres, Sciences, Philosophie - USR 3608
+</idno>
+<idno type="stamp" n="PSL">Université Paris sciences et lettres</idno>
+<idno type="stamp" n="CDF-PSL" corresp="PSL">Collège de France - PSL </idno>
+<idno type="stamp" n="ENS-PSL" corresp="PSL">École normale supérieure - PSL</idno>
+</seriesStmt>
+<notesStmt>
+<note type="audience" n="2">International</note>
+<note type="popular" n="0">No</note>
+<note type="peer" n="1">Yes</note>
+</notesStmt>
+<sourceDesc>
+<biblStruct>
+<analytic>
+<title xml:lang="en">
+Single-Cell-Based Analysis Highlights a Surge in Cell-to-Cell Molecular Variability Preceding Irreversible Commitment in a Differentiation Process
+</title>
+<author role="aut">
+<persName>
+<forename type="first">Angélique</forename>
+<surname>Richard</surname>
+</persName>
+<idno type="halauthorid">11332572</idno>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Loïs</forename>
+<surname>Boullu</surname>
+</persName>
+<email type="md5">6780a19a854a28164ea69a6969b6d80c</email>
+<email type="domain">inria.fr</email>
+<ptr type="url" target="http://math.univ-lyon1.fr/~boullu/"/>
+<idno type="halauthorid">11239575</idno>
+<orgName ref="#struct-194495"/>
+<affiliation ref="#struct-108959"/>
+<affiliation ref="#struct-521754"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Ulysse</forename>
+<surname>Herbach</surname>
+</persName>
+<email type="md5">af91f8ccb528b441c2a90ea5c149e237</email>
+<email type="domain">ens-lyon.fr</email>
+<idno type="idhal" notation="string">ulysse-herbach</idno>
+<idno type="idhal" notation="numeric">16246</idno>
+<idno type="halauthorid">1686919</idno>
+<idno type="arXiv">https://arxiv.org/a/UlysseH</idno>
+<idno type="ORCID">https://orcid.org/0000-0002-0972-385X</idno>
+<affiliation ref="#struct-489487"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Arnaud</forename>
+<surname>Arnaud</surname>
+</persName>
+<idno type="halauthorid">11332573</idno>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Valérie</forename>
+<surname>Morin</surname>
+</persName>
+<idno type="halauthorid">964961</idno>
+<affiliation ref="#struct-711"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Elodie</forename>
+<surname>Vallin</surname>
+</persName>
+<idno type="halauthorid">711349</idno>
+<affiliation ref="#struct-711"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Anissa</forename>
+<surname>Guillemin</surname>
+</persName>
+<idno type="halauthorid">11332574</idno>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Nan</forename>
+<surname>Papili Gao</surname>
+</persName>
+<idno type="halauthorid">11332575</idno>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Rudiyanto</forename>
+<surname>Gunawan</surname>
+</persName>
+<idno type="halauthorid">11332576</idno>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Jérémie</forename>
+<surname>Cosette</surname>
+</persName>
+<email type="md5">dcc1560ade5b1335d5c8adc1657d5723</email>
+<email type="domain">yahoo.fr</email>
+<idno type="idhal" notation="string">jeremie-cosette</idno>
+<idno type="idhal" notation="numeric">176488</idno>
+<idno type="halauthorid">838413</idno>
+<affiliation ref="#struct-1064687"/>
+<affiliation ref="#struct-300306"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Ophélie</forename>
+<surname>Arnaud</surname>
+</persName>
+<idno type="halauthorid">871805</idno>
+<affiliation ref="#struct-223337"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Jean-Jacques</forename>
+<surname>Kupiec</surname>
+</persName>
+<email type="md5">3b5bb39adee94e65ab004bbfb86f9ceb</email>
+<email type="domain">ens.fr</email>
+<idno type="halauthorid">1386890</idno>
+<affiliation ref="#struct-456175"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Thibault</forename>
+<surname>Espinasse</surname>
+</persName>
+<email type="md5">c05d12b9822a379e58a61ee2720950a1</email>
+<email type="domain">math.univ-lyon1.fr</email>
+<idno type="idhal" notation="string">thibault-espinasse</idno>
+<idno type="idhal" notation="numeric">17478</idno>
+<idno type="halauthorid">1018731</idno>
+<idno type="ORCID">https://orcid.org/0000-0001-6013-747X</idno>
+<affiliation ref="#struct-521755"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Sandrine</forename>
+<surname>Gonin-Giraud</surname>
+</persName>
+<idno type="halauthorid">232292</idno>
+<affiliation ref="#struct-711"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Olivier</forename>
+<surname>Gandrillon</surname>
+</persName>
+<email type="md5">b5f61544c6a4c23489c1c584cb533437</email>
+<email type="domain">cgmc.univ-lyon1.fr</email>
+<idno type="halauthorid">378404</idno>
+<affiliation ref="#struct-711"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Sarah</forename>
+<surname>Teichmann</surname>
+</persName>
+<idno type="halauthorid">11332577</idno>
+</author>
+</analytic>
+<monogr>
+<idno type="halJournalId" status="VALID">1954</idno>
+<idno type="issn">1544-9173</idno>
+<idno type="eissn">1545-7885</idno>
+<title level="j">PLoS Biology</title>
+<imprint>
+<publisher>Public Library of Science</publisher>
+<biblScope unit="volume">14</biblScope>
+<biblScope unit="issue">12</biblScope>
+<date type="datePub">2016-12-27</date>
+</imprint>
+</monogr>
+<idno type="doi">10.1371/journal.pbio.1002585</idno>
+</biblStruct>
+</sourceDesc>
+<profileDesc>
+<langUsage>
+<language ident="en">English</language>
+</langUsage>
+<textClass>
+<classCode scheme="halDomain" n="sdv.bibs">
+Life Sciences [q-bio]/Quantitative Methods [q-bio.QM]
+</classCode>
+<classCode scheme="halTypology" n="ART">Journal articles</classCode>
+</textClass>
+</profileDesc>
+</biblFull>
+<biblFull>
+<titleStmt>
+<title xml:lang="en">
+A combinatorial approach to a model of constrained random walkers
+</title>
+<author role="aut">
+<persName>
+<forename type="first">Thibault</forename>
+<surname>Espinasse</surname>
+</persName>
+<email type="md5">c05d12b9822a379e58a61ee2720950a1</email>
+<email type="domain">math.univ-lyon1.fr</email>
+<idno type="idhal" notation="string">thibault-espinasse</idno>
+<idno type="idhal" notation="numeric">17478</idno>
+<idno type="halauthorid">1018731</idno>
+<idno type="ORCID">https://orcid.org/0000-0001-6013-747X</idno>
+<affiliation ref="#struct-521755"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Nadine</forename>
+<surname>Guillotin-Plantard</surname>
+</persName>
+<email type="md5">8c08bc8b1ab0a153677edbbc306cbf88</email>
+<email type="domain">univ-lyon1.fr</email>
+<idno type="halauthorid">182446</idno>
+<affiliation ref="#struct-193738"/>
+<affiliation ref="#struct-521755"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Philippe</forename>
+<surname>Nadeau</surname>
+</persName>
+<email type="md5">b15e7ff95badfa29d7da3209f8db070e</email>
+<email type="domain">math.univ-lyon1.fr</email>
+<idno type="idhal" notation="string">philippe-nadeau</idno>
+<idno type="idhal" notation="numeric">173337</idno>
+<idno type="halauthorid">162414</idno>
+<idno type="ORCID">https://orcid.org/0000-0002-7230-755X</idno>
+<affiliation ref="#struct-193738"/>
+<affiliation ref="#struct-521751"/>
+<affiliation ref="#struct-441569"/>
+</author>
+<editor role="depositor">
+<persName>
+<forename>Nadine</forename>
+<surname>Guillotin-Plantard</surname>
+</persName>
+<email type="md5">8c08bc8b1ab0a153677edbbc306cbf88</email>
+<email type="domain">univ-lyon1.fr</email>
+</editor>
+</titleStmt>
+<editionStmt>
+<edition n="v1" type="current">
+<date type="whenSubmitted">2014-02-23 11:08:08</date>
+<date type="whenWritten">2014-02-21</date>
+<date type="whenModified">2021-06-28 14:26:07</date>
+<date type="whenReleased">2014-02-24 14:25:31</date>
+<date type="whenProduced">2016-03</date>
+<date type="whenEndEmbargoed">2014-02-23</date>
+<ref type="file" target="https://hal.archives-ouvertes.fr/hal-00950845/document">
+<date notBefore="2014-02-23"/>
+</ref>
+<ref type="file" subtype="author" n="1" target="https://hal.archives-ouvertes.fr/hal-00950845/file/prisoners-210214.pdf">
+<date notBefore="2014-02-23"/>
+</ref>
+</edition>
+<respStmt>
+<resp>contributor</resp>
+<name key="118547">
+<persName>
+<forename>Nadine</forename>
+<surname>Guillotin-Plantard</surname>
+</persName>
+<email type="md5">8c08bc8b1ab0a153677edbbc306cbf88</email>
+<email type="domain">univ-lyon1.fr</email>
+</name>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<distributor>CCSD</distributor>
+<idno type="halId">hal-00950845</idno>
+<idno type="halUri">https://hal.archives-ouvertes.fr/hal-00950845</idno>
+<idno type="halBibtex">espinasse:hal-00950845</idno>
+<idno type="halRefHtml">
+<i>Combinatorics, Probability and Computing</i>, Cambridge University Press (CUP), 2016, 25 (2), pp.222-235
+</idno>
+<idno type="halRef">
+Combinatorics, Probability and Computing, Cambridge University Press (CUP), 2016, 25 (2), pp.222-235
+</idno>
+</publicationStmt>
+<seriesStmt>
+<idno type="stamp" n="ICJ" corresp="UNIV-LYON1">Institut Camille Jordan</idno>
+<idno type="stamp" n="CNRS">
+CNRS - Centre national de la recherche scientifique
+</idno>
+<idno type="stamp" n="EC-LYON">Ecole Centrale de Lyon</idno>
+<idno type="stamp" n="INSMI">
+CNRS-INSMI - INstitut des Sciences Mathématiques et de leurs Interactions
+</idno>
+<idno type="stamp" n="UNIV-ST-ETIENNE">Université Jean Monnet - Saint-Etienne</idno>
+<idno type="stamp" n="INSA-LYON">Institut National des Sciences Appliquées de Lyon</idno>
+<idno type="stamp" n="UNIV-LYON1">Université Claude Bernard - Lyon I</idno>
+<idno type="stamp" n="INSA-GROUPE">Groupe INSA</idno>
+<idno type="stamp" n="ICJ-CTN" corresp="ICJ">Combinatoire, théorie des nombres</idno>
+<idno type="stamp" n="ICJ-PSPM" corresp="ICJ">Probabilités, statistique, physique mathématique</idno>
+<idno type="stamp" n="UDL">UDL</idno>
+<idno type="stamp" n="UNIV-LYON">Université de Lyon</idno>
+</seriesStmt>
+<notesStmt>
+<note type="audience" n="1">Not set</note>
+<note type="popular" n="0">No</note>
+<note type="peer" n="1">Yes</note>
+</notesStmt>
+<sourceDesc>
+<biblStruct>
+<analytic>
+<title xml:lang="en">
+A combinatorial approach to a model of constrained random walkers
+</title>
+<author role="aut">
+<persName>
+<forename type="first">Thibault</forename>
+<surname>Espinasse</surname>
+</persName>
+<email type="md5">c05d12b9822a379e58a61ee2720950a1</email>
+<email type="domain">math.univ-lyon1.fr</email>
+<idno type="idhal" notation="string">thibault-espinasse</idno>
+<idno type="idhal" notation="numeric">17478</idno>
+<idno type="halauthorid">1018731</idno>
+<idno type="ORCID">https://orcid.org/0000-0001-6013-747X</idno>
+<affiliation ref="#struct-521755"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Nadine</forename>
+<surname>Guillotin-Plantard</surname>
+</persName>
+<email type="md5">8c08bc8b1ab0a153677edbbc306cbf88</email>
+<email type="domain">univ-lyon1.fr</email>
+<idno type="halauthorid">182446</idno>
+<affiliation ref="#struct-193738"/>
+<affiliation ref="#struct-521755"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Philippe</forename>
+<surname>Nadeau</surname>
+</persName>
+<email type="md5">b15e7ff95badfa29d7da3209f8db070e</email>
+<email type="domain">math.univ-lyon1.fr</email>
+<idno type="idhal" notation="string">philippe-nadeau</idno>
+<idno type="idhal" notation="numeric">173337</idno>
+<idno type="halauthorid">162414</idno>
+<idno type="ORCID">https://orcid.org/0000-0002-7230-755X</idno>
+<affiliation ref="#struct-193738"/>
+<affiliation ref="#struct-521751"/>
+<affiliation ref="#struct-441569"/>
+</author>
+</analytic>
+<monogr>
+<idno type="halJournalId" status="VALID">11901</idno>
+<idno type="issn">0963-5483</idno>
+<idno type="eissn">1469-2163</idno>
+<title level="j">Combinatorics, Probability and Computing</title>
+<imprint>
+<publisher>Cambridge University Press (CUP)</publisher>
+<biblScope unit="volume">25</biblScope>
+<biblScope unit="issue">2</biblScope>
+<biblScope unit="pp">222-235</biblScope>
+<date type="datePub">2016-03</date>
+</imprint>
+</monogr>
+</biblStruct>
+</sourceDesc>
+<profileDesc>
+<langUsage>
+<language ident="en">English</language>
+</langUsage>
+<textClass>
+<keywords scheme="author">
+<term xml:lang="en">Martingale</term>
+<term xml:lang="en">Central limit theorem</term>
+<term xml:lang="en">Markov chain</term>
+</keywords>
+<classCode scheme="classification">60J10; 60F05; 60G42; 05A19</classCode>
+<classCode scheme="halDomain" n="math.math-pr">Mathematics [math]/Probability [math.PR]</classCode>
+<classCode scheme="halTypology" n="ART">Journal articles</classCode>
+</textClass>
+<abstract xml:lang="en">
+<p>
+In [1], the authors consider a random walk $(Z_{n,1},\ldots,Z_{n,K+1})\in \mathbb{Z}^{K+1}$ with the constraint that each coordinate of the walk is at distance one from the following one. A functional central limit theorem for the first coordinate is proved and the limit variance is explicited. In this paper, we study an extended version of this model by conditioning the extremal coordinates to be at some fixed distance at every time. We prove a functional central limit theorem for this random walk. Using combinatorial tools, we give a precise formula of the variance and compare it with the one obtained in [1].
+</p>
+</abstract>
+</profileDesc>
+</biblFull>
+<biblFull>
+<titleStmt>
+<title xml:lang="en">
+A Kriging procedure for processes indexed by graphs
+</title>
+<author role="crp">
+<persName>
+<forename type="first">Thibault</forename>
+<surname>Espinasse</surname>
+</persName>
+<email type="md5">c05d12b9822a379e58a61ee2720950a1</email>
+<email type="domain">math.univ-lyon1.fr</email>
+<idno type="idhal" notation="string">thibault-espinasse</idno>
+<idno type="idhal" notation="numeric">17478</idno>
+<idno type="halauthorid">1018731</idno>
+<idno type="ORCID">https://orcid.org/0000-0001-6013-747X</idno>
+<affiliation ref="#struct-521755"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Jean-Michel</forename>
+<surname>Loubes</surname>
+</persName>
+<email type="md5">601d49c174433240abf30512f64b2fb4</email>
+<email type="domain">math.univ-toulouse.fr</email>
+<idno type="idhal" notation="string">jean-michel-loubes</idno>
+<idno type="idhal" notation="numeric">12832</idno>
+<idno type="halauthorid">374201</idno>
+<affiliation ref="#struct-1954"/>
+</author>
+<editor role="depositor">
+<persName>
+<forename>Thibault</forename>
+<surname>Espinasse</surname>
+</persName>
+<email type="md5">999fcfa815b4e0c8709213f80cfe1727</email>
+<email type="domain">math.univ-lyon1.fr</email>
+</editor>
+</titleStmt>
+<editionStmt>
+<edition n="v1" type="current">
+<date type="whenSubmitted">2014-06-25 15:50:12</date>
+<date type="whenWritten">2014-06-25</date>
+<date type="whenModified">2021-06-28 14:26:07</date>
+<date type="whenReleased">2014-06-25 16:48:33</date>
+<date type="whenProduced">2016</date>
+<date type="whenEndEmbargoed">2014-06-25</date>
+<ref type="file" target="https://hal.archives-ouvertes.fr/hal-01014022/document">
+<date notBefore="2014-06-25"/>
+</ref>
+<ref type="file" subtype="author" n="1" target="https://hal.archives-ouvertes.fr/hal-01014022/file/kriging_6.pdf">
+<date notBefore="2014-06-25"/>
+</ref>
+<ref type="externalLink" target="http://arxiv.org/pdf/1406.6592"/>
+</edition>
+<respStmt>
+<resp>contributor</resp>
+<name key="147801">
+<persName>
+<forename>Thibault</forename>
+<surname>Espinasse</surname>
+</persName>
+<email type="md5">999fcfa815b4e0c8709213f80cfe1727</email>
+<email type="domain">math.univ-lyon1.fr</email>
+</name>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<distributor>CCSD</distributor>
+<idno type="halId">hal-01014022</idno>
+<idno type="halUri">https://hal.archives-ouvertes.fr/hal-01014022</idno>
+<idno type="halBibtex">espinasse:hal-01014022</idno>
+<idno type="halRefHtml">
+<i>Statistical Inference for Stochastic Processes</i>, Springer Verlag, 2016, 19 (2), pp.159-173. <a target="_blank" href="https://dx.doi.org/10.1007/s11203-015-9128-7">&#x27E8;10.1007/s11203-015-9128-7&#x27E9;</a>
+</idno>
+<idno type="halRef">
+Statistical Inference for Stochastic Processes, Springer Verlag, 2016, 19 (2), pp.159-173. &#x27E8;10.1007/s11203-015-9128-7&#x27E9;
+</idno>
+</publicationStmt>
+<seriesStmt>
+<idno type="stamp" n="UNIV-ST-ETIENNE">Université Jean Monnet - Saint-Etienne</idno>
+<idno type="stamp" n="CNRS">
+CNRS - Centre national de la recherche scientifique
+</idno>
+<idno type="stamp" n="EC-LYON">Ecole Centrale de Lyon</idno>
+<idno type="stamp" n="INSMI">
+CNRS-INSMI - INstitut des Sciences Mathématiques et de leurs Interactions
+</idno>
+<idno type="stamp" n="IMT">Institut de Mathématiques de Toulouse</idno>
+<idno type="stamp" n="ICJ" corresp="UNIV-LYON1">Institut Camille Jordan</idno>
+<idno type="stamp" n="UNIV-TLSE2">Université Toulouse 2</idno>
+<idno type="stamp" n="INSA-LYON">Institut National des Sciences Appliquées de Lyon</idno>
+<idno type="stamp" n="UNIV-LYON1">Université Claude Bernard - Lyon I</idno>
+<idno type="stamp" n="INSA-GROUPE">Groupe INSA</idno>
+<idno type="stamp" n="UNIV-TLSE3">Université Paul Sabatier - Toulouse III</idno>
+<idno type="stamp" n="ICJ-PSPM" corresp="ICJ">Probabilités, statistique, physique mathématique</idno>
+<idno type="stamp" n="UT1-CAPITOLE">Université Toulouse 1 Capitole</idno>
+<idno type="stamp" n="UDL">UDL</idno>
+<idno type="stamp" n="UNIV-LYON">Université de Lyon</idno>
+<idno type="stamp" n="INSA-TOULOUSE">
+Institut National des Sciences Appliquées de Toulouse
+</idno>
+</seriesStmt>
+<notesStmt>
+<note type="audience" n="2">International</note>
+<note type="popular" n="0">No</note>
+<note type="peer" n="1">Yes</note>
+</notesStmt>
+<sourceDesc>
+<biblStruct>
+<analytic>
+<title xml:lang="en">
+A Kriging procedure for processes indexed by graphs
+</title>
+<author role="crp">
+<persName>
+<forename type="first">Thibault</forename>
+<surname>Espinasse</surname>
+</persName>
+<email type="md5">c05d12b9822a379e58a61ee2720950a1</email>
+<email type="domain">math.univ-lyon1.fr</email>
+<idno type="idhal" notation="string">thibault-espinasse</idno>
+<idno type="idhal" notation="numeric">17478</idno>
+<idno type="halauthorid">1018731</idno>
+<idno type="ORCID">https://orcid.org/0000-0001-6013-747X</idno>
+<affiliation ref="#struct-521755"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Jean-Michel</forename>
+<surname>Loubes</surname>
+</persName>
+<email type="md5">601d49c174433240abf30512f64b2fb4</email>
+<email type="domain">math.univ-toulouse.fr</email>
+<idno type="idhal" notation="string">jean-michel-loubes</idno>
+<idno type="idhal" notation="numeric">12832</idno>
+<idno type="halauthorid">374201</idno>
+<affiliation ref="#struct-1954"/>
+</author>
+</analytic>
+<monogr>
+<idno type="halJournalId" status="VALID">19139</idno>
+<idno type="issn">1387-0874</idno>
+<idno type="eissn">1572-9311</idno>
+<title level="j">Statistical Inference for Stochastic Processes</title>
+<imprint>
+<publisher>Springer Verlag</publisher>
+<biblScope unit="volume">19</biblScope>
+<biblScope unit="issue">2</biblScope>
+<biblScope unit="pp">159–173</biblScope>
+<date type="datePub">2016</date>
+</imprint>
+</monogr>
+<idno type="doi">10.1007/s11203-015-9128-7</idno>
+<idno type="arxiv">1406.6592</idno>
+</biblStruct>
+</sourceDesc>
+<profileDesc>
+<langUsage>
+<language ident="en">English</language>
+</langUsage>
+<textClass>
+<keywords scheme="author">
+<term xml:lang="en">graphs</term>
+<term xml:lang="en">Gaussian process</term>
+<term xml:lang="en">kriging</term>
+</keywords>
+<classCode scheme="halDomain" n="math.math-st">Mathematics [math]/Statistics [math.ST]</classCode>
+<classCode scheme="halDomain" n="stat.th">Statistics [stat]/Statistics Theory [stat.TH]</classCode>
+<classCode scheme="halTypology" n="ART">Journal articles</classCode>
+</textClass>
+<abstract xml:lang="en">
+<p>
+We provide a new kriging procedure of processes on graphs. Based on the construction of Gaussian random processes indexed by graphs, we extend to this framework the usual linear prediction method for spatial random fields, known as kriging. We provide the expression of the estimator of such a random field at unobserved locations as well as a control for the prediction error.
+</p>
+</abstract>
+</profileDesc>
+</biblFull>
+<biblFull>
+<titleStmt>
+<title xml:lang="en">
+Relations between connected and self-avoiding walks in a digraph
+</title>
+<author role="aut">
+<persName>
+<forename type="first">Thibault</forename>
+<surname>Espinasse</surname>
+</persName>
+<email type="md5">c05d12b9822a379e58a61ee2720950a1</email>
+<email type="domain">math.univ-lyon1.fr</email>
+<idno type="idhal" notation="string">thibault-espinasse</idno>
+<idno type="idhal" notation="numeric">17478</idno>
+<idno type="halauthorid">1018731</idno>
+<idno type="ORCID">https://orcid.org/0000-0001-6013-747X</idno>
+<affiliation ref="#struct-521755"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Paul</forename>
+<surname>Rochet</surname>
+</persName>
+<idno type="halauthorid">503155</idno>
+<affiliation ref="#struct-37"/>
+</author>
+<editor role="depositor">
+<persName>
+<forename>Paul</forename>
+<surname>Rochet</surname>
+</persName>
+<email type="md5">772cbeff700d2e2ffd7d670faa9a46f4</email>
+<email type="domain">laposte.net</email>
+</editor>
+</titleStmt>
+<editionStmt>
+<edition n="v1">
+<date type="whenSubmitted">2015-05-19 12:11:48</date>
+</edition>
+<edition n="v2" type="current">
+<date type="whenSubmitted">2015-12-21 14:38:08</date>
+<date type="whenModified">2021-06-28 14:26:07</date>
+<date type="whenReleased">2015-12-21 17:54:09</date>
+<date type="whenProduced">2015-12-21</date>
+<date type="whenEndEmbargoed">2015-12-21</date>
+<ref type="file" target="https://hal.archives-ouvertes.fr/hal-01153191v2/document">
+<date notBefore="2015-12-21"/>
+</ref>
+<ref type="file" subtype="author" n="1" target="https://hal.archives-ouvertes.fr/hal-01153191v2/file/Relations_between_connected_and_self-avoiding_walks_in_a_digraph.pdf">
+<date notBefore="2015-12-21"/>
+</ref>
+<ref type="externalLink" target="http://arxiv.org/pdf/1505.05725"/>
+</edition>
+<respStmt>
+<resp>contributor</resp>
+<name key="141312">
+<persName>
+<forename>Paul</forename>
+<surname>Rochet</surname>
+</persName>
+<email type="md5">772cbeff700d2e2ffd7d670faa9a46f4</email>
+<email type="domain">laposte.net</email>
+</name>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<distributor>CCSD</distributor>
+<idno type="halId">hal-01153191</idno>
+<idno type="halUri">https://hal.archives-ouvertes.fr/hal-01153191</idno>
+<idno type="halBibtex">espinasse:hal-01153191</idno>
+<idno type="halRefHtml">2015</idno>
+<idno type="halRef">2015</idno>
+</publicationStmt>
+<seriesStmt>
+<idno type="stamp" n="CNRS">
+CNRS - Centre national de la recherche scientifique
+</idno>
+<idno type="stamp" n="EC-LYON">Ecole Centrale de Lyon</idno>
+<idno type="stamp" n="INSMI">
+CNRS-INSMI - INstitut des Sciences Mathématiques et de leurs Interactions
+</idno>
+<idno type="stamp" n="UNIV-NANTES">Université de Nantes</idno>
+<idno type="stamp" n="CHL">Centre Henri Lebesgue</idno>
+<idno type="stamp" n="UNIV-ST-ETIENNE">Université Jean Monnet - Saint-Etienne</idno>
+<idno type="stamp" n="LMJL" corresp="UNIV-NANTES">Laboratoire de Mathématiques Jean Leray</idno>
+<idno type="stamp" n="ICJ" corresp="UNIV-LYON1">Institut Camille Jordan</idno>
+<idno type="stamp" n="FMPL">
+Fédération de recherche Mathématiques des Pays de Loire
+</idno>
+<idno type="stamp" n="INSA-LYON">Institut National des Sciences Appliquées de Lyon</idno>
+<idno type="stamp" n="UNIV-LYON1">Université Claude Bernard - Lyon I</idno>
+<idno type="stamp" n="INSA-GROUPE">Groupe INSA</idno>
+<idno type="stamp" n="ICJ-PSPM" corresp="ICJ">Probabilités, statistique, physique mathématique</idno>
+<idno type="stamp" n="UDL">UDL</idno>
+<idno type="stamp" n="UNIV-LYON">Université de Lyon</idno>
+</seriesStmt>
+<notesStmt/>
+<sourceDesc>
+<biblStruct>
+<analytic>
+<title xml:lang="en">
+Relations between connected and self-avoiding walks in a digraph
+</title>
+<author role="aut">
+<persName>
+<forename type="first">Thibault</forename>
+<surname>Espinasse</surname>
+</persName>
+<email type="md5">c05d12b9822a379e58a61ee2720950a1</email>
+<email type="domain">math.univ-lyon1.fr</email>
+<idno type="idhal" notation="string">thibault-espinasse</idno>
+<idno type="idhal" notation="numeric">17478</idno>
+<idno type="halauthorid">1018731</idno>
+<idno type="ORCID">https://orcid.org/0000-0001-6013-747X</idno>
+<affiliation ref="#struct-521755"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Paul</forename>
+<surname>Rochet</surname>
+</persName>
+<idno type="halauthorid">503155</idno>
+<affiliation ref="#struct-37"/>
+</author>
+</analytic>
+<monogr>
+<imprint/>
+</monogr>
+<idno type="arxiv">1505.05725</idno>
+</biblStruct>
+</sourceDesc>
+<profileDesc>
+<langUsage>
+<language ident="en">English</language>
+</langUsage>
+<textClass>
+<keywords scheme="author">
+<term xml:lang="en">characteristic polynomial</term>
+<term xml:lang="en">variable adjacency matrix</term>
+<term xml:lang="en">poset</term>
+<term xml:lang="en">directed graph</term>
+<term xml:lang="en">incidence algebra</term>
+</keywords>
+<classCode scheme="halDomain" n="math.math-co">Mathematics [math]/Combinatorics [math.CO]</classCode>
+<classCode scheme="halTypology" n="UNDEFINED">Preprints, Working Papers, ...</classCode>
+</textClass>
+<abstract xml:lang="en">
+<p>
+Walks in a directed graph can be given a partially ordered structure that extends to possibly unconnected objects, called hikes. Studying the incidence algebra on this poset reveals unsuspected relations between walks and self-avoiding hikes. These relations are derived by considering truncated versions of the characteristic polynomial of the weighted adjacency matrix, resulting in a collection of matrices whose entries enumerate the self-avoiding hikes of length $\ell$ from one vertex to another.
+</p>
+</abstract>
+</profileDesc>
+</biblFull>
+<biblFull>
+<titleStmt>
+<title xml:lang="en">Diffusivity of a random walk on random walks</title>
+<author role="aut">
+<persName>
+<forename type="first">Emmanuel</forename>
+<surname>Boissard</surname>
+</persName>
+<email type="md5">94e746e0dec12b5f76ad9bfe7b99c166</email>
+<email type="domain">gmail.com</email>
+<idno type="halauthorid">773763</idno>
+<affiliation ref="#struct-1954"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Serge</forename>
+<surname>Cohen</surname>
+</persName>
+<email type="md5">4e6051e33b101cd0094dce4c1527cb6a</email>
+<email type="domain">math.ups-tlse.fr</email>
+<idno type="idhal" notation="string">serge-cohen</idno>
+<idno type="idhal" notation="numeric">175606</idno>
+<idno type="halauthorid">176423</idno>
+<affiliation ref="#struct-1954"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Thibault</forename>
+<surname>Espinasse</surname>
+</persName>
+<email type="md5">c05d12b9822a379e58a61ee2720950a1</email>
+<email type="domain">math.univ-lyon1.fr</email>
+<idno type="idhal" notation="string">thibault-espinasse</idno>
+<idno type="idhal" notation="numeric">17478</idno>
+<idno type="halauthorid">1018731</idno>
+<idno type="ORCID">https://orcid.org/0000-0001-6013-747X</idno>
+<affiliation ref="#struct-1954"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">James</forename>
+<surname>Norris</surname>
+</persName>
+<email type="md5">d985fc40a81814807c2a8c79552a272c</email>
+<email type="domain">statslab.cam.ac.uk</email>
+<idno type="halauthorid">3026</idno>
+<affiliation ref="#struct-4067"/>
+</author>
+<editor role="depositor">
+<persName>
+<forename>Serge</forename>
+<surname>Cohen</surname>
+</persName>
+<email type="md5">b5d35609b1b0eeb0851e831d5110e354</email>
+<email type="domain">math.univ-toulouse.fr</email>
+</editor>
+</titleStmt>
+<editionStmt>
+<edition n="v1" type="current">
+<date type="whenSubmitted">2019-01-08 16:37:38</date>
+<date type="whenModified">2021-06-09 13:14:02</date>
+<date type="whenReleased">2019-01-08 16:37:38</date>
+<date type="whenProduced">2015-09</date>
+</edition>
+<respStmt>
+<resp>contributor</resp>
+<name key="165076">
+<persName>
+<forename>Serge</forename>
+<surname>Cohen</surname>
+</persName>
+<email type="md5">b5d35609b1b0eeb0851e831d5110e354</email>
+<email type="domain">math.univ-toulouse.fr</email>
+</name>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<distributor>CCSD</distributor>
+<idno type="halId">hal-01974253</idno>
+<idno type="halUri">https://hal.archives-ouvertes.fr/hal-01974253</idno>
+<idno type="halBibtex">boissard:hal-01974253</idno>
+<idno type="halRefHtml">
+<i>Random Structures and Algorithms</i>, Wiley, 2015, 47 (2), pp.267-283
+</idno>
+<idno type="halRef">
+Random Structures and Algorithms, Wiley, 2015, 47 (2), pp.267-283
+</idno>
+</publicationStmt>
+<seriesStmt>
+<idno type="stamp" n="CNRS">
+CNRS - Centre national de la recherche scientifique
+</idno>
+<idno type="stamp" n="INSMI">
+CNRS-INSMI - INstitut des Sciences Mathématiques et de leurs Interactions
+</idno>
+<idno type="stamp" n="UNIV-TLSE2">Université Toulouse 2</idno>
+<idno type="stamp" n="IMT">Institut de Mathématiques de Toulouse</idno>
+<idno type="stamp" n="UNIV-TLSE3">Université Paul Sabatier - Toulouse III</idno>
+<idno type="stamp" n="UT1-CAPITOLE">Université Toulouse 1 Capitole</idno>
+<idno type="stamp" n="INSA-TOULOUSE">
+Institut National des Sciences Appliquées de Toulouse
+</idno>
+<idno type="stamp" n="INSA-GROUPE">Groupe INSA</idno>
+</seriesStmt>
+<notesStmt>
+<note type="audience" n="2">International</note>
+<note type="popular" n="0">No</note>
+<note type="peer" n="1">Yes</note>
+</notesStmt>
+<sourceDesc>
+<biblStruct>
+<analytic>
+<title xml:lang="en">Diffusivity of a random walk on random walks</title>
+<author role="aut">
+<persName>
+<forename type="first">Emmanuel</forename>
+<surname>Boissard</surname>
+</persName>
+<email type="md5">94e746e0dec12b5f76ad9bfe7b99c166</email>
+<email type="domain">gmail.com</email>
+<idno type="halauthorid">773763</idno>
+<affiliation ref="#struct-1954"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Serge</forename>
+<surname>Cohen</surname>
+</persName>
+<email type="md5">4e6051e33b101cd0094dce4c1527cb6a</email>
+<email type="domain">math.ups-tlse.fr</email>
+<idno type="idhal" notation="string">serge-cohen</idno>
+<idno type="idhal" notation="numeric">175606</idno>
+<idno type="halauthorid">176423</idno>
+<affiliation ref="#struct-1954"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Thibault</forename>
+<surname>Espinasse</surname>
+</persName>
+<email type="md5">c05d12b9822a379e58a61ee2720950a1</email>
+<email type="domain">math.univ-lyon1.fr</email>
+<idno type="idhal" notation="string">thibault-espinasse</idno>
+<idno type="idhal" notation="numeric">17478</idno>
+<idno type="halauthorid">1018731</idno>
+<idno type="ORCID">https://orcid.org/0000-0001-6013-747X</idno>
+<affiliation ref="#struct-1954"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">James</forename>
+<surname>Norris</surname>
+</persName>
+<email type="md5">d985fc40a81814807c2a8c79552a272c</email>
+<email type="domain">statslab.cam.ac.uk</email>
+<idno type="halauthorid">3026</idno>
+<affiliation ref="#struct-4067"/>
+</author>
+</analytic>
+<monogr>
+<idno type="halJournalId" status="VALID">18500</idno>
+<idno type="issn">1042-9832</idno>
+<idno type="eissn">1098-2418</idno>
+<title level="j">Random Structures and Algorithms</title>
+<imprint>
+<publisher>Wiley</publisher>
+<biblScope unit="volume">47</biblScope>
+<biblScope unit="issue">2</biblScope>
+<biblScope unit="pp">267-283</biblScope>
+<date type="datePub">2015-09</date>
+</imprint>
+</monogr>
+</biblStruct>
+</sourceDesc>
+<profileDesc>
+<langUsage>
+<language ident="en">English</language>
+</langUsage>
+<textClass>
+<classCode scheme="halDomain" n="math.math-pr">Mathematics [math]/Probability [math.PR]</classCode>
+<classCode scheme="halTypology" n="ART">Journal articles</classCode>
+</textClass>
+</profileDesc>
+</biblFull>
+<biblFull>
+<titleStmt>
+<title xml:lang="en">
+Estimating the transition matrix of a Markov chain observed at random times
+</title>
+<author role="aut">
+<persName>
+<forename type="first">Flavia</forename>
+<surname>Barsotti</surname>
+</persName>
+<idno type="halauthorid">1166194</idno>
+<affiliation ref="#struct-253345"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Yohann</forename>
+<surname>De Castro</surname>
+</persName>
+<idno type="halauthorid">1170525</idno>
+<affiliation ref="#struct-40"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Thibault</forename>
+<surname>Espinasse</surname>
+</persName>
+<email type="md5">c05d12b9822a379e58a61ee2720950a1</email>
+<email type="domain">math.univ-lyon1.fr</email>
+<idno type="idhal" notation="string">thibault-espinasse</idno>
+<idno type="idhal" notation="numeric">17478</idno>
+<idno type="halauthorid">1018731</idno>
+<idno type="ORCID">https://orcid.org/0000-0001-6013-747X</idno>
+<affiliation ref="#struct-521755"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Paul</forename>
+<surname>Rochet</surname>
+</persName>
+<idno type="halauthorid">503155</idno>
+<affiliation ref="#struct-37"/>
+</author>
+<editor role="depositor">
+<persName>
+<forename>Yohann</forename>
+<surname>De Castro</surname>
+</persName>
+<email type="md5">d172101cf7c4d1d8159be4bda492930a</email>
+<email type="domain">enpc.fr</email>
+</editor>
+</titleStmt>
+<editionStmt>
+<edition n="v1" type="current">
+<date type="whenSubmitted">2014-05-02 11:33:00</date>
+<date type="whenWritten">2014-05-02</date>
+<date type="whenModified">2021-06-28 14:26:07</date>
+<date type="whenReleased">2014-05-02 13:39:29</date>
+<date type="whenProduced">2014-11</date>
+<date type="whenEndEmbargoed">2014-05-02</date>
+<ref type="file" target="https://hal.archives-ouvertes.fr/hal-00986360/document">
+<date notBefore="2014-05-02"/>
+</ref>
+<ref type="file" subtype="author" n="1" target="https://hal.archives-ouvertes.fr/hal-00986360/file/Estimating_the_transition_matrix_of_a_Markov_chain_observed_at_random_times.pdf">
+<date notBefore="2014-05-02"/>
+</ref>
+<ref type="externalLink" target="http://arxiv.org/pdf/1405.0384"/>
+</edition>
+<respStmt>
+<resp>contributor</resp>
+<name key="160657">
+<persName>
+<forename>Yohann</forename>
+<surname>De Castro</surname>
+</persName>
+<email type="md5">d172101cf7c4d1d8159be4bda492930a</email>
+<email type="domain">enpc.fr</email>
+</name>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<distributor>CCSD</distributor>
+<idno type="halId">hal-00986360</idno>
+<idno type="halUri">https://hal.archives-ouvertes.fr/hal-00986360</idno>
+<idno type="halBibtex">barsotti:hal-00986360</idno>
+<idno type="halRefHtml">
+<i>Statistics and Probability Letters</i>, Elsevier, 2014, 94, <a target="_blank" href="https://dx.doi.org/10.1016/j.spl.2014.07.009">&#x27E8;10.1016/j.spl.2014.07.009&#x27E9;</a>
+</idno>
+<idno type="halRef">
+Statistics and Probability Letters, Elsevier, 2014, 94, &#x27E8;10.1016/j.spl.2014.07.009&#x27E9;
+</idno>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by/">Attribution</licence>
+</availability>
+</publicationStmt>
+<seriesStmt>
+<idno type="stamp" n="CNRS">
+CNRS - Centre national de la recherche scientifique
+</idno>
+<idno type="stamp" n="EC-LYON">Ecole Centrale de Lyon</idno>
+<idno type="stamp" n="LM-ORSAY">Laboratoire de Mathématiques d'Orsay</idno>
+<idno type="stamp" n="ICJ" corresp="UNIV-LYON1">Institut Camille Jordan</idno>
+<idno type="stamp" n="INSMI">
+CNRS-INSMI - INstitut des Sciences Mathématiques et de leurs Interactions
+</idno>
+<idno type="stamp" n="LMJL" corresp="UNIV-NANTES">Laboratoire de Mathématiques Jean Leray</idno>
+<idno type="stamp" n="FMPL">
+Fédération de recherche Mathématiques des Pays de Loire
+</idno>
+<idno type="stamp" n="UNIV-NANTES">Université de Nantes</idno>
+<idno type="stamp" n="CHL">Centre Henri Lebesgue</idno>
+<idno type="stamp" n="UNIV-ST-ETIENNE">Université Jean Monnet - Saint-Etienne</idno>
+<idno type="stamp" n="UNIV-PSUD">Université Paris Sud - Paris XI</idno>
+<idno type="stamp" n="INSA-LYON">Institut National des Sciences Appliquées de Lyon</idno>
+<idno type="stamp" n="UNIV-LYON1">Université Claude Bernard - Lyon I</idno>
+<idno type="stamp" n="INSA-GROUPE">Groupe INSA</idno>
+<idno type="stamp" n="ICJ-PSPM" corresp="ICJ">Probabilités, statistique, physique mathématique</idno>
+<idno type="stamp" n="UDL">UDL</idno>
+<idno type="stamp" n="UNIV-LYON">Université de Lyon</idno>
+<idno type="stamp" n="GS-MATHEMATIQUES">Graduate School Mathématiques</idno>
+<idno type="stamp" n="UNIV-PSUD-SACLAY" corresp="UNIV-PARIS-SACLAY">Université Paris Sud pour Paris Saclay</idno>
+<idno type="stamp" n="UNIV-PARIS-SACLAY">Université Paris-Saclay</idno>
+</seriesStmt>
+<notesStmt>
+<note type="audience" n="1">Not set</note>
+<note type="popular" n="0">No</note>
+<note type="peer" n="1">Yes</note>
+</notesStmt>
+<sourceDesc>
+<biblStruct>
+<analytic>
+<title xml:lang="en">
+Estimating the transition matrix of a Markov chain observed at random times
+</title>
+<author role="aut">
+<persName>
+<forename type="first">Flavia</forename>
+<surname>Barsotti</surname>
+</persName>
+<idno type="halauthorid">1166194</idno>
+<affiliation ref="#struct-253345"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Yohann</forename>
+<surname>De Castro</surname>
+</persName>
+<idno type="halauthorid">1170525</idno>
+<affiliation ref="#struct-40"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Thibault</forename>
+<surname>Espinasse</surname>
+</persName>
+<email type="md5">c05d12b9822a379e58a61ee2720950a1</email>
+<email type="domain">math.univ-lyon1.fr</email>
+<idno type="idhal" notation="string">thibault-espinasse</idno>
+<idno type="idhal" notation="numeric">17478</idno>
+<idno type="halauthorid">1018731</idno>
+<idno type="ORCID">https://orcid.org/0000-0001-6013-747X</idno>
+<affiliation ref="#struct-521755"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Paul</forename>
+<surname>Rochet</surname>
+</persName>
+<idno type="halauthorid">503155</idno>
+<affiliation ref="#struct-37"/>
+</author>
+</analytic>
+<monogr>
+<idno type="halJournalId" status="VALID">19147</idno>
+<idno type="issn">0167-7152</idno>
+<title level="j">Statistics and Probability Letters</title>
+<imprint>
+<publisher>Elsevier</publisher>
+<biblScope unit="volume">94</biblScope>
+<date type="datePub">2014-11</date>
+</imprint>
+</monogr>
+<idno type="arxiv">1405.0384</idno>
+<idno type="doi">10.1016/j.spl.2014.07.009</idno>
+</biblStruct>
+</sourceDesc>
+<profileDesc>
+<langUsage>
+<language ident="en">English</language>
+</langUsage>
+<textClass>
+<keywords scheme="author">
+<term xml:lang="en">Asymptotic normality</term>
+<term xml:lang="en">Markov chain</term>
+<term xml:lang="en">Spectral operator</term>
+<term xml:lang="en">Identifiability</term>
+</keywords>
+<classCode scheme="halDomain" n="math.math-st">Mathematics [math]/Statistics [math.ST]</classCode>
+<classCode scheme="halDomain" n="stat.th">Statistics [stat]/Statistics Theory [stat.TH]</classCode>
+<classCode scheme="halDomain" n="stat.me">Statistics [stat]/Methodology [stat.ME]</classCode>
+<classCode scheme="halTypology" n="ART">Journal articles</classCode>
+</textClass>
+<abstract xml:lang="en">
+<p>
+In this paper we develop a statistical estimation technique to recover the transition kernel $P$ of a Markov chain $X=(X_m)_{m \in \mathbb N}$ in presence of censored data. We consider the situation where only a sub-sequence of $X$ is available and the time gaps between the observations are iid random variables. Under the assumption that neither the time gaps nor their distribution are known, we provide an estimation method which applies when some transitions in the initial Markov chain $X$ are known to be unfeasible. A consistent estimator of $P$ is derived in closed form as a solution of a minimization problem. The asymptotic performance of the estimator is then discussed in theory and through numerical simulations.
+</p>
+</abstract>
+</profileDesc>
+</biblFull>
+<biblFull>
+<titleStmt>
+<title xml:lang="en">
+Parametric estimation for Gaussian fields indexed by graphs
+</title>
+<author role="aut">
+<persName>
+<forename type="first">Thibault</forename>
+<surname>Espinasse</surname>
+</persName>
+<email type="md5">c05d12b9822a379e58a61ee2720950a1</email>
+<email type="domain">math.univ-lyon1.fr</email>
+<idno type="idhal" notation="string">thibault-espinasse</idno>
+<idno type="idhal" notation="numeric">17478</idno>
+<idno type="halauthorid">1018731</idno>
+<idno type="ORCID">https://orcid.org/0000-0001-6013-747X</idno>
+<affiliation ref="#struct-1954"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Fabrice</forename>
+<surname>Gamboa</surname>
+</persName>
+<idno type="halauthorid">194184</idno>
+<affiliation ref="#struct-1954"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Jean-Michel</forename>
+<surname>Loubes</surname>
+</persName>
+<email type="md5">601d49c174433240abf30512f64b2fb4</email>
+<email type="domain">math.univ-toulouse.fr</email>
+<idno type="idhal" notation="string">jean-michel-loubes</idno>
+<idno type="idhal" notation="numeric">12832</idno>
+<idno type="halauthorid">374201</idno>
+<affiliation ref="#struct-1954"/>
+</author>
+<editor role="depositor">
+<persName>
+<forename>Fabrice</forename>
+<surname>Gamboa</surname>
+</persName>
+<email type="md5">c46a60d9346ba629ee42b35ba95cf0d6</email>
+<email type="domain">math.univ-toulouse.fr</email>
+</editor>
+</titleStmt>
+<editionStmt>
+<edition n="v1" type="current">
+<date type="whenSubmitted">2019-01-14 15:44:15</date>
+<date type="whenModified">2021-06-09 13:14:02</date>
+<date type="whenReleased">2019-01-14 15:44:15</date>
+<date type="whenProduced">2014-06</date>
+</edition>
+<respStmt>
+<resp>contributor</resp>
+<name key="126904">
+<persName>
+<forename>Fabrice</forename>
+<surname>Gamboa</surname>
+</persName>
+<email type="md5">c46a60d9346ba629ee42b35ba95cf0d6</email>
+<email type="domain">math.univ-toulouse.fr</email>
+</name>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<distributor>CCSD</distributor>
+<idno type="halId">hal-01980655</idno>
+<idno type="halUri">https://hal.archives-ouvertes.fr/hal-01980655</idno>
+<idno type="halBibtex">espinasse:hal-01980655</idno>
+<idno type="halRefHtml">
+<i>Probability Theory and Related Fields</i>, Springer Verlag, 2014, 159 (1-2), pp.117-155
+</idno>
+<idno type="halRef">
+Probability Theory and Related Fields, Springer Verlag, 2014, 159 (1-2), pp.117-155
+</idno>
+</publicationStmt>
+<seriesStmt>
+<idno type="stamp" n="CNRS">
+CNRS - Centre national de la recherche scientifique
+</idno>
+<idno type="stamp" n="INSMI">
+CNRS-INSMI - INstitut des Sciences Mathématiques et de leurs Interactions
+</idno>
+<idno type="stamp" n="UNIV-TLSE2">Université Toulouse 2</idno>
+<idno type="stamp" n="IMT">Institut de Mathématiques de Toulouse</idno>
+<idno type="stamp" n="UNIV-TLSE3">Université Paul Sabatier - Toulouse III</idno>
+<idno type="stamp" n="UT1-CAPITOLE">Université Toulouse 1 Capitole</idno>
+<idno type="stamp" n="INSA-TOULOUSE">
+Institut National des Sciences Appliquées de Toulouse
+</idno>
+<idno type="stamp" n="INSA-GROUPE">Groupe INSA</idno>
+</seriesStmt>
+<notesStmt>
+<note type="audience" n="2">International</note>
+<note type="popular" n="0">No</note>
+<note type="peer" n="1">Yes</note>
+</notesStmt>
+<sourceDesc>
+<biblStruct>
+<analytic>
+<title xml:lang="en">
+Parametric estimation for Gaussian fields indexed by graphs
+</title>
+<author role="aut">
+<persName>
+<forename type="first">Thibault</forename>
+<surname>Espinasse</surname>
+</persName>
+<email type="md5">c05d12b9822a379e58a61ee2720950a1</email>
+<email type="domain">math.univ-lyon1.fr</email>
+<idno type="idhal" notation="string">thibault-espinasse</idno>
+<idno type="idhal" notation="numeric">17478</idno>
+<idno type="halauthorid">1018731</idno>
+<idno type="ORCID">https://orcid.org/0000-0001-6013-747X</idno>
+<affiliation ref="#struct-1954"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Fabrice</forename>
+<surname>Gamboa</surname>
+</persName>
+<idno type="halauthorid">194184</idno>
+<affiliation ref="#struct-1954"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Jean-Michel</forename>
+<surname>Loubes</surname>
+</persName>
+<email type="md5">601d49c174433240abf30512f64b2fb4</email>
+<email type="domain">math.univ-toulouse.fr</email>
+<idno type="idhal" notation="string">jean-michel-loubes</idno>
+<idno type="idhal" notation="numeric">12832</idno>
+<idno type="halauthorid">374201</idno>
+<affiliation ref="#struct-1954"/>
+</author>
+</analytic>
+<monogr>
+<idno type="halJournalId" status="VALID">18192</idno>
+<idno type="issn">0178-8051</idno>
+<idno type="eissn">1432-2064</idno>
+<title level="j">Probability Theory and Related Fields</title>
+<imprint>
+<publisher>Springer Verlag</publisher>
+<biblScope unit="volume">159</biblScope>
+<biblScope unit="issue">1-2</biblScope>
+<biblScope unit="pp">117-155</biblScope>
+<date type="datePub">2014-06</date>
+</imprint>
+</monogr>
+</biblStruct>
+</sourceDesc>
+<profileDesc>
+<langUsage>
+<language ident="en">English</language>
+</langUsage>
+<textClass>
+<classCode scheme="halDomain" n="math.math-st">Mathematics [math]/Statistics [math.ST]</classCode>
+<classCode scheme="halTypology" n="ART">Journal articles</classCode>
+</textClass>
+</profileDesc>
+</biblFull>
+<biblFull>
+<titleStmt>
+<title xml:lang="en">Diffusivity of a random walk on random walks</title>
+<author role="aut">
+<persName>
+<forename type="first">Emmanuel</forename>
+<surname>Boissard</surname>
+</persName>
+<email type="md5">94e746e0dec12b5f76ad9bfe7b99c166</email>
+<email type="domain">gmail.com</email>
+<idno type="halauthorid">773763</idno>
+<affiliation ref="#struct-1954"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Serge</forename>
+<surname>Cohen</surname>
+</persName>
+<email type="md5">4e6051e33b101cd0094dce4c1527cb6a</email>
+<email type="domain">math.ups-tlse.fr</email>
+<idno type="idhal" notation="string">serge-cohen</idno>
+<idno type="idhal" notation="numeric">175606</idno>
+<idno type="halauthorid">176423</idno>
+<affiliation ref="#struct-1954"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Thibault</forename>
+<surname>Espinasse</surname>
+</persName>
+<email type="md5">c05d12b9822a379e58a61ee2720950a1</email>
+<email type="domain">math.univ-lyon1.fr</email>
+<idno type="idhal" notation="string">thibault-espinasse</idno>
+<idno type="idhal" notation="numeric">17478</idno>
+<idno type="halauthorid">1018731</idno>
+<idno type="ORCID">https://orcid.org/0000-0001-6013-747X</idno>
+<affiliation ref="#struct-1954"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">James</forename>
+<surname>Norris</surname>
+</persName>
+<email type="md5">d985fc40a81814807c2a8c79552a272c</email>
+<email type="domain">statslab.cam.ac.uk</email>
+<idno type="halauthorid">3026</idno>
+<affiliation ref="#struct-4067"/>
+</author>
+<editor role="depositor">
+<persName>
+<forename>Serge</forename>
+<surname>Cohen</surname>
+</persName>
+<email type="md5">b5d35609b1b0eeb0851e831d5110e354</email>
+<email type="domain">math.univ-toulouse.fr</email>
+</editor>
+</titleStmt>
+<editionStmt>
+<edition n="v1" type="current">
+<date type="whenSubmitted">2012-10-17 16:42:06</date>
+<date type="whenWritten">2012-10-10</date>
+<date type="whenModified">2021-06-09 13:14:02</date>
+<date type="whenReleased">2012-10-17 17:13:36</date>
+<date type="whenProduced">2012-10-10</date>
+<date type="whenEndEmbargoed">2012-10-17</date>
+<ref type="file" target="https://hal.archives-ouvertes.fr/hal-00742938/document">
+<date notBefore="2012-10-17"/>
+</ref>
+<ref type="file" subtype="author" n="1" target="https://hal.archives-ouvertes.fr/hal-00742938/file/no-prisonners-RSA2.pdf">
+<date notBefore="2012-10-17"/>
+</ref>
+</edition>
+<respStmt>
+<resp>contributor</resp>
+<name key="165076">
+<persName>
+<forename>Serge</forename>
+<surname>Cohen</surname>
+</persName>
+<email type="md5">b5d35609b1b0eeb0851e831d5110e354</email>
+<email type="domain">math.univ-toulouse.fr</email>
+</name>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<distributor>CCSD</distributor>
+<idno type="halId">hal-00742938</idno>
+<idno type="halUri">https://hal.archives-ouvertes.fr/hal-00742938</idno>
+<idno type="halBibtex">boissard:hal-00742938</idno>
+<idno type="halRefHtml">2012</idno>
+<idno type="halRef">2012</idno>
+</publicationStmt>
+<seriesStmt>
+<idno type="stamp" n="CNRS">
+CNRS - Centre national de la recherche scientifique
+</idno>
+<idno type="stamp" n="INSMI">
+CNRS-INSMI - INstitut des Sciences Mathématiques et de leurs Interactions
+</idno>
+<idno type="stamp" n="IMT">Institut de Mathématiques de Toulouse</idno>
+<idno type="stamp" n="UNIV-TLSE2">Université Toulouse 2</idno>
+<idno type="stamp" n="UNIV-TLSE3">Université Paul Sabatier - Toulouse III</idno>
+<idno type="stamp" n="UT1-CAPITOLE">Université Toulouse 1 Capitole</idno>
+<idno type="stamp" n="INSA-TOULOUSE">
+Institut National des Sciences Appliquées de Toulouse
+</idno>
+<idno type="stamp" n="INSA-GROUPE">Groupe INSA</idno>
+</seriesStmt>
+<notesStmt>
+<note type="audience" n="1">Not set</note>
+</notesStmt>
+<sourceDesc>
+<biblStruct>
+<analytic>
+<title xml:lang="en">Diffusivity of a random walk on random walks</title>
+<author role="aut">
+<persName>
+<forename type="first">Emmanuel</forename>
+<surname>Boissard</surname>
+</persName>
+<email type="md5">94e746e0dec12b5f76ad9bfe7b99c166</email>
+<email type="domain">gmail.com</email>
+<idno type="halauthorid">773763</idno>
+<affiliation ref="#struct-1954"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Serge</forename>
+<surname>Cohen</surname>
+</persName>
+<email type="md5">4e6051e33b101cd0094dce4c1527cb6a</email>
+<email type="domain">math.ups-tlse.fr</email>
+<idno type="idhal" notation="string">serge-cohen</idno>
+<idno type="idhal" notation="numeric">175606</idno>
+<idno type="halauthorid">176423</idno>
+<affiliation ref="#struct-1954"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Thibault</forename>
+<surname>Espinasse</surname>
+</persName>
+<email type="md5">c05d12b9822a379e58a61ee2720950a1</email>
+<email type="domain">math.univ-lyon1.fr</email>
+<idno type="idhal" notation="string">thibault-espinasse</idno>
+<idno type="idhal" notation="numeric">17478</idno>
+<idno type="halauthorid">1018731</idno>
+<idno type="ORCID">https://orcid.org/0000-0001-6013-747X</idno>
+<affiliation ref="#struct-1954"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">James</forename>
+<surname>Norris</surname>
+</persName>
+<email type="md5">d985fc40a81814807c2a8c79552a272c</email>
+<email type="domain">statslab.cam.ac.uk</email>
+<idno type="halauthorid">3026</idno>
+<affiliation ref="#struct-4067"/>
+</author>
+</analytic>
+<monogr>
+<imprint/>
+</monogr>
+</biblStruct>
+</sourceDesc>
+<profileDesc>
+<langUsage>
+<language ident="en">English</language>
+</langUsage>
+<textClass>
+<keywords scheme="author">
+<term xml:lang="en">Random walk</term>
+<term xml:lang="en">Graph</term>
+<term xml:lang="en">Central limit theorem</term>
+</keywords>
+<classCode scheme="classification">05C81, 60F05</classCode>
+<classCode scheme="halDomain" n="math.math-pr">Mathematics [math]/Probability [math.PR]</classCode>
+<classCode scheme="halTypology" n="UNDEFINED">Preprints, Working Papers, ...</classCode>
+</textClass>
+<abstract xml:lang="en">
+<p>
+We consider a random walk $\left(Z^{(1)}_n, \cdots, Z^{(K+1)}_n \right) \in \mathbb{Z}^{K+1}$ with the constraint that each coordinate of the walk is at distance one from the following one. In this paper, we show that this random walk is slowed down by a variance factor $\sigma_K^2 = \frac{2}{K+2}$ with respect to the case of the classical simple random walk without constraint.
+</p>
+</abstract>
+</profileDesc>
+</biblFull>
+<biblFull>
+<titleStmt>
+<title xml:lang="en">
+Gaussian stationary processes over graphs, general frame and maximum likelihood identification
+</title>
+<author role="aut">
+<persName>
+<forename type="first">Thibault</forename>
+<surname>Espinasse</surname>
+</persName>
+<email type="md5">c05d12b9822a379e58a61ee2720950a1</email>
+<email type="domain">math.univ-lyon1.fr</email>
+<idno type="idhal" notation="string">thibault-espinasse</idno>
+<idno type="idhal" notation="numeric">17478</idno>
+<idno type="halauthorid">1018731</idno>
+<idno type="ORCID">https://orcid.org/0000-0001-6013-747X</idno>
+<affiliation ref="#struct-1954"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Fabrice</forename>
+<surname>Gamboa</surname>
+</persName>
+<email type="md5">c38aead7203ead44532c664f045580d9</email>
+<email type="domain">gmail.com</email>
+<idno type="halauthorid">296918</idno>
+<affiliation ref="#struct-1954"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Jean-Michel</forename>
+<surname>Loubes</surname>
+</persName>
+<email type="md5">601d49c174433240abf30512f64b2fb4</email>
+<email type="domain">math.univ-toulouse.fr</email>
+<idno type="idhal" notation="string">jean-michel-loubes</idno>
+<idno type="idhal" notation="numeric">12832</idno>
+<idno type="halauthorid">374201</idno>
+<affiliation ref="#struct-1954"/>
+</author>
+<editor role="depositor">
+<persName>
+<forename>Jean-Michel</forename>
+<surname>Loubes</surname>
+</persName>
+<email type="md5">601d49c174433240abf30512f64b2fb4</email>
+<email type="domain">math.univ-toulouse.fr</email>
+</editor>
+</titleStmt>
+<editionStmt>
+<edition n="v1">
+<date type="whenSubmitted">2011-04-18 17:41:31</date>
+</edition>
+<edition n="v2">
+<date type="whenSubmitted">2011-06-16 13:25:53</date>
+</edition>
+<edition n="v3" type="current">
+<date type="whenSubmitted">2012-03-21 12:52:51</date>
+<date type="whenModified">2021-06-09 13:14:01</date>
+<date type="whenReleased">2012-03-21 15:55:22</date>
+<date type="whenProduced">2012-03-21</date>
+<date type="whenEndEmbargoed">2012-03-21</date>
+<ref type="file" target="https://hal.archives-ouvertes.fr/hal-00586905v3/document">
+<date notBefore="2012-03-21"/>
+</ref>
+<ref type="file" subtype="author" n="1" target="https://hal.archives-ouvertes.fr/hal-00586905v3/file/whittle_final_version_ptrf_31_aout_2011.pdf">
+<date notBefore="2012-03-21"/>
+</ref>
+<ref type="externalLink" target="http://arxiv.org/pdf/1104.3664"/>
+</edition>
+<respStmt>
+<resp>contributor</resp>
+<name key="101875">
+<persName>
+<forename>Jean-Michel</forename>
+<surname>Loubes</surname>
+</persName>
+<email type="md5">601d49c174433240abf30512f64b2fb4</email>
+<email type="domain">math.univ-toulouse.fr</email>
+</name>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<distributor>CCSD</distributor>
+<idno type="halId">hal-00586905</idno>
+<idno type="halUri">https://hal.archives-ouvertes.fr/hal-00586905</idno>
+<idno type="halBibtex">espinasse:hal-00586905</idno>
+<idno type="halRefHtml">2012</idno>
+<idno type="halRef">2012</idno>
+</publicationStmt>
+<seriesStmt>
+<idno type="stamp" n="CNRS">
+CNRS - Centre national de la recherche scientifique
+</idno>
+<idno type="stamp" n="INSMI">
+CNRS-INSMI - INstitut des Sciences Mathématiques et de leurs Interactions
+</idno>
+<idno type="stamp" n="IMT">Institut de Mathématiques de Toulouse</idno>
+<idno type="stamp" n="UNIV-TLSE2">Université Toulouse 2</idno>
+<idno type="stamp" n="LARA">LARA</idno>
+<idno type="stamp" n="UNIV-TLSE3">Université Paul Sabatier - Toulouse III</idno>
+<idno type="stamp" n="UT1-CAPITOLE">Université Toulouse 1 Capitole</idno>
+<idno type="stamp" n="INSA-TOULOUSE">
+Institut National des Sciences Appliquées de Toulouse
+</idno>
+<idno type="stamp" n="INSA-GROUPE">Groupe INSA</idno>
+</seriesStmt>
+<notesStmt>
+<note type="audience" n="1">Not set</note>
+</notesStmt>
+<sourceDesc>
+<biblStruct>
+<analytic>
+<title xml:lang="en">
+Gaussian stationary processes over graphs, general frame and maximum likelihood identification
+</title>
+<author role="aut">
+<persName>
+<forename type="first">Thibault</forename>
+<surname>Espinasse</surname>
+</persName>
+<email type="md5">c05d12b9822a379e58a61ee2720950a1</email>
+<email type="domain">math.univ-lyon1.fr</email>
+<idno type="idhal" notation="string">thibault-espinasse</idno>
+<idno type="idhal" notation="numeric">17478</idno>
+<idno type="halauthorid">1018731</idno>
+<idno type="ORCID">https://orcid.org/0000-0001-6013-747X</idno>
+<affiliation ref="#struct-1954"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Fabrice</forename>
+<surname>Gamboa</surname>
+</persName>
+<email type="md5">c38aead7203ead44532c664f045580d9</email>
+<email type="domain">gmail.com</email>
+<idno type="halauthorid">296918</idno>
+<affiliation ref="#struct-1954"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Jean-Michel</forename>
+<surname>Loubes</surname>
+</persName>
+<email type="md5">601d49c174433240abf30512f64b2fb4</email>
+<email type="domain">math.univ-toulouse.fr</email>
+<idno type="idhal" notation="string">jean-michel-loubes</idno>
+<idno type="idhal" notation="numeric">12832</idno>
+<idno type="halauthorid">374201</idno>
+<affiliation ref="#struct-1954"/>
+</author>
+</analytic>
+<monogr>
+<imprint/>
+</monogr>
+<idno type="arxiv">1104.3664</idno>
+</biblStruct>
+</sourceDesc>
+<profileDesc>
+<langUsage>
+<language ident="en">English</language>
+</langUsage>
+<textClass>
+<keywords scheme="author">
+<term xml:lang="en">Stochastic processes</term>
+<term xml:lang="en">Graphs</term>
+<term xml:lang="en">Gaussian fields</term>
+</keywords>
+<classCode scheme="classification">60G15;62M15</classCode>
+<classCode scheme="halDomain" n="math.math-st">Mathematics [math]/Statistics [math.ST]</classCode>
+<classCode scheme="halDomain" n="stat.th">Statistics [stat]/Statistics Theory [stat.TH]</classCode>
+<classCode scheme="halTypology" n="REPORT">Reports</classCode>
+</textClass>
+<abstract xml:lang="en">
+<p>
+In this paper, using spectral theory of Hilbertian operators, we study ARMA Gaussian processes indexed by graphs. We extend Whittle maximum likelihood estimation of the parameters for the corresponding spectral density and show their asymptotic optimality.
+</p>
+</abstract>
+</profileDesc>
+</biblFull>
+<biblFull>
+<titleStmt>
+<title xml:lang="en">
+Reducing environmental impact by increasing the strength of concrete: Quantification of the improvement to concrete bridges
+</title>
+<author role="aut">
+<persName>
+<forename type="first">Guillaume</forename>
+<surname>Habert</surname>
+</persName>
+<idno type="halauthorid">349520</idno>
+<affiliation ref="#struct-180925"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">David</forename>
+<surname>Arribe</surname>
+</persName>
+<idno type="halauthorid">1170323</idno>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Thibault</forename>
+<surname>Dehove</surname>
+</persName>
+<idno type="halauthorid">1170324</idno>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Ludovic</forename>
+<surname>Espinasse</surname>
+</persName>
+<idno type="halauthorid">1170325</idno>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Robert</forename>
+<surname>Le Roy</surname>
+</persName>
+<email type="md5">2db857c9b499778acf6100c75a8429d0</email>
+<email type="domain">enpc.fr</email>
+<ptr type="url" target="http://paris-malaquais.archi.fr/etudes/i/leroy-robert/"/>
+<idno type="idhal" notation="string">robert-le-roy</idno>
+<idno type="idhal" notation="numeric">19578</idno>
+<idno type="halauthorid">1170326</idno>
+<orgName ref="#struct-301545"/>
+<affiliation ref="#struct-204904"/>
+</author>
+<editor role="depositor">
+<persName>
+<forename>Frédérique</forename>
+<surname>Bordignon</surname>
+</persName>
+<email type="md5">6ab7dcc25be510ea52e3d2052248c5af</email>
+<email type="domain">enpc.fr</email>
+</editor>
+</titleStmt>
+<editionStmt>
+<edition n="v1" type="current">
+<date type="whenSubmitted">2015-05-27 22:49:57</date>
+<date type="whenModified">2021-05-27 13:54:05</date>
+<date type="whenReleased">2015-05-27 22:49:57</date>
+<date type="whenProduced">2012</date>
+</edition>
+<respStmt>
+<resp>contributor</resp>
+<name key="125655">
+<persName>
+<forename>Frédérique</forename>
+<surname>Bordignon</surname>
+</persName>
+<email type="md5">6ab7dcc25be510ea52e3d2052248c5af</email>
+<email type="domain">enpc.fr</email>
+</name>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<distributor>CCSD</distributor>
+<idno type="halId">hal-01157373</idno>
+<idno type="halUri">https://hal-enpc.archives-ouvertes.fr/hal-01157373</idno>
+<idno type="halBibtex">habert:hal-01157373</idno>
+<idno type="halRefHtml">
+<i>Journal of Cleaner Production</i>, Elsevier, 2012, 35, pp.250-262. <a target="_blank" href="https://dx.doi.org/10.1016/j.jclepro.2012.05.028">&#x27E8;10.1016/j.jclepro.2012.05.028&#x27E9;</a>
+</idno>
+<idno type="halRef">
+Journal of Cleaner Production, Elsevier, 2012, 35, pp.250-262. &#x27E8;10.1016/j.jclepro.2012.05.028&#x27E9;
+</idno>
+</publicationStmt>
+<seriesStmt>
+<idno type="stamp" n="ENPC" corresp="PARISTECH">Ecole des Ponts ParisTech</idno>
+<idno type="stamp" n="CNRS">
+CNRS - Centre national de la recherche scientifique
+</idno>
+<idno type="stamp" n="UR-NAVIER" corresp="ENPC">Laboratoire Navier</idno>
+<idno type="stamp" n="PARISTECH">ParisTech</idno>
+<idno type="stamp" n="IFSTTAR">Ifsttar</idno>
+<idno type="stamp" n="GENIECIVIL">Génie Civil</idno>
+</seriesStmt>
+<notesStmt>
+<note type="audience" n="2">International</note>
+<note type="popular" n="0">No</note>
+<note type="peer" n="1">Yes</note>
+</notesStmt>
+<sourceDesc>
+<biblStruct>
+<analytic>
+<title xml:lang="en">
+Reducing environmental impact by increasing the strength of concrete: Quantification of the improvement to concrete bridges
+</title>
+<author role="aut">
+<persName>
+<forename type="first">Guillaume</forename>
+<surname>Habert</surname>
+</persName>
+<idno type="halauthorid">349520</idno>
+<affiliation ref="#struct-180925"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">David</forename>
+<surname>Arribe</surname>
+</persName>
+<idno type="halauthorid">1170323</idno>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Thibault</forename>
+<surname>Dehove</surname>
+</persName>
+<idno type="halauthorid">1170324</idno>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Ludovic</forename>
+<surname>Espinasse</surname>
+</persName>
+<idno type="halauthorid">1170325</idno>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Robert</forename>
+<surname>Le Roy</surname>
+</persName>
+<email type="md5">2db857c9b499778acf6100c75a8429d0</email>
+<email type="domain">enpc.fr</email>
+<ptr type="url" target="http://paris-malaquais.archi.fr/etudes/i/leroy-robert/"/>
+<idno type="idhal" notation="string">robert-le-roy</idno>
+<idno type="idhal" notation="numeric">19578</idno>
+<idno type="halauthorid">1170326</idno>
+<orgName ref="#struct-301545"/>
+<affiliation ref="#struct-204904"/>
+</author>
+</analytic>
+<monogr>
+<idno type="halJournalId" status="VALID">12404</idno>
+<idno type="issn">0959-6526</idno>
+<title level="j">Journal of Cleaner Production</title>
+<imprint>
+<publisher>Elsevier</publisher>
+<biblScope unit="volume">35</biblScope>
+<biblScope unit="pp">250-262</biblScope>
+<date type="datePub">2012</date>
+</imprint>
+</monogr>
+<idno type="doi">10.1016/j.jclepro.2012.05.028</idno>
+</biblStruct>
+</sourceDesc>
+<profileDesc>
+<langUsage>
+<language ident="en">English</language>
+</langUsage>
+<textClass>
+<classCode scheme="halDomain" n="spi.gciv">Engineering Sciences [physics]/Civil Engineering</classCode>
+<classCode scheme="halTypology" n="ART">Journal articles</classCode>
+</textClass>
+<abstract xml:lang="en">
+<p>
+This study focuses on the following problem: by increasing the mechanical strength of concrete, we increase the environmental impact per cubic meter of concrete produced by increasing the cement content.We could, however, decrease the amount of concrete needed to build a given structural element. To know whether the improvement in concrete strength will produce a significant difference on the structure scale, this study evaluates the environmental consequences of using high performance concrete instead of ordinary concrete for a bridge. The Life Cycle Assessment (LCA) methodology, based on international standards of series ISO 14040, is used to compare these solutions. Uncertainties due to data collection are taken into account. The results show that choosing a high performance concrete for bridge construction is, on average, more environmentally friendly than the traditional concrete bridge construction. ?? 2012 Elsevier Ltd. All rights reserved.
+</p>
+</abstract>
+</profileDesc>
+</biblFull>
+<biblFull>
+<titleStmt>
+<title xml:lang="en">
+A Cramér-Rao inequality for non-differentiable models
+</title>
+<author role="aut">
+<persName>
+<forename type="first">Thibault</forename>
+<surname>Espinasse</surname>
+</persName>
+<email type="md5">c05d12b9822a379e58a61ee2720950a1</email>
+<email type="domain">math.univ-lyon1.fr</email>
+<idno type="idhal" notation="string">thibault-espinasse</idno>
+<idno type="idhal" notation="numeric">17478</idno>
+<idno type="halauthorid">1018731</idno>
+<idno type="ORCID">https://orcid.org/0000-0001-6013-747X</idno>
+<affiliation ref="#struct-1954"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Paul</forename>
+<surname>Rochet</surname>
+</persName>
+<email type="md5">6ca5956032c25b136d16f6053cf06cde</email>
+<email type="domain">math.univ-toulouse.fr</email>
+<idno type="halauthorid">604628</idno>
+<affiliation ref="#struct-1954"/>
+</author>
+<editor role="depositor">
+<persName>
+<forename>Correspondant</forename>
+<surname>Hal-IMT</surname>
+</persName>
+<email type="md5">e013e78d6c7f0db0950dbe60b7ec9cd6</email>
+<email type="domain">math.univ-toulouse.fr</email>
+</editor>
+</titleStmt>
+<editionStmt>
+<edition n="v1" type="current">
+<date type="whenSubmitted">2014-01-20 16:34:50</date>
+<date type="whenModified">2021-07-19 16:40:03</date>
+<date type="whenReleased">2014-01-20 16:34:50</date>
+<date type="whenProduced">2012</date>
+<ref type="externalLink" target="http://arxiv.org/pdf/1204.2763"/>
+</edition>
+<respStmt>
+<resp>contributor</resp>
+<name key="133826">
+<persName>
+<forename>Correspondant</forename>
+<surname>Hal-IMT</surname>
+</persName>
+<email type="md5">e013e78d6c7f0db0950dbe60b7ec9cd6</email>
+<email type="domain">math.univ-toulouse.fr</email>
+</name>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<distributor>CCSD</distributor>
+<idno type="halId">hal-00933563</idno>
+<idno type="halUri">https://hal.archives-ouvertes.fr/hal-00933563</idno>
+<idno type="halBibtex">espinasse:hal-00933563</idno>
+<idno type="halRefHtml">
+<i>Comptes Rendus. Mathématique</i>, Centre Mersenne (2020-..) ; Elsevier Masson (2002-2019), 2012, 350 (13-14), pp.711-715. <a target="_blank" href="https://dx.doi.org/10.1016/j.crma.2012.08.005">&#x27E8;10.1016/j.crma.2012.08.005&#x27E9;</a>
+</idno>
+<idno type="halRef">
+Comptes Rendus. Mathématique, Centre Mersenne (2020-..) ; Elsevier Masson (2002-2019), 2012, 350 (13-14), pp.711-715. &#x27E8;10.1016/j.crma.2012.08.005&#x27E9;
+</idno>
+</publicationStmt>
+<seriesStmt>
+<idno type="stamp" n="IMT">Institut de Mathématiques de Toulouse</idno>
+<idno type="stamp" n="UNIV-TLSE2">Université Toulouse 2</idno>
+<idno type="stamp" n="CNRS">
+CNRS - Centre national de la recherche scientifique
+</idno>
+<idno type="stamp" n="UNIV-TLSE3">Université Paul Sabatier - Toulouse III</idno>
+<idno type="stamp" n="UT1-CAPITOLE">Université Toulouse 1 Capitole</idno>
+<idno type="stamp" n="INSA-TOULOUSE">
+Institut National des Sciences Appliquées de Toulouse
+</idno>
+<idno type="stamp" n="INSA-GROUPE">Groupe INSA</idno>
+</seriesStmt>
+<notesStmt>
+<note type="audience" n="2">International</note>
+<note type="popular" n="0">No</note>
+<note type="peer" n="1">Yes</note>
+</notesStmt>
+<sourceDesc>
+<biblStruct>
+<analytic>
+<title xml:lang="en">
+A Cramér-Rao inequality for non-differentiable models
+</title>
+<author role="aut">
+<persName>
+<forename type="first">Thibault</forename>
+<surname>Espinasse</surname>
+</persName>
+<email type="md5">c05d12b9822a379e58a61ee2720950a1</email>
+<email type="domain">math.univ-lyon1.fr</email>
+<idno type="idhal" notation="string">thibault-espinasse</idno>
+<idno type="idhal" notation="numeric">17478</idno>
+<idno type="halauthorid">1018731</idno>
+<idno type="ORCID">https://orcid.org/0000-0001-6013-747X</idno>
+<affiliation ref="#struct-1954"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Paul</forename>
+<surname>Rochet</surname>
+</persName>
+<email type="md5">6ca5956032c25b136d16f6053cf06cde</email>
+<email type="domain">math.univ-toulouse.fr</email>
+<idno type="halauthorid">604628</idno>
+<affiliation ref="#struct-1954"/>
+</author>
+</analytic>
+<monogr>
+<idno type="halJournalId" status="VALID">11990</idno>
+<idno type="eissn">1778-3569</idno>
+<title level="j">Comptes Rendus. Mathématique</title>
+<imprint>
+<publisher>
+Centre Mersenne (2020-...) ; Elsevier Masson (2002-2019)
+</publisher>
+<biblScope unit="volume">350</biblScope>
+<biblScope unit="issue">13-14</biblScope>
+<biblScope unit="pp">711-715</biblScope>
+<date type="datePub">2012</date>
+</imprint>
+</monogr>
+<idno type="doi">10.1016/j.crma.2012.08.005</idno>
+</biblStruct>
+</sourceDesc>
+<profileDesc>
+<langUsage>
+<language ident="en">English</language>
+</langUsage>
+<textClass>
+<classCode scheme="classification">62F10</classCode>
+<classCode scheme="halTypology" n="ART">Journal articles</classCode>
+</textClass>
+</profileDesc>
+</biblFull>
+<biblFull>
+<titleStmt>
+<title xml:lang="en">
+Estimation error for blind Gaussian time series prediction
+</title>
+<author role="aut">
+<persName>
+<forename type="first">Thibault</forename>
+<surname>Espinasse</surname>
+</persName>
+<email type="md5">c05d12b9822a379e58a61ee2720950a1</email>
+<email type="domain">math.univ-lyon1.fr</email>
+<idno type="idhal" notation="string">thibault-espinasse</idno>
+<idno type="idhal" notation="numeric">17478</idno>
+<idno type="halauthorid">1018731</idno>
+<idno type="ORCID">https://orcid.org/0000-0001-6013-747X</idno>
+<affiliation ref="#struct-1954"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Fabrice</forename>
+<surname>Gamboa</surname>
+</persName>
+<email type="md5">c38aead7203ead44532c664f045580d9</email>
+<email type="domain">gmail.com</email>
+<idno type="halauthorid">296918</idno>
+<affiliation ref="#struct-1954"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Jean-Michel</forename>
+<surname>Loubes</surname>
+</persName>
+<email type="md5">601d49c174433240abf30512f64b2fb4</email>
+<email type="domain">math.univ-toulouse.fr</email>
+<idno type="idhal" notation="string">jean-michel-loubes</idno>
+<idno type="idhal" notation="numeric">12832</idno>
+<idno type="halauthorid">374201</idno>
+<affiliation ref="#struct-1954"/>
+</author>
+<editor role="depositor">
+<persName>
+<forename>Thibault</forename>
+<surname>Espinasse</surname>
+</persName>
+<email type="md5">999fcfa815b4e0c8709213f80cfe1727</email>
+<email type="domain">math.univ-lyon1.fr</email>
+</editor>
+</titleStmt>
+<editionStmt>
+<edition n="v1">
+<date type="whenSubmitted">2010-01-29 15:31:08</date>
+</edition>
+<edition n="v2" type="current">
+<date type="whenSubmitted">2011-07-05 16:36:37</date>
+<date type="whenWritten">2011-07-05</date>
+<date type="whenModified">2021-06-09 13:14:01</date>
+<date type="whenReleased">2011-07-05 17:06:01</date>
+<date type="whenProduced">2011-07-05</date>
+<date type="whenEndEmbargoed">2011-07-05</date>
+<ref type="file" target="https://hal.archives-ouvertes.fr/hal-00451645v2/document">
+<date notBefore="2011-07-05"/>
+</ref>
+<ref type="file" subtype="author" n="1" target="https://hal.archives-ouvertes.fr/hal-00451645v2/file/blind_forecasting_finalmms.pdf">
+<date notBefore="2011-07-05"/>
+</ref>
+<ref type="externalLink" target="http://arxiv.org/pdf/1002.0152"/>
+</edition>
+<respStmt>
+<resp>contributor</resp>
+<name key="147801">
+<persName>
+<forename>Thibault</forename>
+<surname>Espinasse</surname>
+</persName>
+<email type="md5">999fcfa815b4e0c8709213f80cfe1727</email>
+<email type="domain">math.univ-lyon1.fr</email>
+</name>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<distributor>CCSD</distributor>
+<idno type="halId">hal-00451645</idno>
+<idno type="halUri">https://hal.archives-ouvertes.fr/hal-00451645</idno>
+<idno type="halBibtex">espinasse:hal-00451645</idno>
+<idno type="halRefHtml">2011</idno>
+<idno type="halRef">2011</idno>
+</publicationStmt>
+<seriesStmt>
+<idno type="stamp" n="CNRS">
+CNRS - Centre national de la recherche scientifique
+</idno>
+<idno type="stamp" n="INSMI">
+CNRS-INSMI - INstitut des Sciences Mathématiques et de leurs Interactions
+</idno>
+<idno type="stamp" n="IMT">Institut de Mathématiques de Toulouse</idno>
+<idno type="stamp" n="UNIV-TLSE2">Université Toulouse 2</idno>
+<idno type="stamp" n="UNIV-TLSE3">Université Paul Sabatier - Toulouse III</idno>
+<idno type="stamp" n="UT1-CAPITOLE">Université Toulouse 1 Capitole</idno>
+<idno type="stamp" n="INSA-TOULOUSE">
+Institut National des Sciences Appliquées de Toulouse
+</idno>
+<idno type="stamp" n="INSA-GROUPE">Groupe INSA</idno>
+</seriesStmt>
+<notesStmt>
+<note type="audience" n="1">Not set</note>
+</notesStmt>
+<sourceDesc>
+<biblStruct>
+<analytic>
+<title xml:lang="en">
+Estimation error for blind Gaussian time series prediction
+</title>
+<author role="aut">
+<persName>
+<forename type="first">Thibault</forename>
+<surname>Espinasse</surname>
+</persName>
+<email type="md5">c05d12b9822a379e58a61ee2720950a1</email>
+<email type="domain">math.univ-lyon1.fr</email>
+<idno type="idhal" notation="string">thibault-espinasse</idno>
+<idno type="idhal" notation="numeric">17478</idno>
+<idno type="halauthorid">1018731</idno>
+<idno type="ORCID">https://orcid.org/0000-0001-6013-747X</idno>
+<affiliation ref="#struct-1954"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Fabrice</forename>
+<surname>Gamboa</surname>
+</persName>
+<email type="md5">c38aead7203ead44532c664f045580d9</email>
+<email type="domain">gmail.com</email>
+<idno type="halauthorid">296918</idno>
+<affiliation ref="#struct-1954"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Jean-Michel</forename>
+<surname>Loubes</surname>
+</persName>
+<email type="md5">601d49c174433240abf30512f64b2fb4</email>
+<email type="domain">math.univ-toulouse.fr</email>
+<idno type="idhal" notation="string">jean-michel-loubes</idno>
+<idno type="idhal" notation="numeric">12832</idno>
+<idno type="halauthorid">374201</idno>
+<affiliation ref="#struct-1954"/>
+</author>
+</analytic>
+<monogr>
+<imprint/>
+</monogr>
+<idno type="arxiv">1002.0152</idno>
+</biblStruct>
+</sourceDesc>
+<profileDesc>
+<langUsage>
+<language ident="en">English</language>
+</langUsage>
+<textClass>
+<keywords scheme="author">
+<term xml:lang="en">Asymptotic Statistics</term>
+<term xml:lang="en">Covariance Estimation</term>
+<term xml:lang="en">Time Series</term>
+</keywords>
+<classCode scheme="classification">62G05 ; 62G20</classCode>
+<classCode scheme="halDomain" n="stat.me">Statistics [stat]/Methodology [stat.ME]</classCode>
+<classCode scheme="halDomain" n="math.math-st">Mathematics [math]/Statistics [math.ST]</classCode>
+<classCode scheme="halDomain" n="stat.th">Statistics [stat]/Statistics Theory [stat.TH]</classCode>
+<classCode scheme="halTypology" n="UNDEFINED">Preprints, Working Papers, ...</classCode>
+</textClass>
+<abstract xml:lang="en">
+<p>
+We tackle the issue of the blind prediction of a Gaussian time series. For this, we construct a projection operator build by plugging an empirical covariance estimation into a Schur complement decomposition of the projector. This operator is then used to compute the predictor. Rates of convergence of the estimates are given.
+</p>
+</abstract>
+</profileDesc>
+</biblFull>
+<biblFull>
+<titleStmt>
+<title xml:lang="en">Blind forecasting for Gaussian time-series</title>
+<author role="aut">
+<persName>
+<forename type="first">Thibault</forename>
+<surname>Espinasse</surname>
+</persName>
+<email type="md5">c05d12b9822a379e58a61ee2720950a1</email>
+<email type="domain">math.univ-lyon1.fr</email>
+<idno type="idhal" notation="string">thibault-espinasse</idno>
+<idno type="idhal" notation="numeric">17478</idno>
+<idno type="halauthorid">1018731</idno>
+<idno type="ORCID">https://orcid.org/0000-0001-6013-747X</idno>
+<affiliation ref="#struct-1954"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Fabrice</forename>
+<surname>Gamboa</surname>
+</persName>
+<idno type="halauthorid">194184</idno>
+<affiliation ref="#struct-1954"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Jean-Michel</forename>
+<surname>Loubes</surname>
+</persName>
+<email type="md5">601d49c174433240abf30512f64b2fb4</email>
+<email type="domain">math.univ-toulouse.fr</email>
+<idno type="idhal" notation="string">jean-michel-loubes</idno>
+<idno type="idhal" notation="numeric">12832</idno>
+<idno type="halauthorid">374201</idno>
+<affiliation ref="#struct-1954"/>
+</author>
+<editor role="depositor">
+<persName>
+<forename>Conférence</forename>
+<surname>Sfds-Hal</surname>
+</persName>
+<email type="md5">00c96a91cba7ced946c29da599a4ba34</email>
+<email type="domain">inria.fr</email>
+</editor>
+</titleStmt>
+<editionStmt>
+<edition n="v1" type="current">
+<date type="whenSubmitted">2010-06-24 08:57:00</date>
+<date type="whenModified">2021-06-09 13:14:01</date>
+<date type="whenReleased">2010-06-24 08:57:00</date>
+<date type="whenProduced">2010</date>
+<date type="whenEndEmbargoed">2010-06-24</date>
+<ref type="file" target="https://hal.inria.fr/inria-00494759/document">
+<date notBefore="2010-06-24"/>
+</ref>
+<ref type="file" subtype="author" n="1" target="https://hal.inria.fr/inria-00494759/file/p99.pdf">
+<date notBefore="2010-06-24"/>
+</ref>
+</edition>
+<respStmt>
+<resp>contributor</resp>
+<name key="151829">
+<persName>
+<forename>Conférence</forename>
+<surname>Sfds-Hal</surname>
+</persName>
+<email type="md5">00c96a91cba7ced946c29da599a4ba34</email>
+<email type="domain">inria.fr</email>
+</name>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<distributor>CCSD</distributor>
+<idno type="halId">inria-00494759</idno>
+<idno type="halUri">https://hal.inria.fr/inria-00494759</idno>
+<idno type="halBibtex">espinasse:inria-00494759</idno>
+<idno type="halRefHtml">
+<i>42èmes Journées de Statistique</i>, 2010, Marseille, France, France
+</idno>
+<idno type="halRef">
+42èmes Journées de Statistique, 2010, Marseille, France, France
+</idno>
+</publicationStmt>
+<seriesStmt>
+<idno type="stamp" n="CNRS">
+CNRS - Centre national de la recherche scientifique
+</idno>
+<idno type="stamp" n="INSMI">
+CNRS-INSMI - INstitut des Sciences Mathématiques et de leurs Interactions
+</idno>
+<idno type="stamp" n="SFDS10">SFDS10 - 42èmes Journées de Statistique</idno>
+<idno type="stamp" n="IMT">Institut de Mathématiques de Toulouse</idno>
+<idno type="stamp" n="UNIV-TLSE2">Université Toulouse 2</idno>
+<idno type="stamp" n="UNIV-TLSE3">Université Paul Sabatier - Toulouse III</idno>
+<idno type="stamp" n="UT1-CAPITOLE">Université Toulouse 1 Capitole</idno>
+<idno type="stamp" n="INSA-TOULOUSE">
+Institut National des Sciences Appliquées de Toulouse
+</idno>
+<idno type="stamp" n="INSA-GROUPE">Groupe INSA</idno>
+</seriesStmt>
+<notesStmt>
+<note type="audience" n="2">International</note>
+<note type="invited" n="0">No</note>
+<note type="popular" n="0">No</note>
+<note type="peer" n="1">Yes</note>
+<note type="proceedings" n="1">Yes</note>
+</notesStmt>
+<sourceDesc>
+<biblStruct>
+<analytic>
+<title xml:lang="en">Blind forecasting for Gaussian time-series</title>
+<author role="aut">
+<persName>
+<forename type="first">Thibault</forename>
+<surname>Espinasse</surname>
+</persName>
+<email type="md5">c05d12b9822a379e58a61ee2720950a1</email>
+<email type="domain">math.univ-lyon1.fr</email>
+<idno type="idhal" notation="string">thibault-espinasse</idno>
+<idno type="idhal" notation="numeric">17478</idno>
+<idno type="halauthorid">1018731</idno>
+<idno type="ORCID">https://orcid.org/0000-0001-6013-747X</idno>
+<affiliation ref="#struct-1954"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Fabrice</forename>
+<surname>Gamboa</surname>
+</persName>
+<idno type="halauthorid">194184</idno>
+<affiliation ref="#struct-1954"/>
+</author>
+<author role="aut">
+<persName>
+<forename type="first">Jean-Michel</forename>
+<surname>Loubes</surname>
+</persName>
+<email type="md5">601d49c174433240abf30512f64b2fb4</email>
+<email type="domain">math.univ-toulouse.fr</email>
+<idno type="idhal" notation="string">jean-michel-loubes</idno>
+<idno type="idhal" notation="numeric">12832</idno>
+<idno type="halauthorid">374201</idno>
+<affiliation ref="#struct-1954"/>
+</author>
+</analytic>
+<monogr>
+<meeting>
+<title>42èmes Journées de Statistique</title>
+<date type="start">2010</date>
+<settlement>Marseille, France</settlement>
+<country key="FR">France</country>
+</meeting>
+<imprint>
+<date type="datePub">2010</date>
+</imprint>
+</monogr>
+</biblStruct>
+</sourceDesc>
+<profileDesc>
+<langUsage>
+<language ident="fr">French</language>
+</langUsage>
+<textClass>
+<classCode scheme="halDomain" n="math.math-st">Mathematics [math]/Statistics [math.ST]</classCode>
+<classCode scheme="halDomain" n="stat.th">Statistics [stat]/Statistics Theory [stat.TH]</classCode>
+<classCode scheme="halTypology" n="COMM">Conference papers</classCode>
+</textClass>
+<abstract xml:lang="fr">
+<p>
+Le but de cet exposé est de fournir, dans le cadre des séries chronologiques, un estimateur "aveugle" de l'opérateur de projection sur le passé infini. Il s'agit de donner un prédicteur, lorsque la structure de covariance est inconnue, et qu'un unique échantillon est disponible pour simultanément estimer la covariance et prédire le processus. Nous obtenons la vitesse de convergence en erreur quadratique, en utilisant un résultat de concentration sur la covariance empirique, et une astucieuse décomposition de Schur donnant une forme alternative de ce projecteur. La vitesse est alors obtenue en fonction de la régularité de la densité spectrale.
+</p>
+</abstract>
+</profileDesc>
+</biblFull>
+</listBibl>
+</body>
+<back>
+<listOrg type="structures">
+<org type="institution" xml:id="struct-6818" status="VALID">
+<idno type="IdRef">149154992</idno>
+<orgName>École normale supérieure - Lyon</orgName>
+<orgName type="acronym">ENS Lyon</orgName>
+<desc>
+<address>
+<addrLine>
+15 parvis René Descartes - BP 7000 - 69342 Lyon Cedex 07
+</addrLine>
+<country key="FR"/>
+</address>
+<ref type="url">http://www.ens-lyon.eu/</ref>
+</desc>
+</org>
+<org type="laboratory" xml:id="struct-193738" status="VALID">
+<idno type="IdRef">111872227</idno>
+<idno type="RNSR">200511878U</idno>
+<orgName>Institut Camille Jordan [Villeurbanne]</orgName>
+<orgName type="acronym">ICJ</orgName>
+<date type="start">2005-01-01</date>
+<desc>
+<address>
+<addrLine>
+Bât. Jean Braconnier 43 bd du 11 novembre 1918 69622 VILLEURBANNE CEDEX
+</addrLine>
+<country key="FR"/>
+</address>
+<ref type="url">http://math.univ-lyon1.fr/</ref>
+</desc>
+<listRelation>
+<relation active="#struct-126765" type="direct"/>
+<relation active="#struct-301088" type="indirect"/>
+<relation active="#struct-194495" type="direct"/>
+<relation active="#struct-300284" type="direct"/>
+<relation active="#struct-219748" type="direct"/>
+<relation active="#struct-301232" type="indirect"/>
+<relation name="UMR5208" active="#struct-441569" type="direct"/>
+</listRelation>
+</org>
+<org type="researchteam" xml:id="struct-108959" status="VALID">
+<idno type="RNSR">201020961V</idno>
+<orgName>
+Multi-scale modelling of cell dynamics : application to hematopoiesis
+</orgName>
+<orgName type="acronym">DRACULA</orgName>
+<desc>
+<address>
+<addrLine>
+Institut Camille Jordan Université Claude Bernard Lyon 1 43 boulevard du 11 novembre 1918 69622 Villeurbanne cedex France
+</addrLine>
+<country key="FR"/>
+</address>
+<ref type="url">http://www.inria.fr/equipes/dracula</ref>
+</desc>
+<listRelation>
+<relation active="#struct-193738" type="direct"/>
+<relation active="#struct-126765" type="indirect"/>
+<relation active="#struct-301088" type="indirect"/>
+<relation active="#struct-194495" type="indirect"/>
+<relation active="#struct-300284" type="indirect"/>
+<relation active="#struct-219748" type="indirect"/>
+<relation active="#struct-301232" type="indirect"/>
+<relation name="UMR5208" active="#struct-441569" type="indirect"/>
+<relation active="#struct-2497" type="direct"/>
+<relation active="#struct-300009" type="indirect"/>
+<relation active="#struct-711" type="direct"/>
+<relation name="UMR5534" active="#struct-441569" type="indirect"/>
+</listRelation>
+</org>
+<org type="institution" xml:id="struct-126765" status="VALID">
+<orgName>École Centrale de Lyon</orgName>
+<orgName type="acronym">ECL</orgName>
+<desc>
+<address>
+<addrLine>36 avenue Guy de Collongue - 69134 Ecully cedex</addrLine>
+<country key="FR"/>
+</address>
+<ref type="url">http://www.ec-lyon.fr</ref>
+</desc>
+<listRelation>
+<relation active="#struct-301088" type="direct"/>
+</listRelation>
+</org>
+<org type="regroupinstitution" xml:id="struct-301088" status="VALID">
+<orgName>Université de Lyon</orgName>
+<desc>
+<address>
+<addrLine>92 rue Pasteur - CS 30122, 69361 Lyon Cedex 07</addrLine>
+<country key="FR"/>
+</address>
+<ref type="url">https://www.universite-lyon.fr/</ref>
+</desc>
+</org>
+<org type="institution" xml:id="struct-194495" status="VALID">
+<idno type="IdRef">026402823</idno>
+<idno type="ISNI">0000000121686185</idno>
+<orgName>Université Claude Bernard Lyon 1</orgName>
+<orgName type="acronym">UCBL</orgName>
+<desc>
+<address>
+<addrLine>
+43, boulevard du 11 novembre 1918, 69622 Villeurbanne cedex
+</addrLine>
+<country key="FR"/>
+</address>
+<ref type="url">http://www.univ-lyon1.fr/</ref>
+</desc>
+<listRelation>
+<relation active="#struct-301088" type="direct"/>
+</listRelation>
+</org>
+<org type="institution" xml:id="struct-300284" status="VALID">
+<orgName>Université Jean Monnet [Saint-Étienne]</orgName>
+<orgName type="acronym">UJM</orgName>
+<desc>
+<address>
+<addrLine>10 rue Tréfilerie - 42100 Saint-Étienne</addrLine>
+<country key="FR"/>
+</address>
+<ref type="url">https://www.univ-st-etienne.fr/</ref>
+</desc>
+</org>
+<org type="institution" xml:id="struct-219748" status="VALID">
+<idno type="ISNI">0000 0001 2292 0228</idno>
+<idno type="IdRef">052444724</idno>
+<orgName>Institut National des Sciences Appliquées de Lyon</orgName>
+<orgName type="acronym">INSA Lyon</orgName>
+<date type="start">1957-03-18</date>
+<desc>
+<address>
+<addrLine>
+20 Avenue Albert Einstein, 69621 Villeurbanne cedex
+</addrLine>
+<country key="FR"/>
+</address>
+<ref type="url">http://www.insa-lyon.fr/</ref>
+</desc>
+<listRelation>
+<relation active="#struct-301088" type="direct"/>
+<relation active="#struct-301232" type="direct"/>
+</listRelation>
+</org>
+<org type="regroupinstitution" xml:id="struct-301232" status="VALID">
+<idno type="IdRef">162105150</idno>
+<orgName>Institut National des Sciences Appliquées</orgName>
+<orgName type="acronym">INSA</orgName>
+<desc>
+<address>
+<country key="FR"/>
+</address>
+</desc>
+</org>
+<org type="institution" xml:id="struct-441569" status="VALID">
+<idno type="IdRef">02636817X</idno>
+<idno type="ISNI">0000000122597504</idno>
+<orgName>Centre National de la Recherche Scientifique</orgName>
+<orgName type="acronym">CNRS</orgName>
+<date type="start">1939-10-19</date>
+<desc>
+<address>
+<country key="FR"/>
+</address>
+<ref type="url">http://www.cnrs.fr/</ref>
+</desc>
+</org>
+<org type="laboratory" xml:id="struct-2497" status="VALID">
+<idno type="RNSR">199218244V</idno>
+<orgName>Inria Grenoble - Rhône-Alpes</orgName>
+<desc>
+<address>
+<addrLine>Inovallée655 avenue de l'Europe38330 Montbonnot</addrLine>
+<country key="FR"/>
+</address>
+<ref type="url">http://www.inria.fr/centre/grenoble</ref>
+</desc>
+<listRelation>
+<relation active="#struct-300009" type="direct"/>
+</listRelation>
+</org>
+<org type="institution" xml:id="struct-300009" status="VALID">
+<orgName>
+Institut National de Recherche en Informatique et en Automatique
+</orgName>
+<orgName type="acronym">Inria</orgName>
+<desc>
+<address>
+<addrLine>
+Domaine de VoluceauRocquencourt - BP 10578153 Le Chesnay Cedex
+</addrLine>
+<country key="FR"/>
+</address>
+<ref type="url">http://www.inria.fr/en/</ref>
+</desc>
+</org>
+<org type="laboratory" xml:id="struct-711" status="OLD">
+<orgName>
+Centre de génétique et de physiologie moléculaire et cellulaire
+</orgName>
+<orgName type="acronym">CGPhiMC</orgName>
+<date type="start">1995-01-01</date>
+<date type="end">2015-12-31</date>
+<desc>
+<address>
+<addrLine>
+bat. 741 43 Bvd du 11 Novembre 1918 69622 VILLEURBANNE CEDEX
+</addrLine>
+<country key="FR"/>
+</address>
+</desc>
+<listRelation>
+<relation active="#struct-194495" type="direct"/>
+<relation active="#struct-301088" type="indirect"/>
+<relation name="UMR5534" active="#struct-441569" type="direct"/>
+</listRelation>
+</org>
+<org type="laboratory" xml:id="struct-166422" status="VALID">
+<idno type="RNSR">200616453M</idno>
+<orgName>
+Physiopathologie et Pharmacologie Clinique de la Douleur
+</orgName>
+<orgName type="acronym">LPPD</orgName>
+<desc>
+<address>
+<addrLine>
+Hôpital Ambroise Paré9 Avenue Charles De GaulleCentre d'évaluation et de traitement de la douleur92100 Boulogne Billancourt
+</addrLine>
+<country key="FR"/>
+</address>
+</desc>
+<listRelation>
+<relation name="UMR U987" active="#struct-81173" type="direct"/>
+<relation name="U987" active="#struct-303623" type="direct"/>
+</listRelation>
+</org>
+<org type="institution" xml:id="struct-300151" status="VALID">
+<orgName>Hôpital Ambroise Paré [AP-HP]</orgName>
+<desc>
+<address>
+<addrLine>
+9, avenue Charles de Gaulle92104 Boulogne-Billancourt cedex
+</addrLine>
+<country key="FR"/>
+</address>
+</desc>
+</org>
+<org type="laboratory" xml:id="struct-536164" status="INCOMING">
+<orgName>
+Service de Microbiologie et Hygiène [AP-HP Hôpital Raymond Poincaré]
+</orgName>
+<desc>
+<address>
+<addrLine>104 Boulevard Raymond Poincaré, 92380 Garches.</addrLine>
+<country key="FR"/>
+</address>
+</desc>
+<listRelation>
+<relation active="#struct-300090" type="direct"/>
+</listRelation>
+</org>
+<org type="institution" xml:id="struct-300090" status="VALID">
+<orgName>Hôpital Raymond Poincaré [AP-HP]</orgName>
+<desc>
+<address>
+<addrLine>104 Boulevard Raymond Poincaré, 92380 Garches</addrLine>
+<country key="FR"/>
+</address>
+</desc>
+</org>
+<org type="institution" xml:id="struct-81173" status="VALID">
+<idno type="IdRef">03082057X</idno>
+<idno type="ISNI">0000 0001 2323 0229 </idno>
+<orgName>Université de Versailles Saint-Quentin-en-Yvelines</orgName>
+<orgName type="acronym">UVSQ</orgName>
+<date type="start">1991-07-22</date>
+<desc>
+<address>
+<addrLine>55 avenue de Paris - 78035 Versailles cedex</addrLine>
+<country key="FR"/>
+</address>
+<ref type="url">http://www.uvsq.fr/</ref>
+</desc>
+</org>
+<org type="institution" xml:id="struct-303623" status="VALID">
+<idno type="IdRef">026388278</idno>
+<orgName>
+Institut National de la Santé et de la Recherche Médicale
+</orgName>
+<orgName type="acronym">INSERM</orgName>
+<desc>
+<address>
+<addrLine>101, rue de Tolbiac, 75013 Paris </addrLine>
+<country key="FR"/>
+</address>
+<ref type="url">http://www.inserm.fr</ref>
+</desc>
+</org>
+<org type="researchteam" xml:id="struct-521755" status="VALID">
+<orgName>Probabilités, statistique, physique mathématique</orgName>
+<orgName type="acronym">PSPM</orgName>
+<desc>
+<address>
+<country key="FR"/>
+</address>
+<ref type="url">http://math.univ-lyon1.fr/spip.php?article12</ref>
+</desc>
+<listRelation>
+<relation active="#struct-193738" type="direct"/>
+<relation active="#struct-126765" type="indirect"/>
+<relation active="#struct-301088" type="indirect"/>
+<relation active="#struct-194495" type="indirect"/>
+<relation active="#struct-300284" type="indirect"/>
+<relation active="#struct-219748" type="indirect"/>
+<relation active="#struct-301232" type="indirect"/>
+<relation name="UMR5208" active="#struct-441569" type="indirect"/>
+</listRelation>
+</org>
+<org type="laboratory" xml:id="struct-37" status="VALID">
+<idno type="IdRef">087220865</idno>
+<orgName>Laboratoire de Mathématiques Jean Leray</orgName>
+<orgName type="acronym">LMJL</orgName>
+<desc>
+<address>
+<country key="FR"/>
+</address>
+<ref type="url">http://www.math.sciences.univ-nantes.fr/jeanleray/</ref>
+</desc>
+<listRelation>
+<relation active="#struct-97058" type="direct"/>
+<relation active="#struct-93263" type="indirect"/>
+<relation name="UMR6629" active="#struct-441569" type="direct"/>
+</listRelation>
+</org>
+<org type="regrouplaboratory" xml:id="struct-97058" status="VALID">
+<orgName>
+Université de Nantes - Faculté des Sciences et des Techniques
+</orgName>
+<desc>
+<address>
+<addrLine>
+2, rue de la Houssinière - BP 92208 - 44322 Nantes cedex 3
+</addrLine>
+<country key="FR"/>
+</address>
+<ref type="url">http://www.sciences-techniques.univ-nantes.fr/</ref>
+</desc>
+<listRelation>
+<relation active="#struct-93263" type="direct"/>
+</listRelation>
+</org>
+<org type="institution" xml:id="struct-93263" status="VALID">
+<idno type="IdRef">026403447</idno>
+<orgName>Université de Nantes</orgName>
+<orgName type="acronym">UN</orgName>
+<desc>
+<address>
+<addrLine>
+1, quai de Tourville - BP 13522 - 44035 Nantes cedex 1
+</addrLine>
+<country key="FR"/>
+</address>
+<ref type="url">http://www.univ-nantes.fr/</ref>
+</desc>
+</org>
+<org type="institution" xml:id="struct-300006" status="VALID">
+<orgName>IFP Energies nouvelles</orgName>
+<orgName type="acronym">IFPEN</orgName>
+<desc>
+<address>
+<addrLine>1-4 avenue de Bois Préau92500 Rueil-Malmaison</addrLine>
+<country key="FR"/>
+</address>
+<ref type="url">http://www.ifpenergiesnouvelles.fr/</ref>
+</desc>
+<listRelation>
+<relation active="#struct-534301" type="direct"/>
+</listRelation>
+</org>
+<org type="regroupinstitution" xml:id="struct-534301" status="OLD">
+<orgName>IFP Energies nouvelles</orgName>
+<orgName type="acronym">IFPEN</orgName>
+<date type="end">2019-01-22</date>
+<desc>
+<address>
+<addrLine>
+Rond-point de l'échangeur de Solaize, BP 3, 69360 Solaize
+</addrLine>
+<country key="FR"/>
+</address>
+</desc>
+</org>
+<org type="laboratory" xml:id="struct-489487" status="VALID">
+<idno type="IdRef">166612049</idno>
+<idno type="RNSR">200711906R</idno>
+<orgName>
+Laboratoire de biologie et modélisation de la cellule
+</orgName>
+<orgName type="acronym">LBMC UMR 5239</orgName>
+<date type="start">2007-01-01</date>
+<desc>
+<address>
+<addrLine>
+Ecole Normale Supérieure46 Allée d'Italie69364 Lyon Cedex 07
+</addrLine>
+<country key="FR"/>
+</address>
+<ref type="url">http://www.ens-lyon.fr/LBMC/</ref>
+</desc>
+<listRelation>
+<relation active="#struct-194495" type="direct"/>
+<relation active="#struct-301088" type="indirect"/>
+<relation active="#struct-6818" type="direct"/>
+<relation name="UMR 5239" active="#struct-441569" type="direct"/>
+<relation name="U1210" active="#struct-303623" type="direct"/>
+</listRelation>
+</org>
+<org type="laboratory" xml:id="struct-40" status="OLD">
+<orgName>Laboratoire de Mathématiques d'Orsay</orgName>
+<orgName type="acronym">LM-Orsay</orgName>
+<desc>
+<address>
+<country key="FR"/>
+</address>
+<ref type="url">http://www.math.u-psud.fr</ref>
+</desc>
+<listRelation>
+<relation active="#struct-92966" type="direct"/>
+<relation name="UMR8628" active="#struct-441569" type="direct"/>
+</listRelation>
+</org>
+<org type="institution" xml:id="struct-92966" status="OLD">
+<orgName>Université Paris-Sud - Paris 11</orgName>
+<orgName type="acronym">UP11</orgName>
+<date type="end">2019-12-31</date>
+<desc>
+<address>
+<addrLine>Bâtiment 300 - 91405 Orsay cedex</addrLine>
+<country key="FR"/>
+</address>
+<ref type="url">http://www.u-psud.fr/</ref>
+</desc>
+</org>
+<org type="researchteam" xml:id="struct-521754" status="VALID">
+<orgName>Modélisation mathématique, calcul scientifique</orgName>
+<orgName type="acronym">MMCS</orgName>
+<desc>
+<address>
+<addrLine>Institut Camille JordanVilleurbane</addrLine>
+<country key="FR"/>
+</address>
+<ref type="url">http://math.univ-lyon1.fr/spip.php?article13</ref>
+</desc>
+<listRelation>
+<relation active="#struct-193738" type="direct"/>
+<relation active="#struct-126765" type="indirect"/>
+<relation active="#struct-301088" type="indirect"/>
+<relation active="#struct-194495" type="indirect"/>
+<relation active="#struct-219748" type="indirect"/>
+<relation active="#struct-301232" type="indirect"/>
+<relation active="#struct-300284" type="indirect"/>
+<relation name="UMR5208" active="#struct-441569" type="indirect"/>
+</listRelation>
+</org>
+<org type="institution" xml:id="struct-1064687" status="VALID">
+<orgName>Généthon</orgName>
+<date type="start">1990-01-01</date>
+<desc>
+<address>
+<addrLine>1 rue de l’Internationale, 9100 Evry</addrLine>
+<country key="FR"/>
+</address>
+<ref type="url">https://www.genethon.fr/</ref>
+</desc>
+</org>
+<org type="institution" xml:id="struct-300306" status="VALID">
+<orgName>Université d'Évry-Val-d'Essonne</orgName>
+<orgName type="acronym">UEVE</orgName>
+<desc>
+<address>
+<addrLine>Boulevard François Mitterrand 91025 Evry Cedex</addrLine>
+<country key="FR"/>
+</address>
+<ref type="url">http://www.univ-evry.fr</ref>
+</desc>
+</org>
+<org type="laboratory" xml:id="struct-223337" status="OLD">
+<orgName>
+Bases moléculaires et structurales des systèmes infectieux
+</orgName>
+<orgName type="acronym">BMSSI</orgName>
+<date type="end">2015-12-31</date>
+<desc>
+<address>
+<addrLine>7 Passage du Vercors 69367 Lyon Cedex 7</addrLine>
+<country key="FR"/>
+</address>
+</desc>
+<listRelation>
+<relation active="#struct-194495" type="direct"/>
+<relation active="#struct-301088" type="indirect"/>
+<relation name="UMR5086" active="#struct-441569" type="direct"/>
+</listRelation>
+</org>
+<org type="laboratory" xml:id="struct-456175" status="VALID">
+<idno type="RNSR">201420714J</idno>
+<orgName>
+La République des savoirs : Lettres, Sciences, Philosophie
+</orgName>
+<date type="start">2014-01-01</date>
+<desc>
+<address>
+<addrLine>45 rue d’Ulm75005 Paris</addrLine>
+<country key="FR"/>
+</address>
+<ref type="url">http://republique-des-savoirs.fr/</ref>
+</desc>
+<listRelation>
+<relation active="#struct-300026" type="direct"/>
+<relation name="USR3608" active="#struct-441569" type="direct"/>
+<relation active="#struct-467484" type="direct"/>
+<relation active="#struct-59704" type="indirect"/>
+<relation active="#struct-564132" type="indirect"/>
+</listRelation>
+</org>
+<org type="institution" xml:id="struct-300026" status="VALID">
+<orgName>Collège de France</orgName>
+<orgName type="acronym">CdF (institution)</orgName>
+<desc>
+<address>
+<country key="FR"/>
+</address>
+</desc>
+</org>
+<org type="regrouplaboratory" xml:id="struct-467484" status="VALID">
+<idno type="IdRef">145780279</idno>
+<orgName>Département de Philosophie - ENS Paris</orgName>
+<date type="start">1985-01-01</date>
+<desc>
+<address>
+<addrLine>45 rue d’Ulm75230 Paris cedex 05</addrLine>
+<country key="FR"/>
+</address>
+<ref type="url">https://philosophie.ens.fr/</ref>
+</desc>
+<listRelation>
+<relation active="#struct-59704" type="direct"/>
+<relation active="#struct-564132" type="indirect"/>
+</listRelation>
+</org>
+<org type="institution" xml:id="struct-59704" status="VALID">
+<idno type="IdRef">031738419</idno>
+<idno type="ISNI">0000000123532622</idno>
+<orgName>École normale supérieure - Paris</orgName>
+<orgName type="acronym">ENS Paris</orgName>
+<date type="start">1985-07-24</date>
+<desc>
+<address>
+<addrLine>45, Rue d'Ulm - 75230 Paris cedex 05</addrLine>
+<country key="FR"/>
+</address>
+<ref type="url">http://www.ens.fr</ref>
+</desc>
+<listRelation>
+<relation active="#struct-564132" type="direct"/>
+</listRelation>
+</org>
+<org type="regroupinstitution" xml:id="struct-564132" status="VALID">
+<idno type="IdRef">241597595</idno>
+<orgName>Université Paris sciences et lettres</orgName>
+<orgName type="acronym">PSL</orgName>
+<desc>
+<address>
+<addrLine>60 rue Mazarine75006 Paris</addrLine>
+<country key="FR"/>
+</address>
+<ref type="url">https://www.psl.eu/</ref>
+</desc>
+</org>
+<org type="researchteam" xml:id="struct-521751" status="VALID">
+<orgName>Combinatoire, théorie des nombres</orgName>
+<orgName type="acronym">CTN</orgName>
+<desc>
+<address>
+<country key="FR"/>
+</address>
+<ref type="url">http://math.univ-lyon1.fr/spip.php?article11</ref>
+</desc>
+<listRelation>
+<relation active="#struct-193738" type="direct"/>
+<relation active="#struct-126765" type="indirect"/>
+<relation active="#struct-301088" type="indirect"/>
+<relation active="#struct-194495" type="indirect"/>
+<relation active="#struct-300284" type="indirect"/>
+<relation active="#struct-219748" type="indirect"/>
+<relation active="#struct-301232" type="indirect"/>
+<relation name="UMR5208" active="#struct-441569" type="indirect"/>
+</listRelation>
+</org>
+<org type="laboratory" xml:id="struct-1954" status="VALID">
+<idno type="IdRef">166783900</idno>
+<idno type="ISNI">0000 0004 0383 6348 </idno>
+<idno type="RNSR">200711888W</idno>
+<orgName>Institut de Mathématiques de Toulouse UMR5219</orgName>
+<orgName type="acronym">IMT</orgName>
+<date type="start">2007-01-01</date>
+<desc>
+<address>
+<addrLine>
+UPS IMT, F-31062 Toulouse Cedex 9, INSA Toulouse, F-31077 Toulouse,France UT1, F-31042 Toulouse, France UT2, F-31058 Toulouse,Téléphone : 05.61.55.67.90
+</addrLine>
+<country key="FR"/>
+</address>
+<ref type="url">https://www.math.univ-toulouse.fr/</ref>
+</desc>
+<listRelation>
+<relation active="#struct-116255" type="direct"/>
+<relation active="#struct-301232" type="indirect"/>
+<relation active="#struct-81148" type="direct"/>
+<relation active="#struct-443875" type="indirect"/>
+<relation active="#struct-116256" type="direct"/>
+<relation active="#struct-217752" type="direct"/>
+<relation name="UMR5219" active="#struct-441569" type="direct"/>
+</listRelation>
+</org>
+<org type="institution" xml:id="struct-116255" status="VALID">
+<idno type="IdRef">026388766</idno>
+<idno type="ISNI">0000 0001 2286 8343</idno>
+<orgName>
+Institut National des Sciences Appliquées - Toulouse
+</orgName>
+<orgName type="acronym">INSA Toulouse</orgName>
+<desc>
+<address>
+<addrLine>135, avenue de Rangueil - 31077 Toulouse cedex 4</addrLine>
+<country key="FR"/>
+</address>
+<ref type="url">http://www.insa-toulouse.fr</ref>
+</desc>
+<listRelation>
+<relation active="#struct-301232" type="direct"/>
+</listRelation>
+</org>
+<org type="institution" xml:id="struct-81148" status="VALID">
+<idno type="IdRef">026404354</idno>
+<orgName>Université Toulouse 1 Capitole</orgName>
+<orgName type="acronym">UT1</orgName>
+<date type="start">1970-01-01</date>
+<desc>
+<address>
+<addrLine>
+2 rue du Doyen-Gabriel-Marty - 31042 Toulouse Cedex 9
+</addrLine>
+<country key="FR"/>
+</address>
+<ref type="url">http://www.ut-capitole.fr/</ref>
+</desc>
+<listRelation>
+<relation active="#struct-443875" type="direct"/>
+</listRelation>
+</org>
+<org type="regroupinstitution" xml:id="struct-443875" status="VALID">
+<orgName>Université Fédérale Toulouse Midi-Pyrénées</orgName>
+<desc>
+<address>
+<addrLine>41 Allée Jules Guesde, 31000 Toulouse</addrLine>
+<country key="FR"/>
+</address>
+</desc>
+</org>
+<org type="institution" xml:id="struct-116256" status="VALID">
+<idno type="IdRef">026403994</idno>
+<orgName>Université Toulouse - Jean Jaurès</orgName>
+<orgName type="acronym">UT2J</orgName>
+<date type="start">1971-01-01</date>
+<desc>
+<address>
+<addrLine>5 allées Antonio Machado - 31058 Toulouse Cedex 9 </addrLine>
+<country key="FR"/>
+</address>
+<ref type="url">http://www.univ-tlse2.fr</ref>
+</desc>
+</org>
+<org type="institution" xml:id="struct-217752" status="VALID">
+<idno type="IdRef">026404672</idno>
+<idno type="ISNI">0000000121617331</idno>
+<orgName>Université Toulouse III - Paul Sabatier</orgName>
+<orgName type="acronym">UT3</orgName>
+<desc>
+<address>
+<addrLine>118 route de Narbonne - 31062 Toulouse</addrLine>
+<country key="FR"/>
+</address>
+<ref type="url">http://www.univ-tlse3.fr/</ref>
+</desc>
+<listRelation>
+<relation active="#struct-443875" type="direct"/>
+</listRelation>
+</org>
+<org type="researchteam" xml:id="struct-4067" status="VALID">
+<orgName>Statistical Laboratory [Cambridge]</orgName>
+<desc>
+<address>
+<addrLine>
+Statistical Laboratory Centre for Mathematical Sciences Wilberforce Road, Cambridge CB3 0WB England
+</addrLine>
+<country key="GB"/>
+</address>
+<ref type="url">http://www.statslab.cam.ac.uk</ref>
+</desc>
+<listRelation>
+<relation active="#struct-37391" type="direct"/>
+<relation active="#struct-1051350" type="indirect"/>
+<relation active="#struct-237843" type="indirect"/>
+</listRelation>
+</org>
+<org type="laboratory" xml:id="struct-37391" status="VALID">
+<orgName>
+Department of Pure Mathematics and Mathematical Statistics
+</orgName>
+<orgName type="acronym">DPMMS</orgName>
+<desc>
+<address>
+<addrLine>Wilberforce Road, GB - Cambridge CB3 0WB</addrLine>
+<country key="GB"/>
+</address>
+<ref type="url">http://www.dpmms.cam.ac.uk/</ref>
+</desc>
+<listRelation>
+<relation active="#struct-1051350" type="direct"/>
+<relation active="#struct-237843" type="indirect"/>
+</listRelation>
+</org>
+<org type="regrouplaboratory" xml:id="struct-1051350" status="VALID">
+<orgName>
+Faculty of mathematics Centre for Mathematical Sciences [Cambridge]
+</orgName>
+<orgName type="acronym">CMS</orgName>
+<desc>
+<address>
+<addrLine>
+Faculty of Mathematics,Wilberforce Road,Cambridge CB3 0WA,United Kingdom.
+</addrLine>
+<country key="GB"/>
+</address>
+<ref type="url">https://www.maths.cam.ac.uk/</ref>
+</desc>
+<listRelation>
+<relation active="#struct-237843" type="direct"/>
+</listRelation>
+</org>
+<org type="institution" xml:id="struct-237843" status="VALID">
+<orgName>University of Cambridge [UK]</orgName>
+<orgName type="acronym">CAM</orgName>
+<desc>
+<address>
+<addrLine>The Old Schools, Trinity Lane, Cambridge CB2 1TN</addrLine>
+<country key="GB"/>
+</address>
+<ref type="url">http://www.cam.ac.uk/</ref>
+</desc>
+</org>
+<org type="laboratory" xml:id="struct-253345" status="INCOMING">
+<orgName>
+Risk Methodologies, Group Financial Risks, Group Risk Management, UniCredit S.p.A
+</orgName>
+<desc>
+<address>
+<addrLine>UniCredit S.p.A, 20154 Milano.</addrLine>
+<country key="IT"/>
+</address>
+</desc>
+<listRelation>
+<relation active="#struct-360540" type="direct"/>
+</listRelation>
+</org>
+<org type="institution" xml:id="struct-360540" status="INCOMING">
+<orgName>
+Risk Methodologies, Group Financial Risks, Group Risk Management, UniCredit S.p.A
+</orgName>
+<desc>
+<address>
+<country key="FR"/>
+</address>
+</desc>
+</org>
+<org type="institution" xml:id="struct-180925" status="VALID">
+<orgName>
+Eidgenössische Technische Hochschule - Swiss Federal Institute of Technology [Zürich]
+</orgName>
+<orgName type="acronym">ETH Zürich</orgName>
+<desc>
+<address>
+<addrLine>Hauptgebäude, Rämistrasse 101, 8092 Zürich</addrLine>
+<country key="CH"/>
+</address>
+<ref type="url">https://www.ethz.ch/</ref>
+</desc>
+</org>
+<org type="laboratory" xml:id="struct-204904" status="OLD">
+<idno type="IdRef">144736829</idno>
+<idno type="RNSR">200718421X</idno>
+<orgName>Laboratoire Navier</orgName>
+<orgName type="acronym">navier umr 8205</orgName>
+<date type="end">2019-12-31</date>
+<desc>
+<address>
+<addrLine>
+Ecole des Ponts ParisTech 6 / 8 avenue Blaise Pascal 77455 CHAMPS SUR MARNE
+</addrLine>
+<country key="FR"/>
+</address>
+<ref type="url">http://navier.enpc.fr/</ref>
+</desc>
+<listRelation>
+<relation active="#struct-301545" type="direct"/>
+<relation name="UMR8205" active="#struct-441569" type="direct"/>
+<relation active="#struct-222110" type="direct"/>
+</listRelation>
+</org>
+<org type="institution" xml:id="struct-301545" status="VALID">
+<orgName>École des Ponts ParisTech</orgName>
+<orgName type="acronym">ENPC</orgName>
+<desc>
+<address>
+<addrLine>
+École des Ponts ParisTech 6-8 avenue Blaise-Pascal Cité Descartes 77455 Champs-sur-Marne Marne-la-Vallée cedex 2
+</addrLine>
+<country key="FR"/>
+</address>
+</desc>
+</org>
+<org type="institution" xml:id="struct-222110" status="OLD">
+<orgName>
+Institut Français des Sciences et Technologies des Transports, de l'Aménagement et des Réseaux
+</orgName>
+<orgName type="acronym">IFSTTAR</orgName>
+<date type="start">2011-01-01</date>
+<date type="end">2019-12-31</date>
+<desc>
+<address>
+<addrLine>
+14-20 Boulevard Newton - Cité Descartes, Champs sur Marne - F-77447 Marne la Vallée Cedex 2
+</addrLine>
+<country key="FR"/>
+</address>
+<ref type="url">http://www.ifsttar.fr/</ref>
+</desc>
+</org>
+</listOrg>
+</back>
+</text>
+</TEI>
