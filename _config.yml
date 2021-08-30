@@ -22,7 +22,7 @@ title : Page personnelle de Thibault Espinasse
 #     title : Enseignement
 #     path : https://thibaultespinasse.github.io/home_page/pages/enseignement.html
  
-navigationbar2 :
+navigationbar :
   - title : Accueil
     path : https://thibaultespinasse.github.io/home_page/index.html
   - title : Enseignement
@@ -34,6 +34,14 @@ navigationbar2 :
 #   - title : Retour à la maison
 #     path : https://thibaultespinasse.github.io/home_page/index.html
     
+    
+fields :
+  - name : td
+    written :
+     - TD
+     - td
+     
+     
 author :
   name : Thibault Espinasse
   email : thibault.espinasse@gmail.com
