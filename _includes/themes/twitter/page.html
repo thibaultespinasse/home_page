@@ -53,10 +53,14 @@
               {% endif %}
           {% endfor %}
 
+        {% if bool %}
+          Pas de {{field.title}} pour le moment.
+        {%endif%}
+
 {% endfor %}  <!--  end for field -->
 <!-- ##############################" Fin de test  ##################################" -->
 
-    <h4> TD  </h4>
+<!--     <h4> TD  </h4>
    {%assign bool = true%}
     {% assign folder1 = site.pages | where_exp: "item" , "item.path contains page.name_ue "%} 
     {% for item in folder1 %}
@@ -133,7 +137,7 @@
     {% endfor %}
   {% if bool %}
     Pas d'archives disponibles
-  {%endif%}
+  {%endif%} -->
 
 {% endif %}
 <br>
