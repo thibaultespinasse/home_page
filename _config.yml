@@ -50,7 +50,8 @@ fields :
     written :
      - notes
      - poly
-    title : Notes de cours
+     - cm
+    title : Notes de cours et compléments
   - type : archives_sujets
     written :
      - sujets
