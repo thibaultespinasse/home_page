@@ -5,6 +5,8 @@ tagline:
 description: Thibault Espinasse personal home page
 ---
 
+Je suis actuellement MCF à l'Université Lyon 1
+
 ### Contact :
 
 Vous pouvez me trouver sur le campus de la Doua, au Bâtiment Braconnier, Bureau 228.
