@@ -13,7 +13,9 @@ Bureau 228 (Bâtiment Braconnier)
 <ins>Emploi du temps prévisionnel</ins> :
 
 **CM** : Lundi de 14h à 17h15
+
 **TD** : Vendredi de 9h45 à 13h
+
 **TP** : 22/10 9h45-13h00 et 29/11 14h00-17h15
 
 _Normalement, toutes les informations seront mise en ligne sur cette page._
