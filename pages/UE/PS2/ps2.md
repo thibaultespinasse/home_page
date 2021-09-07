@@ -37,7 +37,7 @@ _Le programme est indicatif et est amené à évoluer en fonction de l'avancemen
 
 **DM ou projet (à définir encore)** : A rendre le 6 décembre dernier délai !
 
-**Proposition de barême (indicatif, risque d'être modifié !!) :** 
+<ins>Proposition de barême (indicatif, risque d'être modifié !!)</ins> :
 
   - CC 1 : (4/20) 
   - CC 2 : (4 à 6/20)
