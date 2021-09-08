@@ -22,8 +22,13 @@ _Normalement, toutes les informations seront mise en ligne sur cette page._
 
 ### Avancement du cours :
 
-1. **Objectif premier cours le 13 septembre** : Définitions : Espace de probabilité, variables aléatoires. Exemples élémentaires. Variables aléatoires discrètes vs continues, fonction de répartition, exemples, densité, variables aléatoires usuelles, Espérance, transfert, variance, moments... Inégalités de Markov et BT, Indépendance et conditionnement d’événements. Indépendance de variables aléatoires, densité jointe, stabilité des lois normales, Covariance, convergence de va, LGN, TCL.
-2. **Objectif séance suivante 20 septembre**  : Introduction aux statistiques, échantillon et réalisation, paradigme fréquentiste, quantités empiriques (fréquence, moyenne empirique, variance empirique, fonction de répartition empirique, quantile...). Famille paramétrique de lois, définition d'un estimateur, critères de qualité d'un estimateur, construction d'estimateurs : estimation empirique,  estimation plug-in.  Construction d'estimateurs :  estimation par la méthode des moments, maximum de vraisemblance. 
+1. **Objectif premier cours le 13 septembre** : Définitions : Espace de probabilité, variables aléatoires. Exemples élémentaires. Variables aléatoires discrètes vs continues, fonction de répartition, exemples, densité, variables aléatoires usuelles, Espérance, transfert, variance, moments... 
+
+2. **Objectif séance suivante 20 septembre**  : Inégalités de Markov et BT, Indépendance et conditionnement d’événements. Indépendance de variables aléatoires, densité jointe, stabilité des lois normales, Covariance, convergence de va, LGN, TCL.
+
+3. **Objectif séance suivante 27 septembre**  : Introduction aux statistiques, échantillon et réalisation, paradigme fréquentiste, quantités empiriques (fréquence, moyenne empirique, variance empirique, fonction de répartition empirique, quantile...). Famille paramétrique de lois, définition d'un estimateur, critères de qualité d'un estimateur,
+
+4. **Objectif séance suivante 4 octobre**  :  Construction d'estimateurs : estimation empirique,  estimation plug-in.  Construction d'estimateurs :  estimation par la méthode des moments, maximum de vraisemblance. 
 
 
 ### Planning CC :
