@@ -24,21 +24,22 @@ _Normalement, toutes les informations seront mise en ligne sur cette page._
 
 1. **OCM 13 septembre** : Définitions : Espace de probabilité, variables aléatoires. Exemples élémentaires. Variables aléatoires discrètes vs continues, exemples, densité, variables aléatoires usuelles. 
 
-2. **Objectif séance suivante 20 septembre**  : Fonction de répartition, espérance, transfert, variance, moments...  Inégalités de Markov et BT, Indépendance et conditionnement d’événements. Indépendance de variables aléatoires, densité jointe, stabilité des lois normales, Covariance, convergence de va, LGN, TCL.
+2. **CM 20 septembre**  : fonction de répartition, Espérance, transfert, variance, moments...  Inégalités de Markov et BT, Indépendance et conditionnement d’événements. Indépendance de variables aléatoires, densité jointe, covariance
 
-3. **Objectif séance suivante 27 septembre**  : Introduction aux statistiques, échantillon et réalisation, paradigme fréquentiste, quantités empiriques (fréquence, moyenne empirique, variance empirique, fonction de répartition empirique, quantile...). Famille paramétrique de lois, définition d'un estimateur, critères de qualité d'un estimateur,
+3. **Objectif séance suivante 27 septembre**  : *CC1*,  stabilité des lois normales, convergence de va, LGN, TCL.
 
-4. **Objectif séance suivante 4 octobre**  :  Construction d'estimateurs : estimation empirique,  estimation plug-in.  Construction d'estimateurs :  estimation par la méthode des moments, maximum de vraisemblance. 
+4. **Objectif séance suivante 4 octobre**  : Introduction aux statistiques, échantillon et réalisation, paradigme fréquentiste, quantités empiriques (fréquence, moyenne empirique, variance empirique, fonction de répartition empirique, quantile...). Famille paramétrique de lois, définition d'un estimateur, critères de qualité d'un estimateur,
+
+5. **Objectif séance suivante 11 octobre**  :  Construction d'estimateurs : estimation empirique,  estimation plug-in.  Construction d'estimateurs :  estimation par la méthode des moments, maximum de vraisemblance.
 
 
 ### Planning CC :
 
 _Le programme est indicatif et est amené à évoluer en fonction de l'avancement des séances et de l'organisation induite par la crise sanitaire (distanciel, hybride...), et il faut au minimum maîtriser ce que vous aurez vu en TD, et être capable de faire tous les exercices dans le même genre_
 
-**CC 1 : 27 septembre** : Variables aléatoires usuelles, calcul d'espérance. Manipulation de lois : normalisation, calcul d'espérance, formule du transfert, variance, fonction de répartition. Manipulation de loi normales. Estimation empirique.
+**CC 1 : 27 septembre** : Variables aléatoires usuelles : calcul d'espérance (TD 1 de proba). Calcul d'espérance de variables discrètes. Lien entre quantités empiriques et théoriques (TD1 de stats)
 
-**CC 2 : 11 octobre** : Estimation par maximum de vraisemblance. Loi du min et du max de variables aléatoires. Manipulations de lois : fonction de répartition, calcul des moments...
-
+**CC 2 : 11 octobre** : Estimation par maximum de vraisemblance.  Manipulation de loi normales. Loi du min et du max de variables aléatoires. Manipulations de lois : fonction de répartition, calcul des moments...
 
 **CC 3 : 8 novembre** : Tout le programme, probabilité, estimation, test. 
 
