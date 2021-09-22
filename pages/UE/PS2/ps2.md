@@ -22,7 +22,7 @@ _Normalement, toutes les informations seront mise en ligne sur cette page._
 
 ### Avancement du cours :
 
-1. **OCM 13 septembre** : Définitions : Espace de probabilité, variables aléatoires. Exemples élémentaires. Variables aléatoires discrètes vs continues, exemples, densité, variables aléatoires usuelles. 
+1. **CM 13 septembre** : Définitions : Espace de probabilité, variables aléatoires. Exemples élémentaires. Variables aléatoires discrètes vs continues, exemples, densité, variables aléatoires usuelles. 
 
 2. **CM 20 septembre**  : fonction de répartition, Espérance, transfert, variance, moments...  Inégalités de Markov et BT, Indépendance et conditionnement d’événements. Indépendance de variables aléatoires, densité jointe, covariance
 
