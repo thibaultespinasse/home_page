@@ -26,9 +26,9 @@ _Normalement, toutes les informations seront mise en ligne sur cette page._
 
 2. **CM 20 septembre**  : fonction de répartition, Espérance, transfert, variance, moments...  Inégalités de Markov et BT, Indépendance et conditionnement d’événements. Indépendance de variables aléatoires, densité jointe, covariance
 
-3. **Objectif séance suivante 27 septembre**  : *CC1*,  stabilité des lois normales, convergence de va, LGN, TCL.
+3. **CM 27 septembre**  : *CC1*, convergence de va (p.s., en proba, en loi, exemple), LGN, TCL. Paradigme fréquentiste, famille paramétrique de loi et définition d'un estimateur.
 
-4. **Objectif séance suivante 4 octobre**  : Introduction aux statistiques, échantillon et réalisation, paradigme fréquentiste, quantités empiriques (fréquence, moyenne empirique, variance empirique, fonction de répartition empirique, quantile...). Famille paramétrique de lois, définition d'un estimateur, critères de qualité d'un estimateur,
+4. **Objectif séance suivante 4 octobre**  : Critères de qualité d'un estimateur. Construction d'un estimateur : Estimation empirique, quantités empiriques (fréquence, moyenne empirique, variance empirique, fonction de répartition empirique, quantile...). 
 
 5. **Objectif séance suivante 11 octobre**  :  Construction d'estimateurs : estimation empirique,  estimation plug-in.  Construction d'estimateurs :  estimation par la méthode des moments, maximum de vraisemblance.
 
