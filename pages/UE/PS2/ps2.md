@@ -30,7 +30,7 @@ _Normalement, toutes les informations seront mise en ligne sur cette page._
 
 4. **Objectif séance suivante 4 octobre**  : Critères de qualité d'un estimateur. Construction d'un estimateur : Estimation empirique, quantités empiriques (fréquence, moyenne empirique, variance empirique, fonction de répartition empirique, quantile...). 
 
-5. **Objectif séance suivante 11 octobre**  :  Construction d'estimateurs : estimation empirique,  estimation plug-in.  Construction d'estimateurs :  estimation par la méthode des moments, maximum de vraisemblance.
+5. **Objectif séance suivante 11 octobre**  :  Construction d'estimateurs :  estimation plug-in,  estimation par la méthode des moments, maximum de vraisemblance.
 
 
 ### Planning CC :
