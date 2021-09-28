@@ -30,8 +30,16 @@ _Normalement, toutes les informations seront mise en ligne sur cette page._
 
 4. **Objectif séance suivante 4 octobre**  : Critères de qualité d'un estimateur. Construction d'un estimateur : Estimation empirique, quantités empiriques (fréquence, moyenne empirique, variance empirique, fonction de répartition empirique, quantile...). 
 
-5. **Objectif séance suivante 11 octobre**  :  Construction d'estimateurs :  estimation plug-in,  estimation par la méthode des moments, maximum de vraisemblance.
+5. **Objectif séance suivante 11 octobre**  :  Construction d'estimateurs :   maximum de vraisemblance. Information de Fisher, Borne de Cramér-Rao, Efficacité, méthodo exercice et exemple Bernoulli. Construction d'intervalle de confiance : Exemple du cas normal à variance connue.
 
+6. **Objectif séance suivante 18 octobre** :  A) Cas gaussien, 4 sous cas, 
+2) cas exact (avec intervalle de fluctuation). 
+Base d'utilisation de LateX. Petit exercice de compréhension du CM 7 : cm_7.pdf 
+IC asymptotiques, lemme de Slutsky. IC unilatéral, exemple.
+
+7. **Objectif séance suivante 8 novembre** : Tests : définitions (niveau, puissance, p-valeur). Tests de chi2 (adéquation et indépendance). Présentation du problème des tests multiples.
+
+8. **Objectif séance suivante 15 novembre** : Tests multiples : correction de Bonferonni. Loi de la p-valeur sous H_0 (quand elle est ponctuelle). 
 
 ### Planning CC :
 
