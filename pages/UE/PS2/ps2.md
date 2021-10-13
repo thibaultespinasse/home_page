@@ -56,7 +56,7 @@ _Le programme est indicatif et est amené à évoluer en fonction de l'avancemen
 <ins>Proposition de barême (indicatif, risque d'être modifié !!)</ins> :
 
   - CC 1 : (4/20) 
-  - CC 2 : (4 à 6/20)
+  - CC 2 : (5/20)
   - CC 3 : (5 à 7/20)
   - DM ou Projet (à définir) : (3 à 5/20) 
 
