@@ -28,9 +28,9 @@ _Normalement, toutes les informations seront mise en ligne sur cette page._
 
 3. **CM 27 septembre**  : *CC1*, convergence de va (p.s., en proba, en loi, exemple), LGN, TCL. Paradigme fréquentiste, famille paramétrique de loi et définition d'un estimateur.
 
-4. **Objectif séance suivante 4 octobre**  : Critères de qualité d'un estimateur. Construction d'un estimateur : Estimation empirique, quantités empiriques (fréquence, moyenne empirique, variance empirique, fonction de répartition empirique, quantile...). 
+4. **CM 4 octobre**  : Critères de qualité d'un estimateur. Construction d'un estimateur : Estimation empirique, quantités empiriques (fréquence, moyenne empirique, variance empirique, fonction de répartition empirique...). Estimation plug-in,  estimation par la méthode des moments (ex : Binomiale)
 
-5. **Objectif séance suivante 11 octobre**  :  Construction d'estimateurs :   maximum de vraisemblance. Information de Fisher, Borne de Cramér-Rao, Efficacité, méthodo exercice et exemple Bernoulli. Construction d'intervalle de confiance : Exemple du cas normal à variance connue.
+5. **CM 11 octobre**  : *CC 2*, Construction d'estimateurs :   maximum de vraisemblance. Information de Fisher, Borne de Cramér-Rao, Efficacité, méthodo. Construction d'intervalle de confiance : Principe avec exemple d'un IC exact
 
 6. **Objectif séance suivante 18 octobre** :  A) Cas gaussien, 4 sous cas, 
                                               B) cas exact (avec intervalle de fluctuation). 
