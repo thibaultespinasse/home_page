@@ -36,7 +36,7 @@ _Normalement, toutes les informations seront mise en ligne sur cette page._
 B) cas exact (avec intervalle de fluctuation). 
 IC asymptotiques, lemme de Slutsky.  IC exact
 
-7. **Objectif séance suivante 8 novembre** : Tests : définitions (niveau, puissance, p-valeur). Tests de chi2 (adéquation et indépendance). Présentation du problème des tests multiples.
+7. **Objectif séance suivante 8 novembre** : Correction CC 2. IC unilatéral, exemples. Tests : définitions (niveau, puissance, p-valeur). Tests de chi2 (adéquation et indépendance). Présentation du problème des tests multiples.
 
 8. **Objectif séance suivante 15 novembre** : Tests multiples : correction de Bonferonni. Loi de la p-valeur sous H_0 (quand elle est ponctuelle). 
 
