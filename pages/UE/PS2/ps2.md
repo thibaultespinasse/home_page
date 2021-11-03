@@ -32,10 +32,9 @@ _Normalement, toutes les informations seront mise en ligne sur cette page._
 
 5. **CM 11 octobre**  : *CC 2*, Construction d'estimateurs :   maximum de vraisemblance. Information de Fisher, Borne de Cramér-Rao, Efficacité, méthodo. Construction d'intervalle de confiance : Principe avec exemple d'un IC exact
 
-6. **Objectif séance suivante 18 octobre** :  A) Cas gaussien, 4 sous cas, 
-                                              B) cas exact (avec intervalle de fluctuation). 
-IC asymptotiques, lemme de Slutsky. IC unilatéral, exemple.
-Base d'utilisation de LateX (si projet ?).
+6. **CM 18 octobre** :  Intervalles de confiances : A) Cas gaussien, 4 sous cas, 
+B) cas exact (avec intervalle de fluctuation). 
+IC asymptotiques, lemme de Slutsky.  IC exact
 
 7. **Objectif séance suivante 8 novembre** : Tests : définitions (niveau, puissance, p-valeur). Tests de chi2 (adéquation et indépendance). Présentation du problème des tests multiples.
 
