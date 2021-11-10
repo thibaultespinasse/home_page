@@ -36,9 +36,10 @@ _Normalement, toutes les informations seront mise en ligne sur cette page._
 B) cas exact (avec intervalle de fluctuation). 
 IC asymptotiques, lemme de Slutsky.  IC exact
 
-7. **Objectif séance suivante 8 novembre** : Correction CC 2. IC unilatéral, exemples. Tests : définitions (niveau, puissance, p-valeur). Tests de chi2 (adéquation et indépendance). Présentation du problème des tests multiples.
+7. **CM 8 novembre** : Tests : définitions (niveau, puissance, p-valeur). Tests de chi2 (adéquation et indépendance). Loi de la p-valeur sous H_0 (quand elle est ponctuelle)
 
-8. **Objectif séance suivante 15 novembre** : Tests multiples : correction de Bonferonni. Loi de la p-valeur sous H_0 (quand elle est ponctuelle). 
+8. **Objectif séance suivante 22 novembre** : CC3. Tests multiples : correction de Bonferonni..  Base d'utilisation de LateX.
+Exemples, et révisions. IC unilatéral, exemple.
 
 ### Planning CC :
 
@@ -48,7 +49,7 @@ _Le programme est indicatif et est amené à évoluer en fonction de l'avancemen
 
 **CC 2 : 11 octobre** : Estimation par maximum de vraisemblance.  Manipulation de loi normales. Loi du min et du max de variables aléatoires. Manipulations de lois : fonction de répartition, calcul des moments...
 
-**CC 3 : 8 novembre** : Tout le programme, probabilité, estimation, test. 
+**CC 3 : 22 novembre** : Tout le programme, probabilité, estimation, test. 
 
 **DM ou projet (à définir encore)** : A rendre le 6 décembre dernier délai !
 
