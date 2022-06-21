@@ -21,51 +21,5 @@ _Normalement, toutes les informations seront mise en ligne sur cette page._
 ### Avancement du cours :
 
 à venir...
-<!--
-1. **CM 13 septembre** : Définitions : Espace de probabilité, variables aléatoires. Exemples élémentaires. Variables aléatoires discrètes vs continues, exemples, densité, variables aléatoires usuelles. 
-
-2. **CM 20 septembre**  : fonction de répartition, Espérance, transfert, variance, moments...  Inégalités de Markov et BT, Indépendance et conditionnement d’événements. Indépendance de variables aléatoires, densité jointe, covariance
-
-3. **CM 27 septembre**  : *CC1*, convergence de va (p.s., en proba, en loi, exemple), LGN, TCL. Paradigme fréquentiste, famille paramétrique de loi et définition d'un estimateur.
-
-4. **CM 4 octobre**  : Critères de qualité d'un estimateur. Construction d'un estimateur : Estimation empirique, quantités empiriques (fréquence, moyenne empirique, variance empirique, fonction de répartition empirique...). Estimation plug-in,  estimation par la méthode des moments (ex : Binomiale)
-
-5. **CM 11 octobre**  : *CC 2*, Construction d'estimateurs :   maximum de vraisemblance. Information de Fisher, Borne de Cramér-Rao, Efficacité, méthodo. Construction d'intervalle de confiance : Principe avec exemple d'un IC exact
-
-6. **CM 18 octobre** :  Intervalles de confiances : A) Cas gaussien, 4 sous cas, 
-B) cas exact (avec intervalle de fluctuation). 
-IC asymptotiques, lemme de Slutsky.  IC exact
-
-7. **CM 8 novembre** : Tests : définitions (niveau, puissance, p-valeur). Tests de chi2 (adéquation et indépendance). Loi de la p-valeur sous H_0 (quand elle est ponctuelle)
-
-8. **Objectif séance suivante 22 novembre** : CC3. Tests multiples : correction de Bonferonni..  Base d'utilisation de LateX.
-Exemples, et révisions. IC unilatéral, exemple.
-
-### Planning CC :
 
 
-_Le programme est indicatif et est amené à évoluer en fonction de l'avancement des séances et de l'organisation induite par la crise sanitaire (distanciel, hybride...), et il faut au minimum maîtriser ce que vous aurez vu en TD, et être capable de faire tous les exercices dans le même genre_
-
-**CC 1 : 27 septembre** : Variables aléatoires usuelles : calcul d'espérance (TD 1 de proba). Calcul d'espérance de variables discrètes. Lien entre quantités empiriques et théoriques (TD1 de stats)
-
-**CC 2 : 11 octobre** : Estimation par maximum de vraisemblance.  Manipulation de loi normales. Loi du min et du max de variables aléatoires. Manipulations de lois : fonction de répartition, calcul des moments...
-
-**CC 3 : 22 novembre** : Tout le programme, probabilité, estimation, test. 
-
-**DM ou projet (à définir encore)** : A rendre le 6 décembre dernier délai !
-
-<ins>Proposition de barême (indicatif, risque d'être modifié !!)</ins> :
-
-  - CC 1 : (4/20) 
-  - CC 2 : (5/20)
-  - CC 3 : (5 à 7/20)
-  - DM ou Projet (à définir) : (3 à 5/20) 
-
-Le CT a lieu en janvier en général.
-  
-Note finale  = 0.6(Note de CC totale)+0.4(Note de CT)  
-
-
-_C'est très provisoire, à décider en fonction de l'avancement du cours_
-
--->
