@@ -1,14 +1,12 @@
 ---
 layout: page
-title: Probabilités et statistiques 2 - 2021/2022
-description: Cours 2021/2022 -PS2
+title: Probabilités et statistiques 2 - 2022/2023 - Avec Nadine Guillotin
+description: Cours 2022/2023 - PS2
 type : main
 name_ue : PS2
 ---
 
-Cours par Thibault Espinasse (espinasse[at]math.univ-lyon1.fr) 
-
-Bureau 228 (Bâtiment Braconnier)
+Cours par Thibault Espinasse (espinasse[at]math.univ-lyon1.fr, Bureau 228 (Bâtiment Braconnier)) et Nadine Guillotin
 
 <ins>Emploi du temps prévisionnel</ins> :
 
@@ -16,12 +14,14 @@ Bureau 228 (Bâtiment Braconnier)
 
 **TD** : Vendredi de 9h45 à 13h
 
-**TP** : 22/10 9h45-13h00 et 29/11 14h00-17h15
+**TP** : à remplir 
 
 _Normalement, toutes les informations seront mise en ligne sur cette page._
 
 ### Avancement du cours :
 
+à venir...
+<!--
 1. **CM 13 septembre** : Définitions : Espace de probabilité, variables aléatoires. Exemples élémentaires. Variables aléatoires discrètes vs continues, exemples, densité, variables aléatoires usuelles. 
 
 2. **CM 20 septembre**  : fonction de répartition, Espérance, transfert, variance, moments...  Inégalités de Markov et BT, Indépendance et conditionnement d’événements. Indépendance de variables aléatoires, densité jointe, covariance
@@ -42,6 +42,7 @@ IC asymptotiques, lemme de Slutsky.  IC exact
 Exemples, et révisions. IC unilatéral, exemple.
 
 ### Planning CC :
+
 
 _Le programme est indicatif et est amené à évoluer en fonction de l'avancement des séances et de l'organisation induite par la crise sanitaire (distanciel, hybride...), et il faut au minimum maîtriser ce que vous aurez vu en TD, et être capable de faire tous les exercices dans le même genre_
 
@@ -67,4 +68,4 @@ Note finale  = 0.6(Note de CC totale)+0.4(Note de CT)
 
 _C'est très provisoire, à décider en fonction de l'avancement du cours_
 
-
+-->
